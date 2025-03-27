@@ -15,7 +15,7 @@ const SYSTEM = JSON.parse(fs.readFileSync("src/system.json"));
 const STATIC_FILES = [
   "src/system.json",
   "src/template.json",
-  "src/wh3e.js",
+  "src/wh4e.js",
   "src/assets/**/*",
   "src/lang/**/*",
   "src/module/**/*",

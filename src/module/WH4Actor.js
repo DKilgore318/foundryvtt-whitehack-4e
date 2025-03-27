@@ -1,6 +1,6 @@
 import * as c from "./constants.js";
 
-class WH3Actor extends Actor {
+class WH4Actor extends Actor {
   /**
    * Show dialog to update groups for attribute
    * @param {string} attribute
@@ -136,4 +136,4 @@ class WH3Actor extends Actor {
   }
 }
 
-export default WH3Actor;
+export default WH4Actor;

@@ -1,9 +1,9 @@
 import { wh3e } from "./module/config.js";
-import WH3Item from "./module/WH3Item.js";
-import WH3ItemSheet from "./module/sheets/WH3ItemSheet.js";
-import WH3CharacterSheet from "./module/sheets/WH3CharacterSheet.js";
-import WH3MonsterSheet from "./module/sheets/WH3MonsterSheet.js";
-import WH3Actor from "./module/WH3Actor.js";
+import WH3Item from "./module/WH4Item.js";
+import WH4ItemSheet from "./module/sheets/WH4ItemSheet.js";
+import WH4CharacterSheet from "./module/sheets/WH4CharacterSheet.js";
+import WH4MonsterSheet from "./module/sheets/WH4MonsterSheet.js";
+import WH4Actor from "./module/WH4Actor.js";
 import { registerHelpers } from "./module/helpers/handleBarsHelpers.js";
 import { registerPartials } from "./module/partials.js";
 import { registerSettings } from "./module/settings.js";
@@ -33,14 +33,14 @@ Hooks.once("init", () => {
   CONFIG.wh3e = wh3e;
 
   CONFIG.Item.documentClass = WH3Item;
-  CONFIG.Actor.documentClass = WH3Actor;
+  CONFIG.Actor.documentClass = WH4Actor;
 
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("wh3e", WH3ItemSheet, { makeDefault: true });
+  Items.registerSheet("wh3e", WH4ItemSheet, { makeDefault: true });
 
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("wh3e", WH3CharacterSheet, { makeDefault: true, types: [c.CHARACTER] });
-  Actors.registerSheet("wh3e", WH3MonsterSheet, { makeDefault: true, types: [c.MONSTER] });
+  Actors.registerSheet("wh3e", WH4CharacterSheet, { makeDefault: true, types: [c.CHARACTER] });
+  Actors.registerSheet("wh3e", WH4MonsterSheet, { makeDefault: true, types: [c.MONSTER] });
 
   preloadHandlebarsTemplates();
 

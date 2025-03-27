@@ -1,7 +1,7 @@
 import { rollModDialog, attackRollDialog } from "../helpers/diceHelpers.js";
 import * as c from "../constants.js";
 
-export default class WH3MonsterSheet extends ActorSheet {
+export default class WH4MonsterSheet extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       template: "systems/whitehack3e/templates/sheets/monster-sheet.hbs",

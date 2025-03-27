@@ -2,7 +2,7 @@ import { updateActorGroups, updateActorEncumbrance, updateActorArmourClass } fro
 import { rollModDialog, attackRollDialog } from "../helpers/diceHelpers.js";
 import * as c from "../constants.js";
 
-export default class WH3CharacterSheet extends ActorSheet {
+export default class WH4CharacterSheet extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       template: "systems/whitehack3e/templates/sheets/character-sheet.hbs",

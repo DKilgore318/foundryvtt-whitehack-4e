@@ -1,7 +1,7 @@
 import { updateActorEncumbrance, updateActorGroups } from "../helpers/itemHelpers.js";
 import * as c from "../constants.js";
 
-export default class WH3ItemSheet extends ItemSheet {
+export default class WH4ItemSheet extends ItemSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       width: 530,
