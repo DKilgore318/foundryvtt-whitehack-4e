@@ -8,7 +8,7 @@ data:
   damage: d6plus1
   range: 0
   rateOfFire: none
-img: systems/whitehack3e/assets/icons/weapons/battered-axe.png
+img: systems/whitehack4e/assets/icons/weapons/battered-axe.png
 ---
 name: Sword
 type: Weapon
@@ -20,7 +20,7 @@ data:
   damage: d6plus1
   range: 0
   rateOfFire: none
-img: systems/whitehack3e/assets/icons/weapons/relic-blade.png
+img: systems/whitehack4e/assets/icons/weapons/relic-blade.png
 ---
 name: Club
 type: Weapon
@@ -33,7 +33,7 @@ data:
   range: 0
   rateOfFire: none
   special: Knock-out, Improvised
-img: systems/whitehack3e/assets/icons/weapons/wood-club.png
+img: systems/whitehack4e/assets/icons/weapons/wood-club.png
 ---
 name: Crossbow
 type: Weapon
@@ -46,7 +46,7 @@ data:
   range: 70
   rateOfFire: oneInTwo
   special: Two handed
-img: systems/whitehack3e/assets/icons/weapons/crossbow.png
+img: systems/whitehack4e/assets/icons/weapons/crossbow.png
 ---
 name: Dagger
 type: Weapon
@@ -58,7 +58,7 @@ data:
   damage: d6minus2
   range: 15
   rateOfFire: one
-img: systems/whitehack3e/assets/icons/weapons/plain-dagger.png
+img: systems/whitehack4e/assets/icons/weapons/plain-dagger.png
 ---
 name: Dart
 type: Weapon
@@ -70,7 +70,7 @@ data:
   damage: oneDmg
   range: 20
   rateOfFire: three
-img: systems/whitehack3e/assets/icons/weapons/dart.png
+img: systems/whitehack4e/assets/icons/weapons/dart.png
 ---
 name: Flail
 type: Weapon
@@ -83,7 +83,7 @@ data:
   range: 0
   rateOfFire: none
   special: Ignore shield AC
-img: systems/whitehack3e/assets/icons/weapons/flail.png
+img: systems/whitehack4e/assets/icons/weapons/flail.png
 ---
 name: Great Axe
 type: Weapon
@@ -96,7 +96,7 @@ data:
   range: 0
   rateOfFire: none
   special: Two handed
-img: systems/whitehack3e/assets/icons/weapons/war-axe.png
+img: systems/whitehack4e/assets/icons/weapons/war-axe.png
 ---
 name: Great Sword
 type: Weapon
@@ -109,7 +109,7 @@ data:
   range: 0
   rateOfFire: none
   special: Two handed
-img: systems/whitehack3e/assets/icons/weapons/two-handed-sword.png
+img: systems/whitehack4e/assets/icons/weapons/two-handed-sword.png
 ---
 name: Pole arm
 type: Weapon
@@ -123,7 +123,7 @@ data:
   range: 0
   rateOfFire: none
   special: Two handed, Reach
-img: systems/whitehack3e/assets/icons/weapons/sharp-halberd.png
+img: systems/whitehack4e/assets/icons/weapons/sharp-halberd.png
 ---
 name: Javelin
 type: Weapon
@@ -136,7 +136,7 @@ data:
   range: 40
   rateOfFire: one
   special: d6-2 damage in melee
-img: systems/whitehack3e/assets/icons/weapons/thrown-spear.png
+img: systems/whitehack4e/assets/icons/weapons/thrown-spear.png
 ---
 name: Longbow
 type: Weapon
@@ -149,7 +149,7 @@ data:
   range: 70
   rateOfFire: one
   special: Two handed
-img: systems/whitehack3e/assets/icons/weapons/bow-string.png
+img: systems/whitehack4e/assets/icons/weapons/bow-string.png
 ---
 name: Mace
 type: Weapon
@@ -162,7 +162,7 @@ data:
   range: 0
   rateOfFire: none
   special: +1 AV vs. metal armour
-img: systems/whitehack3e/assets/icons/weapons/flanged-mace.png
+img: systems/whitehack4e/assets/icons/weapons/flanged-mace.png
 ---
 name: Warhammer
 type: Weapon
@@ -175,7 +175,7 @@ data:
   range: 0
   rateOfFire: none
   special: +1 AV vs. metal armour
-img: systems/whitehack3e/assets/icons/weapons/warhammer.png
+img: systems/whitehack4e/assets/icons/weapons/warhammer.png
 ---
 name: Morning Star
 type: Weapon
@@ -188,7 +188,7 @@ data:
   range: 0
   rateOfFire: none
   special: +1 AV vs. metal armour, x3 crit damage
-img: systems/whitehack3e/assets/icons/weapons/mace-head.png
+img: systems/whitehack4e/assets/icons/weapons/mace-head.png
 ---
 name: Musket
 type: Weapon
@@ -202,7 +202,7 @@ data:
   range: 30
   rateOfFire: oneInFour
   special: Two handed
-img: systems/whitehack3e/assets/icons/weapons/musket.png
+img: systems/whitehack4e/assets/icons/weapons/musket.png
 ---
 name: Pistol
 type: Weapon
@@ -215,7 +215,7 @@ data:
   damage: d6plus1
   range: 20
   rateOfFire: oneInThree
-img: systems/whitehack3e/assets/icons/weapons/crossed-pistols.png
+img: systems/whitehack4e/assets/icons/weapons/crossed-pistols.png
 ---
 name: Quarterstaff
 type: Weapon
@@ -229,7 +229,7 @@ data:
   range: 0
   rateOfFire: none
   special: Two handed, Reach
-img: systems/whitehack3e/assets/icons/weapons/bo.png
+img: systems/whitehack4e/assets/icons/weapons/bo.png
 ---
 name: Scimitar
 type: Weapon
@@ -242,7 +242,7 @@ data:
   range: 0
   rateOfFire: none
   special: +1 AV while riding
-img: systems/whitehack3e/assets/icons/weapons/dervish-swords.png
+img: systems/whitehack4e/assets/icons/weapons/dervish-swords.png
 ---
 name: Shortbow
 type: Weapon
@@ -255,7 +255,7 @@ data:
   range: 50
   rateOfFire: one
   special: Two handed, Use mounted
-img: systems/whitehack3e/assets/icons/weapons/bow-arrow.png
+img: systems/whitehack4e/assets/icons/weapons/bow-arrow.png
 ---
 name: Shortsword
 type: Weapon
@@ -267,7 +267,7 @@ data:
   damage: d6minus1
   range: 0
   rateOfFire: none
-img: systems/whitehack3e/assets/icons/weapons/stiletto.png
+img: systems/whitehack4e/assets/icons/weapons/stiletto.png
 ---
 name: Sling
 type: Weapon
@@ -280,7 +280,7 @@ data:
   range: 30
   rateOfFire: one
   special: Use with regular stones
-img: systems/whitehack3e/assets/icons/weapons/sling.png
+img: systems/whitehack4e/assets/icons/weapons/sling.png
 ---
 name: Spear
 type: Weapon
@@ -294,7 +294,7 @@ data:
   range: 0
   rateOfFire: none
   special: Reach
-img: systems/whitehack3e/assets/icons/weapons/spear-feather.png
+img: systems/whitehack4e/assets/icons/weapons/spear-feather.png
 ---
 name: Throwing Axe
 type: Weapon
@@ -307,7 +307,7 @@ data:
   range: 25
   rateOfFire: one
   special: -1 AV in melee
-img: systems/whitehack3e/assets/icons/weapons/hatchets.png
+img: systems/whitehack4e/assets/icons/weapons/hatchets.png
 ---
 name: Throwing Knife
 type: Weapon
@@ -320,7 +320,7 @@ data:
   range: 25
   rateOfFire: one
   special: -1 AV in melee
-img: systems/whitehack3e/assets/icons/weapons/thrown-daggers.png
+img: systems/whitehack4e/assets/icons/weapons/thrown-daggers.png
 ---
 name: Unarmed
 type: Weapon
@@ -333,4 +333,4 @@ data:
   range: 0
   rateOfFire: none
   special: Knock-out, Grapple
-img: systems/whitehack3e/assets/icons/weapons/punch.png
+img: systems/whitehack4e/assets/icons/weapons/punch.png

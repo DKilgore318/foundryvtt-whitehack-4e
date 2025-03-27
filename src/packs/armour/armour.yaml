@@ -7,7 +7,7 @@ data:
   weight: regular
   equippedStatus: stored
   armourClass: special
-img: systems/whitehack3e/assets/icons/armour/crested-helmet.png
+img: systems/whitehack4e/assets/icons/armour/crested-helmet.png
 ---
 name: Shield
 type: Armour
@@ -17,7 +17,7 @@ data:
   weight: regular
   equippedStatus: stored
   armourClass: plusOne
-img: systems/whitehack3e/assets/icons/armour/round-shield.png
+img: systems/whitehack4e/assets/icons/armour/round-shield.png
 ---
 name: Cloth
 type: Armour
@@ -27,7 +27,7 @@ data:
   weight: 1
   equippedStatus: stored
   armourClass: 1
-img: systems/whitehack3e/assets/icons/armour/shirt.png
+img: systems/whitehack4e/assets/icons/armour/shirt.png
 ---
 name: Leather
 type: Armour
@@ -37,7 +37,7 @@ data:
   weight: 2
   equippedStatus: stored
   armourClass: 2
-img: systems/whitehack3e/assets/icons/armour/leather-vest.png
+img: systems/whitehack4e/assets/icons/armour/leather-vest.png
 ---
 name: Studded Leather
 type: Armour
@@ -47,7 +47,7 @@ data:
   weight: 3
   equippedStatus: stored
   armourClass: 3
-img: systems/whitehack3e/assets/icons/armour/leather-armor.png
+img: systems/whitehack4e/assets/icons/armour/leather-armor.png
 ---
 name: Chainmail
 type: Armour
@@ -57,7 +57,7 @@ data:
   weight: 4
   equippedStatus: stored
   armourClass: 4
-img: systems/whitehack3e/assets/icons/armour/mail-shirt.png
+img: systems/whitehack4e/assets/icons/armour/mail-shirt.png
 ---
 name: Splint mail
 type: Armour
@@ -67,7 +67,7 @@ data:
   weight: 5
   equippedStatus: stored
   armourClass: 5
-img: systems/whitehack3e/assets/icons/armour/lamellar.png
+img: systems/whitehack4e/assets/icons/armour/lamellar.png
 ---
 name: Full plate
 type: Armour
@@ -77,4 +77,4 @@ data:
   weight: 6
   equippedStatus: stored
   armourClass: 6
-img: systems/whitehack3e/assets/icons/armour/breastplate.png
+img: systems/whitehack4e/assets/icons/armour/breastplate.png

@@ -6,7 +6,7 @@ data:
   weight: negligible
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/crown-coin.png
+img: systems/whitehack4e/assets/icons/gear/crown-coin.png
 ---
 name: Silver Piece
 type: Gear
@@ -16,7 +16,7 @@ data:
   weight: negligible
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/metal-disc.png
+img: systems/whitehack4e/assets/icons/gear/metal-disc.png
 ---
 name: Copper Piece
 type: Gear
@@ -26,7 +26,7 @@ data:
   weight: negligible
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/token.png
+img: systems/whitehack4e/assets/icons/gear/token.png
 ---
 name: Backpack
 type: Gear
@@ -36,7 +36,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/backpack.png
+img: systems/whitehack4e/assets/icons/gear/backpack.png
 ---
 name: Bandages
 type: Gear
@@ -46,7 +46,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 5
-img: systems/whitehack3e/assets/icons/gear/bandage-roll.png
+img: systems/whitehack4e/assets/icons/gear/bandage-roll.png
 ---
 name: Boat
 type: Gear
@@ -56,7 +56,7 @@ data:
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/wood-canoe.png
+img: systems/whitehack4e/assets/icons/gear/wood-canoe.png
 ---
 name: Bottle (wine), glass
 type: Gear
@@ -66,7 +66,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/wine-bottle.png
+img: systems/whitehack4e/assets/icons/gear/wine-bottle.png
 ---
 name: Cart
 type: Gear
@@ -76,7 +76,7 @@ data:
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/old-wagon.png
+img: systems/whitehack4e/assets/icons/gear/old-wagon.png
 ---
 name: Case (map or scroll)
 type: Gear
@@ -86,7 +86,7 @@ data:
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/warp-pipe.png
+img: systems/whitehack4e/assets/icons/gear/warp-pipe.png
 ---
 name: Checkers (game)
 type: Gear
@@ -96,7 +96,7 @@ data:
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/empty-chessboard.png
+img: systems/whitehack4e/assets/icons/gear/empty-chessboard.png
 ---
 name: Compass
 type: Gear
@@ -106,7 +106,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/compass.png
+img: systems/whitehack4e/assets/icons/gear/compass.png
 ---
 name: Crowbar
 type: Gear
@@ -116,7 +116,7 @@ data:
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/crowbar.png
+img: systems/whitehack4e/assets/icons/gear/crowbar.png
 ---
 name: Dice
 type: Gear
@@ -126,7 +126,7 @@ data:
   weight: negligible
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/rolling-dices.png
+img: systems/whitehack4e/assets/icons/gear/rolling-dices.png
 ---
 name: Flint & steel
 type: Gear
@@ -136,7 +136,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/flint-spark.png
+img: systems/whitehack4e/assets/icons/gear/flint-spark.png
 ---
 name: Grappling hook
 type: Gear
@@ -146,7 +146,7 @@ data:
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/grapple.png
+img: systems/whitehack4e/assets/icons/gear/grapple.png
 ---
 name: Hammer & Wooden stakes
 type: Gear
@@ -156,7 +156,7 @@ data:
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/stake-hammer.png
+img: systems/whitehack4e/assets/icons/gear/stake-hammer.png
 ---
 name: Hatchet
 type: Gear
@@ -166,7 +166,7 @@ data:
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/hatchet.png
+img: systems/whitehack4e/assets/icons/gear/hatchet.png
 ---
 name: Holy symbol, wooden
 type: Gear
@@ -176,7 +176,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/crucifix.png
+img: systems/whitehack4e/assets/icons/gear/crucifix.png
 ---
 name: Holy symbol, silver
 type: Gear
@@ -186,7 +186,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/holy-symbol.png
+img: systems/whitehack4e/assets/icons/gear/holy-symbol.png
 ---
 name: Holy water, small vial
 type: Gear
@@ -196,7 +196,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/holy-water.png
+img: systems/whitehack4e/assets/icons/gear/holy-water.png
 ---
 name: Horse (riding)
 type: Gear
@@ -206,7 +206,7 @@ data:
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/horse-riding.png
+img: systems/whitehack4e/assets/icons/gear/horse-riding.png
 ---
 name: Horse (battle trained)
 type: Gear
@@ -216,7 +216,7 @@ data:
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/horse-head.png
+img: systems/whitehack4e/assets/icons/gear/horse-head.png
 ---
 name: Laboratory (portable)
 type: Gear
@@ -226,7 +226,7 @@ data:
   weight: heavy
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/test-tubes.png
+img: systems/whitehack4e/assets/icons/gear/test-tubes.png
 ---
 name: Lantern
 type: Gear
@@ -236,7 +236,7 @@ data:
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/lantern.png
+img: systems/whitehack4e/assets/icons/gear/lantern.png
 ---
 name: Lock picks
 type: Gear
@@ -246,7 +246,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/lockpicks.png
+img: systems/whitehack4e/assets/icons/gear/lockpicks.png
 ---
 name: Map
 type: Gear
@@ -256,7 +256,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/treasure-map.png
+img: systems/whitehack4e/assets/icons/gear/treasure-map.png
 ---
 name: Mirror (small steel)
 type: Gear
@@ -266,7 +266,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/mirror-mirror.png
+img: systems/whitehack4e/assets/icons/gear/mirror-mirror.png
 ---
 name: Mule
 type: Gear
@@ -276,7 +276,7 @@ data:
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/donkey.png
+img: systems/whitehack4e/assets/icons/gear/donkey.png
 ---
 name: Oil (lamp), 1 pint
 type: Gear
@@ -286,7 +286,7 @@ data:
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/round-bottom-flask.png
+img: systems/whitehack4e/assets/icons/gear/round-bottom-flask.png
 ---
 name: Pole, 10 ft
 type: Gear
@@ -296,7 +296,7 @@ data:
   weight: heavy
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/half-log.png
+img: systems/whitehack4e/assets/icons/gear/half-log.png
 ---
 name: Raft
 type: Gear
@@ -306,7 +306,7 @@ data:
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/raft.png
+img: systems/whitehack4e/assets/icons/gear/raft.png
 ---
 name: Rations, dried (day)
 type: Gear
@@ -316,7 +316,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/cornucopia.png
+img: systems/whitehack4e/assets/icons/gear/cornucopia.png
 ---
 name: Rations, trail (day)
 type: Gear
@@ -326,7 +326,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/sausages-ribbon.png
+img: systems/whitehack4e/assets/icons/gear/sausages-ribbon.png
 ---
 name: Rope, elven (50 ft)
 type: Gear
@@ -336,7 +336,7 @@ data:
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/lasso.png
+img: systems/whitehack4e/assets/icons/gear/lasso.png
 ---
 name: Rope, hemp (50 ft)
 type: Gear
@@ -346,7 +346,7 @@ data:
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/rope-coil.png
+img: systems/whitehack4e/assets/icons/gear/rope-coil.png
 ---
 name: Sack
 type: Gear
@@ -356,7 +356,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/swap-bag.png
+img: systems/whitehack4e/assets/icons/gear/swap-bag.png
 ---
 name: Saddle bags
 type: Gear
@@ -366,7 +366,7 @@ data:
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/knapsack.png
+img: systems/whitehack4e/assets/icons/gear/knapsack.png
 ---
 name: Saddle
 type: Gear
@@ -376,7 +376,7 @@ data:
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/saddle.png
+img: systems/whitehack4e/assets/icons/gear/saddle.png
 ---
 name: Scroll, empty
 type: Gear
@@ -386,7 +386,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/scroll-unfurled.png
+img: systems/whitehack4e/assets/icons/gear/scroll-unfurled.png
 ---
 name: Shovel
 type: Gear
@@ -396,7 +396,7 @@ data:
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/spade.png
+img: systems/whitehack4e/assets/icons/gear/spade.png
 ---
 name: Skiing gear
 type: Gear
@@ -406,7 +406,7 @@ data:
   weight: heavy
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/skis.png
+img: systems/whitehack4e/assets/icons/gear/skis.png
 ---
 name: Sled
 type: Gear
@@ -416,7 +416,7 @@ data:
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/sled.png
+img: systems/whitehack4e/assets/icons/gear/sled.png
 ---
 name: Sleeping bag
 type: Gear
@@ -426,7 +426,7 @@ data:
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/sleeping-bag.png
+img: systems/whitehack4e/assets/icons/gear/sleeping-bag.png
 ---
 name: Snare
 type: Gear
@@ -436,7 +436,7 @@ data:
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/barbed-wire.png
+img: systems/whitehack4e/assets/icons/gear/barbed-wire.png
 ---
 name: Spell book (blank)
 type: Gear
@@ -446,7 +446,7 @@ data:
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/spell-book.png
+img: systems/whitehack4e/assets/icons/gear/spell-book.png
 ---
 name: Spike, iron
 type: Gear
@@ -456,7 +456,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 12
-img: systems/whitehack3e/assets/icons/gear/coiled-nail.png
+img: systems/whitehack4e/assets/icons/gear/coiled-nail.png
 ---
 name: Tent
 type: Gear
@@ -466,7 +466,7 @@ data:
   weight: heavy
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/camping-tent.png
+img: systems/whitehack4e/assets/icons/gear/camping-tent.png
 ---
 name: Tinderbox
 type: Gear
@@ -476,7 +476,7 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/flame.png
+img: systems/whitehack4e/assets/icons/gear/flame.png
 ---
 name: Torch
 type: Gear
@@ -486,7 +486,7 @@ data:
   weight: minor
   equippedStatus: stored
   quantity: 6
-img: systems/whitehack3e/assets/icons/gear/torch.png
+img: systems/whitehack4e/assets/icons/gear/torch.png
 ---
 name: Waterskin
 type: Gear
@@ -496,7 +496,7 @@ data:
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/magic-potion.png
+img: systems/whitehack4e/assets/icons/gear/magic-potion.png
 ---
 name: Wolvesbane & Garlic
 type: Gear
@@ -506,4 +506,4 @@ data:
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack3e/assets/icons/gear/herbs-bundle.png
+img: systems/whitehack4e/assets/icons/gear/herbs-bundle.png

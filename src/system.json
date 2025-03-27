@@ -1,13 +1,13 @@
 {
-  "name": "whitehack3e",
+  "name": "whitehack4e",
   "title": "Whitehack Third Edition",
   "description": "A system for playing Whitehack Third Edition",
   "author": "Neil Benson (@OldScouserRPing)",
   "version": "1.4.0",
   "minimumCoreVersion": "10.285",
   "compatibleCoreVersion": "10.288",
-  "esmodules": ["wh3e.js"],
-  "styles": ["css/wh3e.css"],
+  "esmodules": ["wh4e.js"],
+  "styles": ["css/wh4e.css"],
   "packs": [
     {
       "name": "armour",
@@ -39,7 +39,7 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "hitPoints",
   "initiative": "1d6 + @attributes.dex.mod",
-  "url": "https://github.com/neilbenson/foundryvtt-whitehack-3e",
-  "manifest": "https://raw.githubusercontent.com/neilbenson/foundryvtt-whitehack-3e/main/src/system.json",
-  "download": "https://github.com/neilbenson/foundryvtt-whitehack-3e/releases/download/1.4.0/foundryvtt-whitehack3e-v1.4.0.zip"
+  "url": "https://github.com/neilbenson/foundryvtt-whitehack-4e",
+  "manifest": "https://raw.githubusercontent.com/neilbenson/foundryvtt-whitehack-4e/main/src/system.json",
+  "download": "https://github.com/neilbenson/foundryvtt-whitehack-4e/releases/download/1.4.0/foundryvtt-whitehack4e-v1.4.0.zip"
 }

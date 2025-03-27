@@ -1,4 +1,4 @@
-import { wh3e } from "../config.js";
+import { wh4e } from "../config.js";
 import * as c from "../constants.js";
 
 /**
@@ -79,7 +79,7 @@ export const updateActorGroups = async (actor) => {
   // Get vocation and species
   const speciesObj = items.filter((item) => item.type === c.ABILITY && item.system.type === c.SPECIES);
   const vocationObj = items.filter((item) => item.type === c.ABILITY && item.system.type === c.VOCATION);
-  const species = speciesObj.length > 0 ? speciesObj[0].name : game.settings.get("whitehack3e", "defaultSpecies");
+  const species = speciesObj.length > 0 ? speciesObj[0].name : game.settings.get("whitehack4e", "defaultSpecies");
   const vocation = vocationObj.length > 0 ? vocationObj[0].name : c.EMPTYSTRING;
 
   await actor.update({
@@ -99,7 +99,7 @@ const getArmourClassForItems = (items) => {
     let itemAc = item.system.armourClass;
     console.log('Item AC', item.system.armourClass);
     if ([c.PLUSONE, c.PLUSTWO, c.PLUSTHREE, c.MINUSONE, c.MINUSTWO, c.MINUSTHREE].includes(itemAc)) {
-      modifierAc = modifierAc + +(wh3e.armourClasses[itemAc]);
+      modifierAc = modifierAc + +(wh4e.armourClasses[itemAc]);
     } else if (itemAc !== c.SPECIAL) {
       itemAc = +itemAc;
       maxAc = itemAc > maxAc ? itemAc : maxAc;
@@ -134,7 +134,7 @@ const getEncumbranceForItems = (items) => {
       }
     } else {
       if (item.system.armourClass !== c.SPECIAL) {
-        encCount = encCount + Math.abs(+(wh3e.armourClasses[item.system.armourClass]));
+        encCount = encCount + Math.abs(+(wh4e.armourClasses[item.system.armourClass]));
       } else {
         encCount = encCount + 1;
       }

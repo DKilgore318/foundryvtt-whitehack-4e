@@ -3,10 +3,10 @@
     <thead>
       <tr>
         <th class="item-image"></th>
-        <th class="align-left armour-name">{{localize "wh3e.item.name"}}</th>
-        <th class="armour-ac">{{localize "wh3e.item.armourClass"}}</th>
-        <th class="equippable">{{localize "wh3e.item.equipped"}}</th>
-        {{> controlsEditDeleteHeader title=(localize "wh3e.sheet.addArmour") type="Armour"}}
+        <th class="align-left armour-name">{{localize "wh4e.item.name"}}</th>
+        <th class="armour-ac">{{localize "wh4e.item.armourClass"}}</th>
+        <th class="equippable">{{localize "wh4e.item.equipped"}}</th>
+        {{> controlsEditDeleteHeader title=(localize "wh4e.sheet.addArmour") type="Armour"}}
       </tr>
     </thead>
     <tbody class="item-list">
@@ -21,11 +21,11 @@
             <span>{{armour.name}}</span>
           </td>
           <td class="armour-ac">
-            <span>{{getTextFromKey "wh3e.armourClasses" armour.system.armourClass}}</span>
+            <span>{{getTextFromKey "wh4e.armourClasses" armour.system.armourClass}}</span>
           </td>
           {{> controlsEquipStore name=armour.name status=armour.system.equippedStatus}}
-          {{> controlsEditDelete editTitle=(localize "wh3e.sheet.editArmour") deleteTitle=(localize
-        "wh3e.sheet.deleteArmour") }}
+          {{> controlsEditDelete editTitle=(localize "wh4e.sheet.editArmour") deleteTitle=(localize
+        "wh4e.sheet.deleteArmour") }}
         </tr>
       {{/each}}
     </tbody>

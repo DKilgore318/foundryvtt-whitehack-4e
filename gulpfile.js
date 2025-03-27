@@ -21,7 +21,7 @@ const STATIC_FILES = [
   "src/module/**/*",
   "src/templates/**/*"
 ];
-const LESS_SRC = "src/less/wh3e.less";
+const LESS_SRC = "src/less/wh4e.less";
 const PACK_SRC = "src/packs";
 const BUILD_DIR = "build";
 const DIST_DIR = "dist";

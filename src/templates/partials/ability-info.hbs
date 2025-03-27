@@ -3,10 +3,10 @@
     <thead>
       <tr>
         <th class="item-image"></th>
-        <th class="align-left ability-name">{{localize "wh3e.item.name"}}</th>
-        <th class="ability-type">{{localize "wh3e.item.type"}}</th>
-        <th class="ability-activated">{{localize "wh3e.item.active"}}</th>
-        {{> controlsEditDeleteHeader title=(localize "wh3e.sheet.addAbility") type="Ability"}}
+        <th class="align-left ability-name">{{localize "wh4e.item.name"}}</th>
+        <th class="ability-type">{{localize "wh4e.item.type"}}</th>
+        <th class="ability-activated">{{localize "wh4e.item.active"}}</th>
+        {{> controlsEditDeleteHeader title=(localize "wh4e.sheet.addAbility") type="Ability"}}
       </tr>
     </thead>
     <tbody class="item-list">
@@ -21,18 +21,18 @@
             <span>{{ability.name}}</span>
           </td>
           <td class="ability-type">
-            <span>{{getTextFromKey "wh3e.abilityType" ability.system.type}}</span>
+            <span>{{getTextFromKey "wh4e.abilityType" ability.system.type}}</span>
           </td>
           {{#if (canActivate ability.system.type)}}
             <td class="ability-activated">
-              <a class="item-control" title="{{localize "wh3e.sheet.activateDeactivate"}} {{ability.name}}"><i
+              <a class="item-control" title="{{localize "wh4e.sheet.activateDeactivate"}} {{ability.name}}"><i
                    class="fas fa-check-square {{ability.system.activeStatus}}"></i></a>
             </td>
           {{else}}
             <td class="ability-activated">&nbsp;</td>
           {{/if}}
-          {{> controlsEditDelete editTitle=(localize "wh3e.sheet.editAbility") deleteTitle=(localize
-        "wh3e.sheet.deleteAbility") }}
+          {{> controlsEditDelete editTitle=(localize "wh4e.sheet.editAbility") deleteTitle=(localize
+        "wh4e.sheet.deleteAbility") }}
         </tr>
       {{/each}}
     </tbody>

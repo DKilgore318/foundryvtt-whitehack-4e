@@ -2,9 +2,9 @@ import * as c from "./constants.js";
 
 class WHItem extends Item {
   chatTemplate = {
-    [c.GEAR]: "systems/whitehack3e/templates/chat/item-info.hbs",
-    [c.ABILITY]: "systems/whitehack3e/templates/chat/item-info.hbs",
-    [c.ARMOUR]: "systems/whitehack3e/templates/chat/armour-info.hbs",
+    [c.GEAR]: "systems/whitehack4e/templates/chat/item-info.hbs",
+    [c.ABILITY]: "systems/whitehack4e/templates/chat/item-info.hbs",
+    [c.ARMOUR]: "systems/whitehack4e/templates/chat/armour-info.hbs",
   };
 
   /**
