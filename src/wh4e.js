@@ -1,5 +1,5 @@
 import { wh4e } from "./module/config.js";
-import WH3Item from "./module/WH4Item.js";
+import WH4Item from "./module/WH4Item.js";
 import WH4ItemSheet from "./module/sheets/WH4ItemSheet.js";
 import WH4CharacterSheet from "./module/sheets/WH4CharacterSheet.js";
 import WH4MonsterSheet from "./module/sheets/WH4MonsterSheet.js";
@@ -32,7 +32,7 @@ Hooks.once("init", () => {
 
   CONFIG.wh4e = wh4e;
 
-  CONFIG.Item.documentClass = WH3Item;
+  CONFIG.Item.documentClass = WH4Item;
   CONFIG.Actor.documentClass = WH4Actor;
 
   Items.unregisterSheet("core", ItemSheet);
