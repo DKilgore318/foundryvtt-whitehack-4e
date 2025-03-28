@@ -1,11 +1,12 @@
 # Whitehack 4e system (unofficial) for FoundryVTT
 
-**This repo is no longer maintained. If you would like to make a fork please do so and release to Foundry and I'll take this version down**
+**This repo is under active development in order to be brought up to the Fourth edition ruleselt and Foundry v12.331 Compatibility. Please do not use this until released**
 
-This system provides support for the [Whitehack RPG 3rd edition](https://whitehackrpg.wordpress.com/) in [FoundryVTT](https://foundryvtt.com). It is published with the approval of Christian Mehrstam, the creator of the Whitehack RPG.
+This system provides support for the [Whitehack RPG 4th edition](https://whitehackrpg.wordpress.com/) in [FoundryVTT](https://foundryvtt.com). It is published with the approval of Christian Mehrstam, the creator of the Whitehack RPG (Permission not yet explicitly obtained for this fork).
 
 ## Installation
 
+Please note that the below link currently routes to the 3e, unmaintained version
 The recommended method of installing the Whitehack 4e system is from within FoundryVTT using the **Install System** option in the **Game Systems** tab. Alternatively you can install it using the manifest [link](https://raw.githubusercontent.com/hellbrandt/foundryvtt-whitehack-3e/main/src/system.json) or download the zip package from the repository's dist folder and install to your FoundryVTT `Data/Systems` folder.
 
 ## Usage
@@ -38,9 +39,9 @@ Full documentation can be accessed in FoundryVTT in the **Game Settings** tab an
 
 ## License
 
-This unofficial system requires Whitehack, &copy;2013&ndash;2021 Christian Mehrstam. You can find it [here](https://whitehackrpg.wordpress.com).
+This unofficial system requires Whitehack, &copy;2013&ndash;2023 Christian Mehrstam. You can find it [here](https://whitehackrpg.wordpress.com).
 
-Whitehack is an RPG trademark through established use, owned by Christian Mehrstam. This third party product is unaffiliated. The Whitehack name is used with permission.
+Whitehack is an RPG trademark through established use, owned by Christian Mehrstam. This third party product is unaffiliated. The Whitehack name is used with permission (Permission not yet explicitly obtained for this fork).
 
 ## Credits
 
@@ -57,6 +58,9 @@ The background texture for actor and item sheets and dialogs is from https://www
 Compendium icons courtesy of [game-icons.net](https://game-icons.net) license [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). Sled icon by me, but it's hardly a work of art so I ain't too worried.
 
 ## TO DO:
-
+- [ ] Convert Remaining 3e names and references to 4e equivalents
+- [ ] Identify and implement rules changes in 4e Using [This Document](https://whitehackrpg.wordpress.com/wp-content/uploads/2023/04/newin4e-2-1.pdf) as a first reference
+- [ ] Identify and resolve any and all Foundry v12 compatibility issues
+-- Leftover from forked repo
 - [ ] Info on classes and class abilities to add to character sheet
 - [ ] Saving throw modifiers e.g. the Strong bonuses?
