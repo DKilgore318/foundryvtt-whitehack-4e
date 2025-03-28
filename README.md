@@ -1,6 +1,6 @@
 # Whitehack 4e system (unofficial) for FoundryVTT
 
-**This repo is under active development in order to be brought up to the Fourth edition ruleselt and Foundry v12.331 Compatibility. Please do not use this until released**
+**This repo is under active development in order to be brought up to the Fourth edition ruleset and Foundry v12.331 Compatibility. Please do not use this until released**
 
 This system provides support for the [Whitehack RPG 4th edition](https://whitehackrpg.wordpress.com/) in [FoundryVTT](https://foundryvtt.com). It is published with the approval of Christian Mehrstam, the creator of the Whitehack RPG (Permission not yet explicitly obtained for this fork).
 
