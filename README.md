@@ -6,7 +6,8 @@ This system provides support for the [Whitehack RPG 4th edition](https://whiteha
 
 ## Installation
 
-Please note that the below link currently routes to the 3e, unmaintained version
+Please note that the below link currently routes to the 3e, unmaintained version.
+
 The recommended method of installing the Whitehack 4e system is from within FoundryVTT using the **Install System** option in the **Game Systems** tab. Alternatively you can install it using the manifest [link](https://raw.githubusercontent.com/hellbrandt/foundryvtt-whitehack-3e/main/src/system.json) or download the zip package from the repository's dist folder and install to your FoundryVTT `Data/Systems` folder.
 
 ## Usage
