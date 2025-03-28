@@ -38,10 +38,10 @@ export const registerHelpers = async () => {
    */
   Handlebars.registerHelper("getBurdenCategory", (equipped, stored) => {
     const equippedLimit = game.settings.get(
-      "whitehack3e",
+      "whitehack4e",
       "itemsEquippedLimit"
     );
-    const storedLimit = game.settings.get("whitehack3e", "itemsStoredLimit");
+    const storedLimit = game.settings.get("whitehack4e", "itemsStoredLimit");
     const totalCarried = equipped + stored;
     const totalLimit = equippedLimit + storedLimit;
     if (
@@ -49,27 +49,27 @@ export const registerHelpers = async () => {
       stored <= storedLimit &&
       totalCarried <= totalLimit
     ) {
-      return game.i18n.localize("wh3e.burdenCategory.normal");
+      return game.i18n.localize("wh4e.burdenCategory.normal");
     } else if (
       equipped <= equippedLimit + 1 &&
       stored <= storedLimit + 1 &&
       totalCarried <= totalLimit + 1
     ) {
-      return game.i18n.localize("wh3e.burdenCategory.heavy");
+      return game.i18n.localize("wh4e.burdenCategory.heavy");
     } else if (
       equipped <= equippedLimit + 3 &&
       stored <= storedLimit + 3 &&
       totalCarried <= totalLimit + 3
     ) {
-      return game.i18n.localize("wh3e.burdenCategory.severe");
+      return game.i18n.localize("wh4e.burdenCategory.severe");
     } else if (
       equipped <= equippedLimit + 5 &&
       stored <= storedLimit + 5 &&
       totalCarried <= totalLimit + 5
     ) {
-      return game.i18n.localize("wh3e.burdenCategory.massive");
+      return game.i18n.localize("wh4e.burdenCategory.massive");
     } else {
-      return game.i18n.localize("wh3e.burdenCategory.tooMuch");
+      return game.i18n.localize("wh4e.burdenCategory.tooMuch");
     }
   });
 
@@ -95,9 +95,9 @@ export const registerHelpers = async () => {
   Handlebars.registerHelper("encumbered", (encumbrance, encType) => {
     if (
       (encType === c.EQUIPPED &&
-        encumbrance > game.settings.get("whitehack3e", "itemsEquippedLimit")) ||
+        encumbrance > game.settings.get("whitehack4e", "itemsEquippedLimit")) ||
       (encType === c.STORED &&
-        encumbrance > game.settings.get("whitehack3e", "itemsStoredLimit"))
+        encumbrance > game.settings.get("whitehack4e", "itemsStoredLimit"))
     ) {
       return true;
     }

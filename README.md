@@ -1,4 +1,4 @@
-# Whitehack 3e system (unofficial) for FoundryVTT
+# Whitehack 4e system (unofficial) for FoundryVTT
 
 **This repo is no longer maintained. If you would like to make a fork please do so and release to Foundry and I'll take this version down**
 
@@ -6,7 +6,7 @@ This system provides support for the [Whitehack RPG 3rd edition](https://whiteha
 
 ## Installation
 
-The recommended method of installing the Whitehack 3e system is from within FoundryVTT using the **Install System** option in the **Game Systems** tab. Alternatively you can install it using the manifest [link](https://raw.githubusercontent.com/hellbrandt/foundryvtt-whitehack-3e/main/src/system.json) or download the zip package from the repository's dist folder and install to your FoundryVTT `Data/Systems` folder.
+The recommended method of installing the Whitehack 4e system is from within FoundryVTT using the **Install System** option in the **Game Systems** tab. Alternatively you can install it using the manifest [link](https://raw.githubusercontent.com/hellbrandt/foundryvtt-whitehack-3e/main/src/system.json) or download the zip package from the repository's dist folder and install to your FoundryVTT `Data/Systems` folder.
 
 ## Usage
 

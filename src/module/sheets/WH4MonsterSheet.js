@@ -1,11 +1,11 @@
 import { rollModDialog, attackRollDialog } from "../helpers/diceHelpers.js";
 import * as c from "../constants.js";
 
-export default class WH3MonsterSheet extends ActorSheet {
+export default class WH4MonsterSheet extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      template: "systems/whitehack3e/templates/sheets/monster-sheet.hbs",
-      classes: ["wh3e", "sheet", "monster"],
+      template: "systems/whitehack4e/templates/sheets/monster-sheet.hbs",
+      classes: ["wh4e", "sheet", "monster"],
       width: c.MONSTER_SHEET_WIDTH,
       height: c.MONSTER_SHEET_HEIGHT,
       resizable: true,
@@ -19,7 +19,7 @@ export default class WH3MonsterSheet extends ActorSheet {
   getData() {
     const data = super.getData();
     let monsterData = data.actor;
-    monsterData.config = CONFIG.wh3e;
+    monsterData.config = CONFIG.wh4e;
     monsterData.hasToken = !(this.token === null);
     monsterData.editable = this.options.editable;
     return monsterData;
@@ -90,7 +90,7 @@ export default class WH3MonsterSheet extends ActorSheet {
    * Call saving throw dialog
    */
   _savingThrowRollHandler() {
-    rollModDialog(this.actor, c.SAVINGTHROW, game.i18n.localize("wh3e.sheet.savingThrow"));
+    rollModDialog(this.actor, c.SAVINGTHROW, game.i18n.localize("wh4e.sheet.savingThrow"));
   }
 
   /**

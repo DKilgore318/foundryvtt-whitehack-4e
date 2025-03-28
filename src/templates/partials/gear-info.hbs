@@ -3,11 +3,11 @@
     <thead>
       <tr>
         <th class="item-image"></th>
-        <th class="align-left gear-name">{{localize "wh3e.item.name"}}</th>
-        <th class="gear-quantity">{{localize "wh3e.item.quantity"}}</th>
-        <th class="gear-weight">{{localize "wh3e.item.weight"}}</th>
-        <th class="equippable">{{localize "wh3e.item.equipped"}}</th>
-        {{> controlsEditDeleteHeader title=(localize "wh3e.sheet.addGear") type="Gear"}}
+        <th class="align-left gear-name">{{localize "wh4e.item.name"}}</th>
+        <th class="gear-quantity">{{localize "wh4e.item.quantity"}}</th>
+        <th class="gear-weight">{{localize "wh4e.item.weight"}}</th>
+        <th class="equippable">{{localize "wh4e.item.equipped"}}</th>
+        {{> controlsEditDeleteHeader title=(localize "wh4e.sheet.addGear") type="Gear"}}
       </tr>
     </thead>
     <tbody class="item-list">
@@ -25,15 +25,15 @@
             <span>{{gear.system.quantity}}</span>
           </td>
           <td class="gear-weight">
-            <span>{{getTextFromKey "wh3e.weightTypes" gear.system.weight}}</span>
+            <span>{{getTextFromKey "wh4e.weightTypes" gear.system.weight}}</span>
           </td>
           {{#if (hasEncumbrance gear.system.weight)}}
             {{> controlsEquipStore name=gear.name status=gear.system.equippedStatus}}
           {{else}}
             <td class="equippable"></td>
           {{/if}}
-          {{> controlsEditDelete editTitle=(localize "wh3e.sheet.editGear") deleteTitle=(localize
-        "wh3e.sheet.deleteGear") }}
+          {{> controlsEditDelete editTitle=(localize "wh4e.sheet.editGear") deleteTitle=(localize
+        "wh4e.sheet.deleteGear") }}
         </tr>
       {{/each}}
     </tbody>

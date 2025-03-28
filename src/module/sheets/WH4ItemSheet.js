@@ -1,18 +1,18 @@
 import { updateActorEncumbrance, updateActorGroups } from "../helpers/itemHelpers.js";
 import * as c from "../constants.js";
 
-export default class WH3ItemSheet extends ItemSheet {
+export default class WH4ItemSheet extends ItemSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       width: 530,
       height: 350,
-      classes: ["wh3e", "sheet", "item"],
+      classes: ["wh4e", "sheet", "item"],
       resizable: false,
     });
   }
 
   get template() {
-    return `systems/whitehack3e/templates/sheets/${this.item.type.toLowerCase()}-sheet.hbs`;
+    return `systems/whitehack4e/templates/sheets/${this.item.type.toLowerCase()}-sheet.hbs`;
   }
 
   /**
@@ -24,7 +24,7 @@ export default class WH3ItemSheet extends ItemSheet {
     const sheetData = {
       ...baseData.item,
       editable: true,
-      config: CONFIG.wh3e,
+      config: CONFIG.wh4e,
     };
     return sheetData;
   }

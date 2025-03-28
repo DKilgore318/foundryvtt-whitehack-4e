@@ -2,11 +2,11 @@ import { updateActorGroups, updateActorEncumbrance, updateActorArmourClass } fro
 import { rollModDialog, attackRollDialog } from "../helpers/diceHelpers.js";
 import * as c from "../constants.js";
 
-export default class WH3CharacterSheet extends ActorSheet {
+export default class WH4CharacterSheet extends ActorSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      template: "systems/whitehack3e/templates/sheets/character-sheet.hbs",
-      classes: ["wh3e", "sheet", "character"],
+      template: "systems/whitehack4e/templates/sheets/character-sheet.hbs",
+      classes: ["wh4e", "sheet", "character"],
       width: c.CHARACTER_SHEET_WIDTH,
       height: c.CHARACTER_SHEET_HEIGHT,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-content", initial: "attributes" }],
@@ -24,7 +24,7 @@ export default class WH3CharacterSheet extends ActorSheet {
     const groups = [c.AFFILIATION, c.SPECIES, c.VOCATION];
     let actorData = data.actor;
     
-    actorData.config = CONFIG.wh3e;
+    actorData.config = CONFIG.wh4e;
     actorData.weapons = data.items.filter((item) => item.type === c.WEAPON);
     actorData.gear = data.items.filter((item) => item.type === c.GEAR);
     actorData.abilities = data.items.filter((item) => item.type === c.ABILITY);
@@ -33,7 +33,7 @@ export default class WH3CharacterSheet extends ActorSheet {
     });
     actorData.armour = data.items.filter((item) => item.type === c.ARMOUR);
     if (!actorData.system.basics.species) {
-      actorData.system.basics.species = game.settings.get("whitehack3e", "defaultSpecies");
+      actorData.system.basics.species = game.settings.get("whitehack4e", "defaultSpecies");
     }
     actorData.charClass = actorData.system.basics.class;
     actorData.hasToken = !(this.token === null);
@@ -79,7 +79,7 @@ export default class WH3CharacterSheet extends ActorSheet {
 
     let itemData = {
       img: c.DEFAULTGEARIMAGE,
-      name: game.i18n.localize("wh3e.sheet.new" + type),
+      name: game.i18n.localize("wh4e.sheet.new" + type),
       type: type,
       data: {
         description: c.EMPTYSTRING,
@@ -270,8 +270,8 @@ export default class WH3CharacterSheet extends ActorSheet {
     const rollAttribute = event.currentTarget.dataset.rollFor;
     const rollTitle =
       rollAttribute === c.SAVINGTHROW
-        ? game.i18n.localize("wh3e.sheet.savingThrow")
-        : rollAttribute.toUpperCase() + " " + game.i18n.localize("wh3e.sheet.taskRoll");
+        ? game.i18n.localize("wh4e.sheet.savingThrow")
+        : rollAttribute.toUpperCase() + " " + game.i18n.localize("wh4e.sheet.taskRoll");
     rollModDialog(this.actor, rollAttribute, rollTitle);
   }
 
