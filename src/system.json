@@ -2,10 +2,10 @@
   "name": "whitehack3e",
   "title": "Whitehack Fourth Edition",
   "description": "A system for playing Whitehack Fourth Edition",
-  "author": "Neil Benson (@OldScouserRPing)",
-  "version": "1.4.0",
+  "author": "Neil Benson (@OldScouserRPing), maintained by Daniel Kilgore",
+  "version": "1.5.0",
   "minimumCoreVersion": "10.285",
-  "compatibleCoreVersion": "10.288",
+  "compatibleCoreVersion": "12.331",
   "esmodules": ["wh3e.js"],
   "styles": ["css/wh3e.css"],
   "packs": [
