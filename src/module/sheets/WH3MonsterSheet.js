@@ -45,7 +45,7 @@ export default class WH3MonsterSheet extends ActorSheet {
   }
 
   /**
-   * Update monster ST and AV based on Hit Dice
+   * Update monster ST and AV based on Harm Dice
    * @param {Object} event
    */
   _monsterUpdateStats(event) {
