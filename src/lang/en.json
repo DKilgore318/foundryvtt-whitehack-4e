@@ -136,7 +136,7 @@
       "quantity": "Quantity"
     },
     "coinType": {
-      "gp": "GP",
+      "cr": "CR",
       "sp": "SP",
       "cp": "CP"
     },

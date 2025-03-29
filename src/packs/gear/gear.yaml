@@ -2,7 +2,7 @@ name: Gold Piece
 type: Gear
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: negligible
   equippedStatus: stored
   quantity: 1
@@ -32,7 +32,7 @@ name: Backpack
 type: Gear
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -42,7 +42,7 @@ name: Bandages
 type: Gear
 data:
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 5
@@ -52,7 +52,7 @@ name: Boat
 type: Gear
 data:
   cost: 60
-  costCoinType: gp
+  costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
@@ -62,7 +62,7 @@ name: Bottle (wine), glass
 type: Gear
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -72,7 +72,7 @@ name: Cart
 type: Gear
 data:
   cost: 50
-  costCoinType: gp
+  costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
@@ -82,7 +82,7 @@ name: Case (map or scroll)
 type: Gear
 data:
   cost: 3
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
@@ -92,7 +92,7 @@ name: Checkers (game)
 type: Gear
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
@@ -102,7 +102,7 @@ name: Compass
 type: Gear
 data:
   cost: 50
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -112,7 +112,7 @@ name: Crowbar
 type: Gear
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
@@ -122,7 +122,7 @@ name: Dice
 type: Gear
 data:
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: negligible
   equippedStatus: stored
   quantity: 1
@@ -132,7 +132,7 @@ name: Flint & steel
 type: Gear
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -142,7 +142,7 @@ name: Grappling hook
 type: Gear
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
@@ -152,7 +152,7 @@ name: Hammer & Wooden stakes
 type: Gear
 data:
   cost: 3
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
@@ -162,7 +162,7 @@ name: Hatchet
 type: Gear
 data:
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
@@ -172,7 +172,7 @@ name: Holy symbol, wooden
 type: Gear
 data:
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -182,7 +182,7 @@ name: Holy symbol, silver
 type: Gear
 data:
   cost: 25
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -192,7 +192,7 @@ name: Holy water, small vial
 type: Gear
 data:
   cost: 15
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -202,7 +202,7 @@ name: Horse (riding)
 type: Gear
 data:
   cost: 60
-  costCoinType: gp
+  costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
@@ -212,7 +212,7 @@ name: Horse (battle trained)
 type: Gear
 data:
   cost: 120
-  costCoinType: gp
+  costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
@@ -222,7 +222,7 @@ name: Laboratory (portable)
 type: Gear
 data:
   cost: 130
-  costCoinType: gp
+  costCoinType: cr
   weight: heavy
   equippedStatus: stored
   quantity: 1
@@ -232,7 +232,7 @@ name: Lantern
 type: Gear
 data:
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
@@ -242,7 +242,7 @@ name: Lock picks
 type: Gear
 data:
   cost: 20
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -252,7 +252,7 @@ name: Map
 type: Gear
 data:
   cost: 20
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -262,7 +262,7 @@ name: Mirror (small steel)
 type: Gear
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -272,7 +272,7 @@ name: Mule
 type: Gear
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
@@ -282,7 +282,7 @@ name: Oil (lamp), 1 pint
 type: Gear
 data:
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
@@ -292,7 +292,7 @@ name: Pole, 10 ft
 type: Gear
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: heavy
   equippedStatus: stored
   quantity: 1
@@ -302,7 +302,7 @@ name: Raft
 type: Gear
 data:
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
@@ -312,7 +312,7 @@ name: Rations, dried (day)
 type: Gear
 data:
   cost: 3
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -322,7 +322,7 @@ name: Rations, trail (day)
 type: Gear
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -332,7 +332,7 @@ name: Rope, elven (50 ft)
 type: Gear
 data:
   cost: 70
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
@@ -342,7 +342,7 @@ name: Rope, hemp (50 ft)
 type: Gear
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
@@ -352,7 +352,7 @@ name: Sack
 type: Gear
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -362,7 +362,7 @@ name: Saddle bags
 type: Gear
 data:
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
@@ -372,7 +372,7 @@ name: Saddle
 type: Gear
 data:
   cost: 25
-  costCoinType: gp
+  costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
@@ -382,7 +382,7 @@ name: Scroll, empty
 type: Gear
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -392,7 +392,7 @@ name: Shovel
 type: Gear
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
@@ -402,7 +402,7 @@ name: Skiing gear
 type: Gear
 data:
   cost: 15
-  costCoinType: gp
+  costCoinType: cr
   weight: heavy
   equippedStatus: stored
   quantity: 1
@@ -412,7 +412,7 @@ name: Sled
 type: Gear
 data:
   cost: 20
-  costCoinType: gp
+  costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
@@ -422,7 +422,7 @@ name: Sleeping bag
 type: Gear
 data:
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
@@ -432,7 +432,7 @@ name: Snare
 type: Gear
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
@@ -442,7 +442,7 @@ name: Spell book (blank)
 type: Gear
 data:
   cost: 100
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
@@ -452,7 +452,7 @@ name: Spike, iron
 type: Gear
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 12
@@ -462,7 +462,7 @@ name: Tent
 type: Gear
 data:
   cost: 15
-  costCoinType: gp
+  costCoinType: cr
   weight: heavy
   equippedStatus: stored
   quantity: 1
@@ -472,7 +472,7 @@ name: Tinderbox
 type: Gear
 data:
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
@@ -482,7 +482,7 @@ name: Torch
 type: Gear
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 6
@@ -492,7 +492,7 @@ name: Waterskin
 type: Gear
 data:
   cost: 3
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
@@ -502,7 +502,7 @@ name: Wolvesbane & Garlic
 type: Gear
 data:
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1

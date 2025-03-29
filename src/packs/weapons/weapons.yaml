@@ -2,7 +2,7 @@ name: Axe
 type: Weapon
 data:
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6plus1
@@ -14,7 +14,7 @@ name: Sword
 type: Weapon
 data:
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6plus1
@@ -26,7 +26,7 @@ name: Club
 type: Weapon
 data:
   cost: 0
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   damage: d6minus2
@@ -39,7 +39,7 @@ name: Crossbow
 type: Weapon
 data:
   cost: 30
-  costCoinType: gp
+  costCoinType: cr
   weight: heavy
   equippedStatus: stored
   damage: d6plus1
@@ -52,7 +52,7 @@ name: Dagger
 type: Weapon
 data:
   cost: 3
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   damage: d6minus2
@@ -64,7 +64,7 @@ name: Dart
 type: Weapon
 data:
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: negligible
   equippedStatus: stored
   damage: oneDmg
@@ -76,7 +76,7 @@ name: Flail
 type: Weapon
 data:
   cost: 8
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6
@@ -89,7 +89,7 @@ name: Great Axe
 type: Weapon
 data:
   cost: 15
-  costCoinType: gp
+  costCoinType: cr
   weight: heavy
   equippedStatus: stored
   damage: d6plus2
@@ -102,7 +102,7 @@ name: Great Sword
 type: Weapon
 data:
   cost: 15
-  costCoinType: gp
+  costCoinType: cr
   weight: heavy
   equippedStatus: stored
   damage: d6plus2
@@ -116,7 +116,7 @@ type: Weapon
 data:
   description: Reach means that enemies within 10 feet are within melee range. This is particularly important when dealing with free atacks.
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: heavy
   equippedStatus: stored
   damage: d6plus1
@@ -129,7 +129,7 @@ name: Javelin
 type: Weapon
 data:
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   damage: d6
@@ -142,7 +142,7 @@ name: Longbow
 type: Weapon
 data:
   cost: 40
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6
@@ -155,7 +155,7 @@ name: Mace
 type: Weapon
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6
@@ -168,7 +168,7 @@ name: Warhammer
 type: Weapon
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6
@@ -181,7 +181,7 @@ name: Morning Star
 type: Weapon
 data:
   cost: 8
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6
@@ -195,7 +195,7 @@ type: Weapon
 data:
   description: Firearms do not fit in every campaign. The examples given represent a pre-industrial level of technology.
   cost: 150
-  costCoinType: gp
+  costCoinType: cr
   weight: heavy
   equippedStatus: stored
   damage: d6plus2
@@ -209,7 +209,7 @@ type: Weapon
 data:
   description: Firearms do not fit in every campaign. The examples given represent a pre-industrial level of technology.
   cost: 100
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6plus1
@@ -222,7 +222,7 @@ type: Weapon
 data:
   description: Reach means that enemies within 10 feet are within melee range. This is particularly important when dealing with free atacks.
   cost: 1
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6minus1
@@ -235,7 +235,7 @@ name: Scimitar
 type: Weapon
 data:
   cost: 8
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6
@@ -248,7 +248,7 @@ name: Shortbow
 type: Weapon
 data:
   cost: 25
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6minus1
@@ -261,7 +261,7 @@ name: Shortsword
 type: Weapon
 data:
   cost: 8
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   damage: d6minus1
@@ -273,7 +273,7 @@ name: Sling
 type: Weapon
 data:
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: small
   equippedStatus: stored
   damage: d6minus2
@@ -287,7 +287,7 @@ type: Weapon
 data:
   description: Reach means that enemies within 10 feet are within melee range. This is particularly important when dealing with free atacks.
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   damage: d6
@@ -300,7 +300,7 @@ name: Throwing Axe
 type: Weapon
 data:
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   damage: d6minus2
@@ -313,7 +313,7 @@ name: Throwing Knife
 type: Weapon
 data:
   cost: 2
-  costCoinType: gp
+  costCoinType: cr
   weight: minor
   equippedStatus: stored
   damage: d6minus2
@@ -326,7 +326,7 @@ name: Unarmed
 type: Weapon
 data:
   cost: 0
-  costCoinType: gp
+  costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   damage: d6minus3

@@ -3,7 +3,7 @@ type: Armour
 data:
   description: If the character wears any kind of helmet, results of 16+ on the crits table may be re-rolled once
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   armourClass: special
@@ -13,7 +13,7 @@ name: Shield
 type: Armour
 data:
   cost: 5
-  costCoinType: gp
+  costCoinType: cr
   weight: regular
   equippedStatus: stored
   armourClass: plusOne
@@ -23,7 +23,7 @@ name: Cloth
 type: Armour
 data:
   cost: 10
-  costCoinType: gp
+  costCoinType: cr
   weight: 1
   equippedStatus: stored
   armourClass: 1
@@ -33,7 +33,7 @@ name: Leather
 type: Armour
 data:
   cost: 15
-  costCoinType: gp
+  costCoinType: cr
   weight: 2
   equippedStatus: stored
   armourClass: 2
@@ -43,7 +43,7 @@ name: Studded Leather
 type: Armour
 data:
   cost: 20
-  costCoinType: gp
+  costCoinType: cr
   weight: 3
   equippedStatus: stored
   armourClass: 3
@@ -53,7 +53,7 @@ name: Chainmail
 type: Armour
 data:
   cost: 30
-  costCoinType: gp
+  costCoinType: cr
   weight: 4
   equippedStatus: stored
   armourClass: 4
@@ -63,7 +63,7 @@ name: Splint mail
 type: Armour
 data:
   cost: 40
-  costCoinType: gp
+  costCoinType: cr
   weight: 5
   equippedStatus: stored
   armourClass: 5
@@ -73,7 +73,7 @@ name: Full plate
 type: Armour
 data:
   cost: 50
-  costCoinType: gp
+  costCoinType: cr
   weight: 6
   equippedStatus: stored
   armourClass: 6

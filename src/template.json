@@ -74,7 +74,7 @@
         "stored": 0
       },
       "coin": {
-        "gp": 0,
+        "cr": 0,
         "sp": 0,
         "cp": 0
       }
@@ -106,7 +106,7 @@
       "equipmentBase": {
         "description": "",
         "cost": 0,
-        "costCoinType": "GP",
+        "costCoinType": "CR",
         "weight": "regular",
         "equippedStatus": "stored"
       }
