@@ -1,12 +1,12 @@
 import * as c from "../constants.js";
 
 /**
- * Determines success/fail based on rolled result, target and AC
+ * Determines success/fail based on rolled result, target and DF
  * @param {number} rollResult
  * @param {number} rollTarget
  * @returns {string}
  */
-export const getRollOutcome = (rollResult, rollTarget, rollAC = 0) => {
+export const getRollOutcome = (rollResult, rollTarget, rollDF = 0) => {
   // Determines a fail if rollResult is 20 and rollTarget >=20
   // If extreme roll 20 is still a fail
   // let extremeRollResult = rollResult;
@@ -18,7 +18,7 @@ export const getRollOutcome = (rollResult, rollTarget, rollAC = 0) => {
     }
     rollResult = rollResult + rollTarget - 20;
   }
-  if (rollResult > rollAC && rollResult <= rollTarget) {
+  if (rollResult > rollDF && rollResult <= rollTarget) {
     return c.SUCCESS;
   } else {
     return c.FAIL;
@@ -147,12 +147,12 @@ export const attackRoll = async (weapon, toHitMod = 0, damageMod = 0, rollType =
     owner: actor.id,
   };
 
-  // Only use targets AC if one target selected
+  // Only use targets DF if one target selected
   let targetName = null;
-  let targetAC = 0;
+  let targetDF = 0;
   if (game.user.targets.size === 1) {
     for (let t of game.user.targets.values()) {
-      targetAC = t.sheet.actor.system.combat.armourClass;
+      targetDF = t.sheet.actor.system.combat.armourClass;
       targetName = t.document.name;
     }
   }
@@ -172,8 +172,8 @@ export const attackRoll = async (weapon, toHitMod = 0, damageMod = 0, rollType =
     await game.dice3d.showForRoll(toHitRoll, game.user, true, null, false);
   }
 
-  const toHitOutcome = getRollOutcome(toHitResult, toHitTarget, targetAC);
-  const toHitHeader = getToHitResultHeader(toHitOutcome, toHitResult, weapon.name, toHitTarget, targetAC, targetName);
+  const toHitOutcome = getRollOutcome(toHitResult, toHitTarget, targetDF);
+  const toHitHeader = getToHitResultHeader(toHitOutcome, toHitResult, weapon.name, toHitTarget, targetDF, targetName);
   const toHitResultCategory = getResultCategory(toHitTarget, toHitResult, rollType, diceOne, diceTwo, toHitOutcome);
   const toHitResultCategoryWith = toHitResultCategory ? `${toHitResultCategory}` : "";
 
@@ -367,9 +367,9 @@ const getRollResultHeader = (rollFor, rollTarget, rollResult, rollType, diceOne,
  * @param {number} toHitTarget
  * @returns {string}
  */
-const getToHitResultHeader = (toHitOutcome, toHitResult, weapon, toHitTarget, targetAC, targetName) => {
+const getToHitResultHeader = (toHitOutcome, toHitResult, weapon, toHitTarget, targetDF, targetName) => {
   const attackVsTarget = `(${game.i18n.localize("wh4e.actor.attackValue")} ${toHitTarget})`;
-  const hitsAC = game.i18n.localize("wh4e.combat.hitsAC");
+  const hitsDF = game.i18n.localize("wh4e.combat.hitsDF");
   const hits = game.i18n.localize("wh4e.combat.hits");
   let acHit = toHitResult - 1;
   // To handle extreme rolls where AV is greater than 20
@@ -377,14 +377,14 @@ const getToHitResultHeader = (toHitOutcome, toHitResult, weapon, toHitTarget, ta
     // Add over 20 to quality
     acHit = acHit + toHitTarget - 20;
   }
-  let resultHeader = `${weapon} ${attackVsTarget} ${hitsAC} ${acHit}`;
+  let resultHeader = `${weapon} ${attackVsTarget} ${hitsDF} ${acHit}`;
   if (toHitOutcome === c.SUCCESS) {
     if (targetName) {
       resultHeader = `${weapon} ${attackVsTarget} ${hits} ${targetName}`;
     }
   } else {
     if (targetName) {
-      if (toHitResult > targetAC) {
+      if (toHitResult > targetDF) {
         resultHeader = `${weapon} ${attackVsTarget} ${game.i18n.localize("wh4e.combat.misses")} ${targetName}`;
       } else {
         resultHeader = `${weapon} ${attackVsTarget} ${game.i18n.localize("wh4e.combat.blockedByArmour")} ${targetName}`;

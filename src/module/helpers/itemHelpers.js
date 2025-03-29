@@ -47,7 +47,7 @@ export const updateActorEncumbrance = async (actor) => {
 };
 
 /**
- * Update AC when actor items change
+ * Update DF when actor items change
  * @param {Object} actor
  */
 export const updateActorArmourClass = async (actor) => {
@@ -55,15 +55,15 @@ export const updateActorArmourClass = async (actor) => {
   const equippedArmour = items.filter((item) => item.type === c.ARMOUR && item.system.equippedStatus === c.EQUIPPED);
 
   // Calculate armour class
-  let ac = 0;
+  let df = 0;
   if (equippedArmour.length > 0) {
-    ac = getArmourClassForItems(equippedArmour);
+    df = getDefenseValueForItems(equippedArmour);
   }
 
   await actor.update({
     system: {
       combat: {
-        armourClass: ac,
+        defenseValue: df,
       },
     },
   });
@@ -93,19 +93,19 @@ export const updateActorGroups = async (actor) => {
 };
 
 const getArmourClassForItems = (items) => {
-  let maxAc = 0;
-  let modifierAc = 0;
+  let maxDf = 0;
+  let modifierDf = 0;
   items.forEach((item) => {
-    let itemAc = item.system.armourClass;
-    console.log('Item AC', item.system.armourClass);
-    if ([c.PLUSONE, c.PLUSTWO, c.PLUSTHREE, c.MINUSONE, c.MINUSTWO, c.MINUSTHREE].includes(itemAc)) {
-      modifierAc = modifierAc + +(wh4e.armourClasses[itemAc]);
-    } else if (itemAc !== c.SPECIAL) {
-      itemAc = +itemAc;
-      maxAc = itemAc > maxAc ? itemAc : maxAc;
+    let itemDf = item.system.armourClass;
+    console.log('Item DF', item.system.armourClass);
+    if ([c.PLUSONE, c.PLUSTWO, c.PLUSTHREE, c.MINUSONE, c.MINUSTWO, c.MINUSTHREE].includes(itemDf)) {
+      modifierDf = modifierDf + +(wh4e.armourClasses[itemDf]);
+    } else if (itemDf !== c.SPECIAL) {
+      itemDf = +itemDf;
+      maxDf = itemDf > maxDf ? itemDf : maxDf;
     }
   });
-  return maxAc + modifierAc;
+  return maxDf + modifierDf;
 };
 
 const getEncumbranceForItems = (items) => {

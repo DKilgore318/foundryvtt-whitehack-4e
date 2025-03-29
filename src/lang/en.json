@@ -26,7 +26,7 @@
       "defaultSpecies": "Human",
       "savingThrow": "ST",
       "attackValue": "AV",
-      "armourClass": "AC",
+      "defenseValue": "DF",
       "movement": "MV",
       "encumbrance": "Encumbrance",
       "corruption": "CL",
@@ -108,7 +108,7 @@
       "with": "with",
       "misses": "misses",
       "blockedByArmour": "is blocked by armour vs",
-      "hitsAC": "hits AC",
+      "hitsDF": "hits DF",
       "hitsFor": "hits for",
       "damage": "damage",
       "attack": "Attack"

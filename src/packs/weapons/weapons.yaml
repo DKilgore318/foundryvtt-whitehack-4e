@@ -82,7 +82,7 @@ data:
   damage: d6
   range: 0
   rateOfFire: none
-  special: Ignore shield AC
+  special: Ignore shield DF
 img: systems/whitehack4e/assets/icons/weapons/flail.png
 ---
 name: Great Axe
