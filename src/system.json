@@ -2,10 +2,19 @@
   "name": "whitehack4e",
   "title": "Whitehack Fourth Edition",
   "description": "A system for playing Whitehack Fourth Edition",
-  "author": "Neil Benson (@OldScouserRPing), maintained by Daniel Kilgore",
+  "authors": [
+    {
+      "name": "Neil Benson (@OldScouserRPing)"
+    },
+    {
+      "name": "Daniel Kilgore"
+    }
+  ],
   "version": "1.5.0",
-  "minimumCoreVersion": "10.285",
-  "compatibleCoreVersion": "12.331",
+  "compatibility": {
+    "minimum": "12.324",
+    "verified": "12.331"
+  },
   "esmodules": ["wh4e.js"],
   "styles": ["css/wh4e.css"],
   "packs": [
@@ -35,8 +44,10 @@
       "path": "lang/en.json"
     }
   ],
-  "gridDistance": 5,
-  "gridUnits": "ft",
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
   "primaryTokenAttribute": "harmPoints",
   "initiative": "1d6 + @attributes.dex.mod",
   "url": "https://github.com/neilbenson/foundryvtt-whitehack-4e",
