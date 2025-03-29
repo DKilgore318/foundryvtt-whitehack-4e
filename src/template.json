@@ -84,7 +84,7 @@
       "combat": {
         "armourClass": 0,
         "attackValue": 11,
-        "hitDice": {
+        "harmDice": {
           "base": 1,
           "modifier": 0
         }

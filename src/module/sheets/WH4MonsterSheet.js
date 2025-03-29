@@ -31,7 +31,7 @@ export default class WH4MonsterSheet extends ActorSheet {
    */
   activateListeners(html) {
     if (this.isEditable) {
-      html.find(".hitDiceBase").change(this._monsterUpdateStats.bind(this));
+      html.find(".harmDiceBase").change(this._monsterUpdateStats.bind(this));
     }
 
     // Owner only listeners
