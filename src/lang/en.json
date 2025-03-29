@@ -16,7 +16,7 @@
       "item.add": "Add Item"
     },
     "actor": {
-      "harmpoints": "Harm Points",
+      "harmPoints": "Harm Points",
       "level": "Level",
       "slots": "Slots",
       "groups": "Groups",
