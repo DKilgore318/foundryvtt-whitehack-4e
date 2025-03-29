@@ -1,14 +1,3 @@
-name: Helmet
-type: Armour
-data:
-  description: If the character wears any kind of helmet, results of 16+ on the crits table may be re-rolled once
-  cost: 10
-  costCoinType: cr
-  weight: regular
-  equippedStatus: stored
-  armourClass: special
-img: systems/whitehack4e/assets/icons/armour/crested-helmet.png
----
 name: Shield
 type: Armour
 data:
@@ -22,7 +11,7 @@ img: systems/whitehack4e/assets/icons/armour/round-shield.png
 name: Cloth
 type: Armour
 data:
-  cost: 10
+  cost: 15
   costCoinType: cr
   weight: 1
   equippedStatus: stored
@@ -32,17 +21,17 @@ img: systems/whitehack4e/assets/icons/armour/shirt.png
 name: Leather
 type: Armour
 data:
-  cost: 15
+  cost: 50
   costCoinType: cr
   weight: 2
   equippedStatus: stored
   armourClass: 2
 img: systems/whitehack4e/assets/icons/armour/leather-vest.png
 ---
-name: Studded Leather
+name: Hard Leather
 type: Armour
 data:
-  cost: 20
+  cost: 80
   costCoinType: cr
   weight: 3
   equippedStatus: stored
@@ -52,7 +41,7 @@ img: systems/whitehack4e/assets/icons/armour/leather-armor.png
 name: Chainmail
 type: Armour
 data:
-  cost: 30
+  cost: 150
   costCoinType: cr
   weight: 4
   equippedStatus: stored
@@ -62,7 +51,7 @@ img: systems/whitehack4e/assets/icons/armour/mail-shirt.png
 name: Splint mail
 type: Armour
 data:
-  cost: 40
+  cost: 400
   costCoinType: cr
   weight: 5
   equippedStatus: stored
@@ -72,7 +61,7 @@ img: systems/whitehack4e/assets/icons/armour/lamellar.png
 name: Full plate
 type: Armour
 data:
-  cost: 50
+  cost: 900
   costCoinType: cr
   weight: 6
   equippedStatus: stored
