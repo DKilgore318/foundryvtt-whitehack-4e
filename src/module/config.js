@@ -64,9 +64,7 @@ export const wh4e = {
     affiliation: "wh4e.abilityType.affiliation",
   },
   coinTypes: {
-    cr: "wh4e.coinType.cr",
-    sp: "wh4e.coinType.sp",
-    cp: "wh4e.coinType.cp",
+    cr: "wh4e.coinType.cr"
   },
   armourClasses: {
     0: "0",

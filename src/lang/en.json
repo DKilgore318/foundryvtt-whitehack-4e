@@ -136,9 +136,7 @@
       "quantity": "Quantity"
     },
     "coinType": {
-      "cr": "CR",
-      "sp": "SP",
-      "cp": "CP"
+      "cr": "CR"
     },
     "damageDice": {
       "oneDmg": "1",
