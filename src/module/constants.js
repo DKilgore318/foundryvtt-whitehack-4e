@@ -42,6 +42,7 @@ export const THEDEFT = "theDeft";
 export const THESTRONG = "theStrong";
 export const THEWISE = "theWise";
 export const THEBRAVE = "theBrave";
+export const THECLEVER = "theClever";
 export const THEFORTUNATE = "theFortunate";
 export const STRING = "string";
 export const AFFILIATION = "affiliation";

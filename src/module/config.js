@@ -4,6 +4,7 @@ export const wh4e = {
     theStrong: "wh4e.class.theStrong",
     theWise: "wh4e.class.theWise",
     theBrave: "wh4e.class.theBrave",
+    theClever: "wh4e.class.theClever",
     theFortunate: "wh4e.class.theFortunate",
   },
   damageDice: {
