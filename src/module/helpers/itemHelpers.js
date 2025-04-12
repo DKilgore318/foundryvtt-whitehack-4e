@@ -10,31 +10,51 @@ export const updateActorEncumbrance = async (actor) => {
   // Calculate encumbrance
   let encEquipped = 0;
   let encStored = 0;
-  const equippedArmour = items.filter((item) => item.type === c.ARMOUR && item.system.equippedStatus === c.EQUIPPED);
+  const equippedArmour = items.filter(
+    (item) =>
+      item.type === c.ARMOUR && item.system.equippedStatus === c.EQUIPPED
+  );
   encEquipped = encEquipped + getEncumbranceForItems(equippedArmour);
   encEquipped =
     encEquipped +
     getEncumbranceForItems(
-      items.filter((item) => item.type === c.WEAPON && item.system.equippedStatus === c.EQUIPPED)
+      items.filter(
+        (item) =>
+          item.type === c.WEAPON && item.system.equippedStatus === c.EQUIPPED
+      )
     );
   encEquipped =
     encEquipped +
     getEncumbranceForItems(
-      items.filter((item) => item.type === c.GEAR && item.system.equippedStatus === c.EQUIPPED)
+      items.filter(
+        (item) =>
+          item.type === c.GEAR && item.system.equippedStatus === c.EQUIPPED
+      )
     );
   encStored =
     encStored +
     getEncumbranceForItems(
-      items.filter((item) => item.type === c.ARMOUR && item.system.equippedStatus === c.STORED)
+      items.filter(
+        (item) =>
+          item.type === c.ARMOUR && item.system.equippedStatus === c.STORED
+      )
     );
   encStored =
     encStored +
     getEncumbranceForItems(
-      items.filter((item) => item.type === c.WEAPON && item.system.equippedStatus === c.STORED)
+      items.filter(
+        (item) =>
+          item.type === c.WEAPON && item.system.equippedStatus === c.STORED
+      )
     );
   encStored =
     encStored +
-    getEncumbranceForItems(items.filter((item) => item.type === c.GEAR && item.system.equippedStatus === c.STORED));
+    getEncumbranceForItems(
+      items.filter(
+        (item) =>
+          item.type === c.GEAR && item.system.equippedStatus === c.STORED
+      )
+    );
 
   await actor.update({
     system: {
@@ -52,7 +72,10 @@ export const updateActorEncumbrance = async (actor) => {
  */
 export const updateActorArmourClass = async (actor) => {
   const items = actor.items;
-  const equippedArmour = items.filter((item) => item.type === c.ARMOUR && item.system.equippedStatus === c.EQUIPPED);
+  const equippedArmour = items.filter(
+    (item) =>
+      item.type === c.ARMOUR && item.system.equippedStatus === c.EQUIPPED
+  );
 
   // Calculate armour class
   let df = 0;
@@ -77,9 +100,16 @@ export const updateActorGroups = async (actor) => {
   const items = actor.items;
 
   // Get vocation and species
-  const speciesObj = items.filter((item) => item.type === c.ABILITY && item.system.type === c.SPECIES);
-  const vocationObj = items.filter((item) => item.type === c.ABILITY && item.system.type === c.VOCATION);
-  const species = speciesObj.length > 0 ? speciesObj[0].name : game.settings.get("whitehack4e", "defaultSpecies");
+  const speciesObj = items.filter(
+    (item) => item.type === c.ABILITY && item.system.type === c.SPECIES
+  );
+  const vocationObj = items.filter(
+    (item) => item.type === c.ABILITY && item.system.type === c.VOCATION
+  );
+  const species =
+    speciesObj.length > 0
+      ? speciesObj[0].name
+      : game.settings.get("whitehack4e", "defaultSpecies");
   const vocation = vocationObj.length > 0 ? vocationObj[0].name : c.EMPTYSTRING;
 
   await actor.update({
@@ -92,14 +122,23 @@ export const updateActorGroups = async (actor) => {
   });
 };
 
-const getArmourClassForItems = (items) => {
+const getDefenseValueForItems = (items) => {
   let maxDf = 0;
   let modifierDf = 0;
   items.forEach((item) => {
     let itemDf = item.system.armourClass;
-    console.log('Item DF', item.system.armourClass);
-    if ([c.PLUSONE, c.PLUSTWO, c.PLUSTHREE, c.MINUSONE, c.MINUSTWO, c.MINUSTHREE].includes(itemDf)) {
-      modifierDf = modifierDf + +(wh4e.armourClasses[itemDf]);
+    console.log("Item DF", item.system.armourClass);
+    if (
+      [
+        c.PLUSONE,
+        c.PLUSTWO,
+        c.PLUSTHREE,
+        c.MINUSONE,
+        c.MINUSTWO,
+        c.MINUSTHREE,
+      ].includes(itemDf)
+    ) {
+      modifierDf = modifierDf + +wh4e.armourClasses[itemDf];
     } else if (itemDf !== c.SPECIAL) {
       itemDf = +itemDf;
       maxDf = itemDf > maxDf ? itemDf : maxDf;
@@ -112,7 +151,8 @@ const getEncumbranceForItems = (items) => {
   let encCount = 0;
   items.forEach((item) => {
     if (item.type == c.WEAPON || item.type === c.GEAR) {
-      const quantity = item.system.quantity === undefined ? 1 : item.system.quantity;
+      const quantity =
+        item.system.quantity === undefined ? 1 : item.system.quantity;
       switch (item.system.weight) {
         case c.REGULAR:
           encCount = encCount + quantity;
@@ -126,6 +166,9 @@ const getEncumbranceForItems = (items) => {
         case c.SMALL:
           encCount = encCount + quantity / 5;
           break;
+        case c.TENTH:
+          encCount = encCount + quantity / 10;
+          break;
         case c.NEGLIGIBLE:
           encCount = encCount + quantity / 100;
           break;
@@ -134,7 +177,8 @@ const getEncumbranceForItems = (items) => {
       }
     } else {
       if (item.system.armourClass !== c.SPECIAL) {
-        encCount = encCount + Math.abs(+(wh4e.armourClasses[item.system.armourClass]));
+        encCount =
+          encCount + Math.abs(+wh4e.armourClasses[item.system.armourClass]);
       } else {
         encCount = encCount + 1;
       }

@@ -38,12 +38,14 @@ export const wh4e = {
     minor: "wh4e.weightTypes.minor",
     small: "wh4e.weightTypes.small",
     negligible: "wh4e.weightTypes.negligible",
+    noEncumbrance: "wh4e.weightTypes.noEncumbrance",
   },
   gearWeightTypes: {
     regular: "wh4e.weightTypes.regular",
     heavy: "wh4e.weightTypes.heavy",
     minor: "wh4e.weightTypes.minor",
     small: "wh4e.weightTypes.small",
+    tenth: "wh4e.weightTypes.tenth",
     negligible: "wh4e.weightTypes.negligible",
     noEncumbrance: "wh4e.weightTypes.noEncumbrance",
   },
@@ -56,16 +58,19 @@ export const wh4e = {
     three: "wh4e.roFShotsPerRound.three",
   },
   abilityTypes: {
+    ability: "wh4e.abilityType.ability",
+    affiliation: "wh4e.abilityType.affiliation",
     attunement: "wh4e.abilityType.attunement",
     combatOption: "wh4e.abilityType.combatOption",
+    implant: "wh4e.abilityType.implant",
+    knacks: "wh4e.abilityType.knacks",
     miracle: "wh4e.abilityType.miracle",
     quirk: "wh4e.abilityType.quirk",
     species: "wh4e.abilityType.species",
     vocation: "wh4e.abilityType.vocation",
-    affiliation: "wh4e.abilityType.affiliation",
   },
   coinTypes: {
-    cr: "wh4e.coinType.cr"
+    cr: "wh4e.coinType.cr",
   },
   armourClasses: {
     0: "0",

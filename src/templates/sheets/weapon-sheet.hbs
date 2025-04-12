@@ -17,7 +17,7 @@
       </tr>
       <tr class="flex-center">
         <td>
-          {{> selectOptions field="system.damage" selected=system.damage options=config.damageDice}}
+          <input name="system.damage" type="text" class="center-text" value={{system.damage}} data-dtype="String" placeholder="1d6" />
         </td>
         <td>
           {{> selectOptions field="system.weight" selected=system.weight options=config.weaponWeightTypes}}
@@ -32,6 +32,7 @@
         <td>
           <input name="system.cost" type="text" class="center-text input-small" value={{system.cost}}
                  data-dtype="Number" />
+          {{> selectOptions field="system.costCoinType" selected=system.costCoinType options=config.coinTypes}}
         </td>
       </tr>
     </table>
@@ -42,7 +43,8 @@
     </div>
     <div class="full-height-field">
       <label for="system.description">{{localize "wh4e.item.description"}}</label>
-      {{editor system.description target="system.description" button=true owner=owner editable=editable}}
+      {{!-- {{editor system.description target="system.description" button=true owner=owner editable=editable}} --}}
+      {{editor enrichedDescription target="system.description" button=true owner=owner editable=editable}}
     </div>
   </div>
 </form>

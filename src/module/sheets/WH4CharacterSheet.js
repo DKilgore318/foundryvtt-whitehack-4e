@@ -1,4 +1,8 @@
-import { updateActorGroups, updateActorEncumbrance, updateActorArmourClass } from "../helpers/itemHelpers.js";
+import {
+  updateActorGroups,
+  updateActorEncumbrance,
+  updateActorArmourClass,
+} from "../helpers/itemHelpers.js";
 import { rollModDialog, attackRollDialog } from "../helpers/diceHelpers.js";
 import * as c from "../constants.js";
 
@@ -9,7 +13,13 @@ export default class WH4CharacterSheet extends ActorSheet {
       classes: ["wh4e", "sheet", "character"],
       width: c.CHARACTER_SHEET_WIDTH,
       height: c.CHARACTER_SHEET_HEIGHT,
-      tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-content", initial: "attributes" }],
+      tabs: [
+        {
+          navSelector: ".sheet-tabs",
+          contentSelector: ".sheet-content",
+          initial: "attributes",
+        },
+      ],
       resizable: true,
       dragDrop: [{ dragSelector: ".item-list .item", dropSelector: null }],
     });
@@ -19,11 +29,11 @@ export default class WH4CharacterSheet extends ActorSheet {
    * Fetch Foundry data
    * @returns {Object}
    */
-  getData() {
+  async getData() {
     const data = super.getData();
     const groups = [c.AFFILIATION, c.SPECIES, c.VOCATION];
     let actorData = data.actor;
-    
+
     actorData.config = CONFIG.wh4e;
     actorData.weapons = data.items.filter((item) => item.type === c.WEAPON);
     actorData.gear = data.items.filter((item) => item.type === c.GEAR);
@@ -33,11 +43,20 @@ export default class WH4CharacterSheet extends ActorSheet {
     });
     actorData.armour = data.items.filter((item) => item.type === c.ARMOUR);
     if (!actorData.system.basics.species) {
-      actorData.system.basics.species = game.settings.get("whitehack4e", "defaultSpecies");
+      actorData.system.basics.species = game.settings.get(
+        "whitehack4e",
+        "defaultSpecies"
+      );
     }
     actorData.charClass = actorData.system.basics.class;
     actorData.hasToken = !(this.token === null);
     actorData.editable = this.options.editable;
+    actorData.enrichedNotes = await TextEditor.enrichHTML(
+      this.object.system.notes,
+      {
+        async: true,
+      }
+    );
     return actorData;
   }
 
@@ -50,16 +69,40 @@ export default class WH4CharacterSheet extends ActorSheet {
       html.find(".item-create").click(this._itemCreateHandler.bind(this));
       html.find(".item-edit").click(this._itemEditHandler.bind(this));
       html.find(".item-delete").click(this._itemDeleteHandler.bind(this));
-      html.find(".attribute-score").change(this._attributeChangeHandler.bind(this));
-      html.find(".ability-activated i").click(this._abilityChangeStatusHandler.bind(this));
-      html.find(".equippable i").click(this._gearChangeEquippedStatusHandler.bind(this));
+      html
+        .find(".attribute-score")
+        .change(this._attributeChangeHandler.bind(this));
+      html
+        .find(".ability-activated i")
+        .click(this._abilityChangeStatusHandler.bind(this));
+      html
+        .find(".equippable i")
+        .click(this._gearChangeEquippedStatusHandler.bind(this));
       html.find(".manage-groups").click(this._groupsChangeHandler.bind(this));
-      html.find(".clear-groups").click(this._groupsDeleteFromAttributeHandler.bind(this));
+      html
+        .find(".clear-groups")
+        .click(this._groupsDeleteFromAttributeHandler.bind(this));
+
+      // Sort items by name
+      html.find(".ability-name.sortable").click((ev) => {
+        this.actor.sortItems("Ability", "name");
+      });
+      html.find(".weapon-name.sortable").click((ev) => {
+        this.actor.sortItems("Weapon", "name");
+      });
+      html.find(".armour-name.sortable").click((ev) => {
+        this.actor.sortItems("Armour", "name");
+      });
+      html.find(".gear-name.sortable").click((ev) => {
+        this.actor.sortItems("Gear", "name");
+      });
     }
 
     // Owner only listeners
     if (this.actor.isOwner) {
-      html.find(".item-description").click(this._itemShowInfoHandler.bind(this));
+      html
+        .find(".item-description")
+        .click(this._itemShowInfoHandler.bind(this));
       html.find(".attack-roll").click(this._attackRollHandler.bind(this));
       html.find(".attribute label").click(this._rollHandler.bind(this));
       html.find("label.savingThrow").click(this._rollHandler.bind(this));
@@ -263,6 +306,15 @@ export default class WH4CharacterSheet extends ActorSheet {
   }
 
   /**
+   * Get item (weapon) and send to dialog for attack roll
+   * @param {Object} event
+   */
+  _damageRollHandler(event) {
+    const item = this.getItem(event);
+    attackRollDialog(item);
+  }
+
+  /**
    * Determine if saving throw or attribute roll and send to dialog for roll
    * @param {Object} event
    */
@@ -271,7 +323,9 @@ export default class WH4CharacterSheet extends ActorSheet {
     const rollTitle =
       rollAttribute === c.SAVINGTHROW
         ? game.i18n.localize("wh4e.sheet.savingThrow")
-        : rollAttribute.toUpperCase() + " " + game.i18n.localize("wh4e.sheet.taskRoll");
+        : rollAttribute.toUpperCase() +
+          " " +
+          game.i18n.localize("wh4e.sheet.taskRoll");
     rollModDialog(this.actor, rollAttribute, rollTitle);
   }
 

@@ -16,12 +16,20 @@ export default class WH4MonsterSheet extends ActorSheet {
    * Fetch Foundry data
    * @returns {Object}
    */
-  getData() {
-    const data = super.getData();
-    let monsterData = data.actor;
+  async getData() {
+    const context = super.getData();
+
+    let monsterData = context.actor;
     monsterData.config = CONFIG.wh4e;
     monsterData.hasToken = !(this.token === null);
     monsterData.editable = this.options.editable;
+    monsterData.enrichedNotes = await TextEditor.enrichHTML(
+      this.object.system.notes,
+      {
+        async: true,
+      }
+    );
+
     return monsterData;
   }
 
@@ -37,7 +45,9 @@ export default class WH4MonsterSheet extends ActorSheet {
     // Owner only listeners
     if (this.actor.isOwner) {
       html.find("label.attack-roll").click(this._attackRollHandler.bind(this));
-      html.find("label.savingThrow").click(this._savingThrowRollHandler.bind(this));
+      html
+        .find("label.savingThrow")
+        .click(this._savingThrowRollHandler.bind(this));
       html.find(".init-label").click(this._initiativeRollHander.bind(this));
     }
 
@@ -90,7 +100,11 @@ export default class WH4MonsterSheet extends ActorSheet {
    * Call saving throw dialog
    */
   _savingThrowRollHandler() {
-    rollModDialog(this.actor, c.SAVINGTHROW, game.i18n.localize("wh4e.sheet.savingThrow"));
+    rollModDialog(
+      this.actor,
+      c.SAVINGTHROW,
+      game.i18n.localize("wh4e.sheet.savingThrow")
+    );
   }
 
   /**

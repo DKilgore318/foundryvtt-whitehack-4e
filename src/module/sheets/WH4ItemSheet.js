@@ -1,4 +1,7 @@
-import { updateActorEncumbrance, updateActorGroups } from "../helpers/itemHelpers.js";
+import {
+  updateActorEncumbrance,
+  updateActorGroups,
+} from "../helpers/itemHelpers.js";
 import * as c from "../constants.js";
 
 export default class WH4ItemSheet extends ItemSheet {
@@ -19,14 +22,18 @@ export default class WH4ItemSheet extends ItemSheet {
    * Fetch Foundry data
    * @returns {Object}
    */
-  getData(options) {
-    const baseData = super.getData(options);
-    const sheetData = {
-      ...baseData.item,
-      editable: true,
-      config: CONFIG.wh4e,
-    };
-    return sheetData;
+  async getData() {
+    const baseData = super.getData();
+
+    let itemData = baseData.item;
+    itemData.config = CONFIG.wh4e;
+    itemData.editable = this.options.editable;
+    itemData.enrichedDescription = await TextEditor.enrichHTML(
+      this.object.system.description,
+      { async: true }
+    );
+
+    return itemData;
   }
 
   /**
@@ -35,9 +42,15 @@ export default class WH4ItemSheet extends ItemSheet {
    */
   activateListeners(html) {
     if (this.isEditable) {
-      html.find(".gear-quantity-input").change(this._actorGearUpdateHandler.bind(this));
-      html.find(".ability-type-select select").change(this._actorAbilityTypeUpdateHandler.bind(this));
-      html.find(".item-name").change(this._actorAbilityNameUpdateHandler.bind(this));
+      html
+        .find(".gear-quantity-input")
+        .change(this._actorGearUpdateHandler.bind(this));
+      html
+        .find(".ability-type-select select")
+        .change(this._actorAbilityTypeUpdateHandler.bind(this));
+      html
+        .find(".item-name")
+        .change(this._actorAbilityNameUpdateHandler.bind(this));
     }
 
     super.activateListeners(html);

@@ -2,82 +2,170 @@
   <header class="sheet-header">
     <img class="profile-img" src="{{img}}" data-edit="img" title="{{name}}" />
     <div class="header-info">
-      <h1 class="charname"><input name="name" type="text" value="{{name}}" placeholder="Name" /></h1>
+      <h1 class="charname">
+        <input name="name" type="text" value="{{name}}" placeholder="Name" />
+      </h1>
       <div class="grid grid-4col">
-        <div class="flex-group-center" title="{{localize "wh4e.item.armourClass"}}">
-          <label for="system.combat.armourClass">{{localize "wh4e.actor.armourClass"}}</label>
+        <div
+          class="flex-group-center"
+          title="{{localize "wh4e.item.armourClass"}}"
+        >
+          <label for="system.combat.armourClass">
+            {{localize "wh4e.actor.armourClass"}}
+          </label>
           <div class="flexrow flex-center">
-            {{> selectOptions field="system.combat.armourClass" selected=system.combat.armourClass options=config.monsterArmourClasses}}
+            <input
+              type="text"
+              name="system.combat.armourClass"
+              value="{{system.combat.armourClass}}"
+              data-dtype="Number"
+              title="{{localize "wh4e.tooltip.monsterDefense"}}"
+            />
           </div>
         </div>
         <div class="flex-group-center">
-          <label for="system.combat.harmDice.base">{{localize "wh4e.actor.harmDice"}}</label>
+          <label for="system.combat.harmDice.base">
+            {{localize "wh4e.actor.harmDice"}}
+          </label>
           <div class="flexrow flex-center">
-            <input type="text" name="system.combat.harmDice.base" value="{{system.combat.harmDice.base}}"
-                   data-dtype="Number" class="harmDiceBase" title="{{localize "wh4e.tooltip.monsterHDInfo"}}" />
-            <span> + </span>
-            <input type="text" name="system.combat.harmDice.modifier" value="{{system.combat.harmDice.modifier}}"
-                   data-dtype="String" title="{{localize "wh4e.tooltip.monsterHDAnyValue"}}" />
+            <input
+              type="text"
+              name="system.combat.harmDice.base"
+              value="{{system.combat.harmDice.base}}"
+              data-dtype="Number"
+              class="harmDiceBase"
+              title="{{localize "wh4e.tooltip.monsterHDInfo"}}"
+            />
+            &nbsp;+&nbsp;
+            <input
+              type="text"
+              name="system.combat.harmDice.modifier"
+              value="{{system.combat.harmDice.modifier}}"
+              data-dtype="String"
+              title="{{localize "wh4e.tooltip.monsterHDAnyValue"}}"
+            />
           </div>
         </div>
         <div class="flex-group-center">
-          <label for="system.harmPoints.value">{{localize "wh4e.actor.harmPoints"}}</label>
+          <label for="system.harmPoints.value">
+            {{localize "wh4e.actor.harmPoints"}}
+          </label>
           <div class="flexrow flex-center">
-            <input type="text" name="system.harmPoints.value" value="{{system.harmPoints.value}}" data-dtype="Number"
-                   title="{{localize "wh4e.tooltip.hpCurrent"}}" />
-            <span> / </span>
-            <input type="text" name="system.harmPoints.max" value="{{system.harmPoints.max}}" data-dtype="Number"
-                   title="{{localize "wh4e.tooltip.hpMax"}}" />
+            <input
+              type="text"
+              name="system.harmPoints.value"
+              value="{{system.harmPoints.value}}"
+              data-dtype="Number"
+              title="{{localize "wh4e.tooltip.hpCurrent"}}"
+            />
+            &nbsp;/&nbsp;
+            <input
+              type="text"
+              name="system.harmPoints.max"
+              value="{{system.harmPoints.max}}"
+              data-dtype="Number"
+              title="{{localize "wh4e.tooltip.hpMax"}}"
+            />
           </div>
         </div>
         <div class="flex-group-center">
-          <label for="system.movement">{{localize "wh4e.actor.movement"}}</label>
+          <label for="system.movement">
+            {{localize "wh4e.actor.movement"}}
+          </label>
           <div class="flexrow flex-center">
-            <input type="text" name="system.movement" value="{{system.movement}}"
-                   data-dtype="Number" title="{{localize "wh4e.tooltip.movement"}}" />
+            <input
+              type="text"
+              name="system.movement"
+              value="{{system.movement}}"
+              data-dtype="Number"
+              title="{{localize "wh4e.tooltip.movement"}}"
+            />
           </div>
         </div>
       </div>
       <div class="grid grid-5col">
         <div class="flex-group-center">
-          <label for="system.damage" class="rollable damage-roll">{{localize "wh4e.item.damage"}}</label>
+          <label for="system.damage" class="damage-roll">
+            {{localize "wh4e.item.damage"}}
+          </label>
           <div class="flexrow flex-center">
-            {{> selectOptions field="system.damage" selected=system.damage options=config.damageDice}}
+            <input
+              name="system.damage"
+              type="text"
+              class="center-text"
+              value={{system.damage}}
+              data-dtype="String"
+              placeholder="1d6"
+            />
           </div>
         </div>
         <div class="flex-group-center">
-          <label for="system.savingThrow" class="rollable savingThrow"><i
-               class="fas fa-dice"></i>&nbsp;{{localize "wh4e.actor.savingThrow"}}</label>
+          <label for="system.savingThrow" class="rollable savingThrow">
+            <i class="fas fa-dice"></i>
+            &nbsp;{{localize "wh4e.actor.savingThrow"}}
+          </label>
           <div class="flexrow flex-center">
-            <input type="text" name="system.savingThrow" value="{{system.savingThrow}}" class="read-only"
-                   data-dtype="Number" readonly="readonly" title="{{localize "wh4e.tooltip.monsterSavingThrow"}}" />
+            <input
+              type="text"
+              name="system.savingThrow"
+              value="{{system.savingThrow}}"
+              class="read-only"
+              data-dtype="Number"
+              readonly="readonly"
+              title="{{localize "wh4e.tooltip.monsterSavingThrow"}}"
+            />
           </div>
         </div>
         <div class="flex-group-center">
-          <label for="system.combat.attackValue" class="rollable attack-roll"><i
-               class="fas fa-dice"></i>&nbsp;{{localize "wh4e.actor.attackValue"}}</label>
+          <label for="system.combat.attackValue" class="rollable attack-roll">
+            <i class="fas fa-dice"></i>
+            &nbsp;{{localize "wh4e.actor.attackValue"}}
+          </label>
           <div class="flexrow flex-center">
-            <input type="text" name="system.combat.attackValue" value="{{system.combat.attackValue}}" class="read-only"
-                   data-dtype="Number" readonly="readonly" title="{{localize "wh4e.tooltip.monsterAttackValue"}}" />
+            <input
+              type="text"
+              name="system.combat.attackValue"
+              value="{{system.combat.attackValue}}"
+              class="read-only"
+              data-dtype="Number"
+              readonly="readonly"
+              title="{{localize "wh4e.tooltip.monsterAttackValue"}}"
+            />
           </div>
         </div>
         <div class="flex-group-center">
           {{#if hasToken}}
-            <label for="system.attributes.dex.mod" class="rollable init-label"><i
-                 class="fas fa-dice"></i>&nbsp;{{localize "wh4e.actor.initiative"}}</label>
+            <label for="system.attributes.dex.mod" class="rollable init-label">
+              <i class="fas fa-dice"></i>
+              &nbsp;{{localize "wh4e.actor.initiative"}}
+            </label>
           {{else}}
-            <label for="system.attributes.dex.mod">{{localize "wh4e.actor.initiative"}}</label>
+            <label for="system.attributes.dex.mod">
+              {{localize "wh4e.actor.initiative"}}
+            </label>
           {{/if}}
           <div class="flexrow flex-center">
-            <input type="text" name="system.attributes.dex.mod" value="{{system.attributes.dex.mod}}"
-                   data-dtype="Number" title="{{localize "wh4e.tooltip.initiative"}}" />
+            <input
+              type="text"
+              name="system.attributes.dex.mod"
+              value="{{system.attributes.dex.mod}}"
+              data-dtype="Number"
+              title="{{localize "wh4e.tooltip.initiative"}}"
+            />
           </div>
         </div>
         <div class="flex-group-center">
-          <label for="system.xp">{{localize "wh4e.actor.monster.xp"}}</label>
+          <label for="system.xp">
+            {{localize "wh4e.actor.monster.xp"}}
+          </label>
           <div class="flexrow flex-center">
-            <input type="text" name="system.xp" value="{{system.xp}}"
-                   data-dtype="Number" title="{{localize "wh4e.tooltip.monsterXP"}}" />
+            <input
+              type="text"
+              name="system.xp"
+              value="{{system.xp}}"
+              data-dtype="Number"
+              title="{{localize "wh4e.tooltip.monsterXP"}}"
+            />
           </div>
         </div>
       </div>
@@ -85,12 +173,29 @@
   </header>
   <div class="sheet-content">
     <div class="full-width-field">
-      <label for="system.special" style="font-weight: bold;">{{localize "wh4e.item.special"}}</label>
-      <input id="system.special" name="system.special" type="text" value="{{system.special}}" data-dtype="String" />
+      <label for="system.special" style="font-weight: bold;">
+        {{localize "wh4e.item.special"}}
+      </label>
+      <input
+        id="system.special"
+        class="special-input"
+        name="system.special"
+        type="text"
+        value="{{system.special}}"
+        data-dtype="String"
+      />
     </div>
     <div class="actor-notes">
-      <label for="system.notes" style="font-weight: bold;">{{localize "wh4e.item.notes"}}</label>
-      {{editor system.notes target="system.notes" button=true owner=owner editable=editable}}
+      <label for="system.notes" style="font-weight: bold;">
+        {{localize "wh4e.item.notes"}}
+      </label>
+      {{editor
+        enrichedNotes
+        target="system.notes"
+        button=true
+        owner=owner
+        editable=editable
+      }}
     </div>
   </div>
 </form>

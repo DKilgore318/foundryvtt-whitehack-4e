@@ -36,7 +36,10 @@ class WHItem extends Item {
       ...this,
       owner: this.actor.id,
     };
-    messageData.content = await renderTemplate(this.chatTemplate[this.type], cardData);
+    messageData.content = await renderTemplate(
+      this.chatTemplate[this.type],
+      cardData
+    );
     //messageData.roll = true;
     ChatMessage.create(messageData);
   }
