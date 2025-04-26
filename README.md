@@ -2,6 +2,9 @@
 
 **This repo is under active development in order to be brought up to the Fourth edition ruleset and Foundry v12.331 Compatibility. Please do not use this until released**
 
+Note that this repo effectively (though not technically) forks off of the excellent work of [Tuirgin](https://github.com/tuirgin) and [atm09st](https://github.com/atm09st). See Tuirgin's branch [here](https://github.com/atm09st/foundryvtt-whitehack-4e).
+This particular project branched of the original 3e project in order to retain the overall filestructure, but the new work from the above two efforts was copied in wholesale, and all credit for it work goes to them
+
 This system provides support for the [Whitehack RPG 4th edition](https://whitehackrpg.wordpress.com/) in [FoundryVTT](https://foundryvtt.com). It is published with the approval of Christian Mehrstam, the creator of the Whitehack RPG (Permission not yet explicitly obtained for this fork).
 
 ## Installation
@@ -40,9 +43,24 @@ Full documentation can be accessed in FoundryVTT in the **Game Settings** tab an
 
 ## License
 
-This unofficial system requires Whitehack, &copy;2013&ndash;2023 Christian Mehrstam. You can find it [here](https://whitehackrpg.wordpress.com).
+This unofficial system requires Whitehack, &copy;2013&ndash;2023 Christian Mehrstam.
 
-Whitehack is an RPG trademark through established use, owned by Christian Mehrstam. This third party product is unaffiliated. The Whitehack name is used with permission (Permission not yet explicitly obtained for this fork).
+**Whitehack** is an RPG trademark through established use, owned by Christian Mehrstam.
+
+This third party product is unaffiliated.
+
+The **Whitehack** name is used with permission.
+
+Also note that the following are copyright of Whitehack's author, all rights reserved. This material is used with permission:
+
+- Brave quirk descriptions
+- Clever knack descriptions
+- Strong combat option descriptions
+- Reference documents within the **Whitehack 4e Game Reference** journal
+- Roll tables
+
+See the **Whitehack** website for more information, including links to purchase game books: [https://whitehackrpg.wordpress.com/](<https://whitehackrpg.wordpress.com/>)
+
 
 ## Credits
 
