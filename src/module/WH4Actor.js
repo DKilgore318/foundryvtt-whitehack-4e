@@ -101,7 +101,7 @@ class WH4Actor extends Actor {
       case "name":
         return a.name.localeCompare(b.name);
       case "armorClass":
-        return b.system.armourClass - a.system.armourClass;
+        return b.system.defenseValue - a.system.defenseValue;
       case "quantity":
         return b.system.quantity - a.system.quantity;
       case "value":

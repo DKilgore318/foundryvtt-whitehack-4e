@@ -130,7 +130,7 @@
       "melee": "Melee",
       "notes": "Notes",
       "type": "Type",
-      "armourClass": "Armour Class",
+      "defenseValue": "Defense Value",
       "active": "Active",
       "equipped": "Equipped",
       "stored": "Stored",
@@ -187,7 +187,7 @@
       "one": "1",
       "three": "3"
     },
-    "armourClasses": {
+    "defenseValues": {
       "0": "0",
       "1": "1",
       "2": "2",
@@ -234,7 +234,7 @@
       "speciesInput": "Updated from first species added in abilities tab",
       "savingThrow": "Saving Throw",
       "corruptionLevel": "Corruption Level",
-      "armourClass": "Armour Class (calculated from Armour and Shield)",
+      "defenseValue": "Defense Value (calculated from Armour and Shield)",
       "attackValue": "Attack Value",
       "initiative": "Initiative",
       "movement": "Movement",

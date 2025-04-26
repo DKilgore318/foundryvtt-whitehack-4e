@@ -42,7 +42,7 @@ system:
       mod: 0
       groups: ''
   combat:
-    armourClass: 5
+    defenseValue: 5
     attackValue: 11
   savingThrow: 5
   savingThrowColor: Stubborn
@@ -84,7 +84,7 @@ prototypeToken:
   bar1:
     attribute: hitPoints
   bar2:
-    attribute: combat.armourClass
+    attribute: combat.defenseValue
   light:
     alpha: 0.5
     angle: 360
@@ -214,7 +214,7 @@ items:
     costCoinType: cr
     weight: 5
     equippedStatus: equipped
-    armourClass: '5'
+    defenseValue: '5'
   sort: 125000
 - name: Arrows
   type: Gear

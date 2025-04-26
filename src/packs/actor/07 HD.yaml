@@ -33,7 +33,7 @@ system:
 
     <p>&nbsp;</p>'
   combat:
-    armourClass: 0
+    defenseValue: 0
     attackValue: 17
     hitDice:
       base: 7
@@ -68,7 +68,7 @@ prototypeToken:
   bar1:
     attribute: hitPoints
   bar2:
-    attribute: combat.armourClass
+    attribute: combat.defenseValue
   light:
     alpha: 0.5
     angle: 360

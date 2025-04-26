@@ -42,7 +42,7 @@ system:
       mod: 0
       groups: ''
   combat:
-    armourClass: 1
+    defenseValue: 1
     attackValue: 10
   savingThrow: 6
   savingThrowColor: Fearless
@@ -84,7 +84,7 @@ prototypeToken:
   bar1:
     attribute: hitPoints
   bar2:
-    attribute: combat.armourClass
+    attribute: combat.defenseValue
   light:
     alpha: 0.5
     angle: 360
@@ -234,7 +234,7 @@ items:
     costCoinType: cr
     weight: 1
     equippedStatus: equipped
-    armourClass: '1'
+    defenseValue: '1'
   sort: 100000
 - name: Crown
   type: Gear

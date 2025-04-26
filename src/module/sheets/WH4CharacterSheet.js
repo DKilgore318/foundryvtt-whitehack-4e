@@ -1,7 +1,7 @@
 import {
   updateActorGroups,
   updateActorEncumbrance,
-  updateActorArmourClass,
+  updateActorDefenseValue,
 } from "../helpers/itemHelpers.js";
 import { rollModDialog, attackRollDialog } from "../helpers/diceHelpers.js";
 import * as c from "../constants.js";
@@ -140,7 +140,7 @@ export default class WH4CharacterSheet extends ActorSheet {
     }
 
     if (type === c.ARMOUR) {
-      itemData.data.armourClass = 0;
+      itemData.data.defenseValue = 0;
       itemData.data.equippedStatus = c.STORED;
       itemData.img = c.DEFAULTARMOURIMAGE;
     }
@@ -268,7 +268,7 @@ export default class WH4CharacterSheet extends ActorSheet {
       },
     });
     await updateActorEncumbrance(this.actor);
-    await updateActorArmourClass(this.actor);
+    await updateActorDefenseValue(this.actor);
   }
 
   /**

@@ -8,7 +8,7 @@ system:
   costCoinType: cr
   weight: 3
   equippedStatus: stored
-  armourClass: '3'
+  defenseValue: '3'
 sort: 87500
 ---
 name: Shield
@@ -21,7 +21,7 @@ system:
   costCoinType: cr
   weight: regular
   equippedStatus: stored
-  armourClass: plusOne
+  defenseValue: plusOne
 sort: 0
 ---
 name: Leather
@@ -34,7 +34,7 @@ system:
   costCoinType: cr
   weight: 2
   equippedStatus: stored
-  armourClass: '2'
+  defenseValue: '2'
 sort: 75000
 ---
 name: Cloth
@@ -47,7 +47,7 @@ system:
   costCoinType: cr
   weight: 1
   equippedStatus: stored
-  armourClass: '1'
+  defenseValue: '1'
 sort: 50000
 ---
 name: Full plate
@@ -60,7 +60,7 @@ system:
   costCoinType: cr
   weight: 6
   equippedStatus: stored
-  armourClass: '6'
+  defenseValue: '6'
 sort: 150000
 ---
 name: Chainmail
@@ -73,7 +73,7 @@ system:
   costCoinType: cr
   weight: 4
   equippedStatus: stored
-  armourClass: '4'
+  defenseValue: '4'
 sort: 100000
 ---
 name: Splint mail
@@ -86,5 +86,5 @@ system:
   costCoinType: cr
   weight: 5
   equippedStatus: stored
-  armourClass: '5'
+  defenseValue: '5'
 sort: 125000

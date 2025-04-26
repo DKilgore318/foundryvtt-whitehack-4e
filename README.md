@@ -27,7 +27,7 @@ It supports items which can be created in the items panel and dragged onto chara
 - Gear
 - Weapon
 
-Players and GMs can make attribute task checks, saves and attack rolls from actor sheets. Armour Class and Encumbrance are calculated based on Armour, Gear and Weapons (see below). Vocation and Species fields are populated from the Abilities tab and cannot be added directly.
+Players and GMs can make attribute task checks, saves and attack rolls from actor sheets. Defense Value and Encumbrance are calculated based on Armour, Gear and Weapons (see below). Vocation and Species fields are populated from the Abilities tab and cannot be added directly.
 
 There are compendiums for:
 

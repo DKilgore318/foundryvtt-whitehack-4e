@@ -60,7 +60,7 @@ actors:
         mod: 0
         groups: ''
     combat:
-      armourClass: 3
+      defenseValue: 3
       attackValue: 10
     savingThrow: 7
     savingThrowColor: Reptile Brain
@@ -102,7 +102,7 @@ actors:
     bar1:
       attribute: hitPoints
     bar2:
-      attribute: combat.armourClass
+      attribute: combat.defenseValue
     light:
       alpha: 0.5
       angle: 360
@@ -236,7 +236,7 @@ actors:
       costCoinType: cr
       weight: 3
       equippedStatus: equipped
-      armourClass: '3'
+      defenseValue: '3'
     sort: 87500
   - name: Dog
     type: Gear
@@ -374,7 +374,7 @@ actors:
         mod: 0
         groups: Antiquarian (Trade & Barter), Twisted Dwarf
     combat:
-      armourClass: 2
+      defenseValue: 2
       attackValue: 10
     savingThrow: 7
     savingThrowColor: Old
@@ -625,7 +625,7 @@ actors:
       costCoinType: cr
       weight: 2
       equippedStatus: equipped
-      armourClass: '2'
+      defenseValue: '2'
     sort: 75000
   effects: []
   sort: 0
@@ -673,7 +673,7 @@ actors:
         mod: 0
         groups: Twisted Elf
     combat:
-      armourClass: 3
+      defenseValue: 3
       attackValue: 10
     savingThrow: 6
     savingThrowColor: Nervous
@@ -715,7 +715,7 @@ actors:
     bar1:
       attribute: hitPoints
     bar2:
-      attribute: combat.armourClass
+      attribute: combat.defenseValue
     light:
       alpha: 0.5
       angle: 360
@@ -921,7 +921,7 @@ actors:
       costCoinType: cr
       weight: 3
       equippedStatus: equipped
-      armourClass: '3'
+      defenseValue: '3'
     sort: 87500
   - name: Crown
     type: Gear
@@ -996,7 +996,7 @@ actors:
         mod: 0
         groups: ''
     combat:
-      armourClass: 1
+      defenseValue: 1
       attackValue: 10
     savingThrow: 6
     savingThrowColor: Daring
@@ -1038,7 +1038,7 @@ actors:
     bar1:
       attribute: hitPoints
     bar2:
-      attribute: combat.armourClass
+      attribute: combat.defenseValue
     light:
       alpha: 0.5
       angle: 360
@@ -1224,7 +1224,7 @@ actors:
       costCoinType: cr
       weight: 1
       equippedStatus: equipped
-      armourClass: '1'
+      defenseValue: '1'
     sort: 50000
   - img: icons/equipment/head/hat-belted-grey.webp
     name: Black Hat
@@ -1335,7 +1335,7 @@ actors:
         mod: 0
         groups: Bleeder Cult
     combat:
-      armourClass: 4
+      defenseValue: 4
       attackValue: 12
     savingThrow: 5
     savingThrowColor: The Lord will protect me!
@@ -1377,7 +1377,7 @@ actors:
     bar1:
       attribute: hitPoints
     bar2:
-      attribute: combat.armourClass
+      attribute: combat.defenseValue
     light:
       alpha: 0.5
       angle: 360
@@ -1494,7 +1494,7 @@ actors:
       costCoinType: cr
       weight: 4
       equippedStatus: equipped
-      armourClass: '4'
+      defenseValue: '4'
     sort: 100000
   - img: icons/equipment/hand/gauntlet-armored-steel-grey.webp
     name: Gauntlet
@@ -1557,7 +1557,7 @@ actors:
         mod: 0
         groups: ''
     combat:
-      armourClass: 5
+      defenseValue: 5
       attackValue: 11
     savingThrow: 5
     savingThrowColor: Stubborn
@@ -1599,7 +1599,7 @@ actors:
     bar1:
       attribute: hitPoints
     bar2:
-      attribute: combat.armourClass
+      attribute: combat.defenseValue
     light:
       alpha: 0.5
       angle: 360
@@ -1729,7 +1729,7 @@ actors:
       costCoinType: cr
       weight: 5
       equippedStatus: equipped
-      armourClass: '5'
+      defenseValue: '5'
     sort: 125000
   - name: Arrows
     type: Gear
@@ -1789,7 +1789,7 @@ actors:
         mod: 0
         groups: Paladin
     combat:
-      armourClass: 7
+      defenseValue: 7
       attackValue: 12
     savingThrow: 5
     savingThrowColor: Insensitive
@@ -1831,7 +1831,7 @@ actors:
     bar1:
       attribute: hitPoints
     bar2:
-      attribute: combat.armourClass
+      attribute: combat.defenseValue
     light:
       alpha: 0.5
       angle: 360
@@ -1934,7 +1934,7 @@ actors:
       costCoinType: cr
       weight: 6
       equippedStatus: equipped
-      armourClass: '6'
+      defenseValue: '6'
     sort: 150000
   - name: Shield
     type: Armour
@@ -1946,7 +1946,7 @@ actors:
       costCoinType: cr
       weight: regular
       equippedStatus: equipped
-      armourClass: plusOne
+      defenseValue: plusOne
     sort: 0
   - name: Crown
     type: Gear
@@ -2006,7 +2006,7 @@ actors:
         mod: 0
         groups: ''
     combat:
-      armourClass: 1
+      defenseValue: 1
       attackValue: 10
     savingThrow: 6
     savingThrowColor: Fearless
@@ -2048,7 +2048,7 @@ actors:
     bar1:
       attribute: hitPoints
     bar2:
-      attribute: combat.armourClass
+      attribute: combat.defenseValue
     light:
       alpha: 0.5
       angle: 360
@@ -2198,7 +2198,7 @@ actors:
       costCoinType: cr
       weight: 1
       equippedStatus: equipped
-      armourClass: '1'
+      defenseValue: '1'
     sort: 100000
   - name: Crown
     type: Gear
@@ -2253,7 +2253,7 @@ items:
     costCoinType: cr
     weight: 5
     equippedStatus: stored
-    armourClass: '5'
+    defenseValue: '5'
   sort: 125000
 - name: Shield
   type: Armour
@@ -2265,7 +2265,7 @@ items:
     costCoinType: cr
     weight: regular
     equippedStatus: stored
-    armourClass: plusOne
+    defenseValue: plusOne
   sort: 0
 - name: Chainmail
   type: Armour
@@ -2277,7 +2277,7 @@ items:
     costCoinType: cr
     weight: 4
     equippedStatus: stored
-    armourClass: '4'
+    defenseValue: '4'
   sort: 100000
 - name: Full plate
   type: Armour
@@ -2289,7 +2289,7 @@ items:
     costCoinType: cr
     weight: 6
     equippedStatus: stored
-    armourClass: '6'
+    defenseValue: '6'
   sort: 150000
 - name: Cloth
   type: Armour
@@ -2301,7 +2301,7 @@ items:
     costCoinType: cr
     weight: 1
     equippedStatus: stored
-    armourClass: '1'
+    defenseValue: '1'
   sort: 50000
 - name: Hard leather
   type: Armour
@@ -2313,7 +2313,7 @@ items:
     costCoinType: cr
     weight: 3
     equippedStatus: stored
-    armourClass: '3'
+    defenseValue: '3'
   sort: 87500
 - name: Leather
   type: Armour
@@ -2325,7 +2325,7 @@ items:
     costCoinType: cr
     weight: 2
     equippedStatus: stored
-    armourClass: '2'
+    defenseValue: '2'
   sort: 75000
 - name: 5. Target Another/Target Me
   type: Ability

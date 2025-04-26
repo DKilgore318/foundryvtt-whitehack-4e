@@ -72,7 +72,7 @@ export const wh4e = {
   coinTypes: {
     cr: "wh4e.coinType.cr",
   },
-  armourClasses: {
+  defenseValues: {
     0: "0",
     1: "1",
     2: "2",
@@ -91,7 +91,7 @@ export const wh4e = {
     minusThree: "-3",
     special: "wh4e.item.special",
   },
-  monsterArmourClasses: {
+  monsterDefenseValues: {
     0: "0",
     1: "1",
     2: "2",

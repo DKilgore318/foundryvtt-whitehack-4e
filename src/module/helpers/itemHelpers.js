@@ -70,14 +70,14 @@ export const updateActorEncumbrance = async (actor) => {
  * Update DF when actor items change
  * @param {Object} actor
  */
-export const updateActorArmourClass = async (actor) => {
+export const updateActorDefenseValue = async (actor) => {
   const items = actor.items;
   const equippedArmour = items.filter(
     (item) =>
       item.type === c.ARMOUR && item.system.equippedStatus === c.EQUIPPED
   );
 
-  // Calculate armour class
+  // Calculate defense value
   let df = 0;
   if (equippedArmour.length > 0) {
     df = getDefenseValueForItems(equippedArmour);
@@ -126,8 +126,8 @@ const getDefenseValueForItems = (items) => {
   let maxDf = 0;
   let modifierDf = 0;
   items.forEach((item) => {
-    let itemDf = item.system.armourClass;
-    console.log("Item DF", item.system.armourClass);
+    let itemDf = item.system.defenseValue;
+    console.log("Item DF", item.system.defenseValue);
     if (
       [
         c.PLUSONE,
@@ -138,7 +138,7 @@ const getDefenseValueForItems = (items) => {
         c.MINUSTHREE,
       ].includes(itemDf)
     ) {
-      modifierDf = modifierDf + +wh4e.armourClasses[itemDf];
+      modifierDf = modifierDf + +wh4e.defenseValues[itemDf];
     } else if (itemDf !== c.SPECIAL) {
       itemDf = +itemDf;
       maxDf = itemDf > maxDf ? itemDf : maxDf;
@@ -176,9 +176,9 @@ const getEncumbranceForItems = (items) => {
           encCount = encCount++;
       }
     } else {
-      if (item.system.armourClass !== c.SPECIAL) {
+      if (item.system.defenseValue !== c.SPECIAL) {
         encCount =
-          encCount + Math.abs(+wh4e.armourClasses[item.system.armourClass]);
+          encCount + Math.abs(+wh4e.defenseValues[item.system.defenseValue]);
       } else {
         encCount = encCount + 1;
       }

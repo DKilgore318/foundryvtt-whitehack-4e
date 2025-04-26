@@ -42,7 +42,7 @@ system:
       mod: 0
       groups: Antiquarian (Trade & Barter), Twisted Dwarf
   combat:
-    armourClass: 2
+    defenseValue: 2
     attackValue: 10
   savingThrow: 7
   savingThrowColor: Old
@@ -293,7 +293,7 @@ items:
     costCoinType: cr
     weight: 2
     equippedStatus: equipped
-    armourClass: '2'
+    defenseValue: '2'
   sort: 75000
 effects: []
 sort: 0

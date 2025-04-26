@@ -42,7 +42,7 @@ system:
       mod: 0
       groups: ''
   combat:
-    armourClass: 3
+    defenseValue: 3
     attackValue: 10
   savingThrow: 7
   savingThrowColor: Reptile Brain
@@ -84,7 +84,7 @@ prototypeToken:
   bar1:
     attribute: hitPoints
   bar2:
-    attribute: combat.armourClass
+    attribute: combat.defenseValue
   light:
     alpha: 0.5
     angle: 360
@@ -218,7 +218,7 @@ items:
     costCoinType: cr
     weight: 3
     equippedStatus: equipped
-    armourClass: '3'
+    defenseValue: '3'
   sort: 87500
 - name: Dog
   type: Gear

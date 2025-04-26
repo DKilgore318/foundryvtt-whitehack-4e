@@ -42,7 +42,7 @@ system:
       mod: 0
       groups: Paladin
   combat:
-    armourClass: 7
+    defenseValue: 7
     attackValue: 12
   savingThrow: 5
   savingThrowColor: Insensitive
@@ -84,7 +84,7 @@ prototypeToken:
   bar1:
     attribute: hitPoints
   bar2:
-    attribute: combat.armourClass
+    attribute: combat.defenseValue
   light:
     alpha: 0.5
     angle: 360
@@ -187,7 +187,7 @@ items:
     costCoinType: cr
     weight: 6
     equippedStatus: equipped
-    armourClass: '6'
+    defenseValue: '6'
   sort: 150000
 - name: Shield
   type: Armour
@@ -199,7 +199,7 @@ items:
     costCoinType: cr
     weight: regular
     equippedStatus: equipped
-    armourClass: plusOne
+    defenseValue: plusOne
   sort: 0
 - name: Crown
   type: Gear

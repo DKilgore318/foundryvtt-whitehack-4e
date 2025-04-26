@@ -172,7 +172,7 @@ export const attackRoll = async (
   let targetDF = 0;
   if (game.user.targets.size === 1) {
     for (let t of game.user.targets.values()) {
-      targetDF = t.sheet.actor.system.combat.armourClass;
+      targetDF = t.sheet.actor.system.combat.defenseValue;
       targetName = t.document.name;
     }
   }
