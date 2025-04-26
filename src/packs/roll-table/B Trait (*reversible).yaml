@@ -1,0 +1,188 @@
+name: B Trait (*reversible)
+formula: 1d20
+results:
+- text: 'Trait: Hunted'
+  range:
+  - 1
+  - 1
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Cursed*'
+  range:
+  - 2
+  - 2
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Expensive*'
+  range:
+  - 3
+  - 3
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Evidence'
+  range:
+  - 4
+  - 4
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Guilty*'
+  range:
+  - 5
+  - 5
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Last*'
+  range:
+  - 6
+  - 6
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Unique*'
+  range:
+  - 7
+  - 7
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Blooded'
+  range:
+  - 8
+  - 8
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Magick'
+  range:
+  - 9
+  - 9
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Divine*'
+  range:
+  - 10
+  - 10
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Historic'
+  range:
+  - 11
+  - 11
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Brutal*'
+  range:
+  - 12
+  - 12
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Healing*'
+  range:
+  - 13
+  - 13
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Missing'
+  range:
+  - 14
+  - 14
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Hated*'
+  range:
+  - 15
+  - 15
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Smelly*'
+  range:
+  - 16
+  - 16
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Broken'
+  range:
+  - 17
+  - 17
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Odd*'
+  range:
+  - 18
+  - 18
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Raw*'
+  range:
+  - 19
+  - 19
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Trait: Fake*'
+  range:
+  - 20
+  - 20
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: false
+sort: 200000

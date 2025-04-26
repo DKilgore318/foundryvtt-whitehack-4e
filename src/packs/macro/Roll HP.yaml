@@ -1,0 +1,27 @@
+name: Roll HP
+type: script
+author: kHDgurX1WEPIJDaV
+img: icons/magic/life/cross-embers-glow-yellow-purple.webp
+scope: global
+command: "let confirmed = false;\n\nnew Dialog({\n  title: \"Roll Hit Points from\
+  \ HD\",\n  content: `\n      <form>\n        <div class=\"form-group\">\n      \
+  \    <label style=\"text-align: right; margin-right: 0.5em;\">HD:</label>\n    \
+  \      <input id=\"hd-value\" name=\"hd-value\"></input>\n        </div>\n     \
+  \   <div class=\"form-group\">\n          <label style=\"text-align: right; margin-right:\
+  \ 0.5em;\">\xB1:</label>\n          <input id=\"hd-modifier\" name=\"hd-modifier\"\
+  \ placeholder=\"0\"></input>\n        </div>\n      </form>\n     `,\n  buttons:\
+  \ {\n    one: {\n      icon: '<i class=\"fas fa-check\"></i>',\n      label: \"\
+  Roll!\",\n      callback: () => (confirmed = true),\n    },\n    two: {\n      icon:\
+  \ '<i class=\"fas fa-times\"></i>',\n      label: \"Cancel\",\n      callback: ()\
+  \ => (confirmed = false),\n    },\n  },\n  default: \"Cancel\",\n  close: (html)\
+  \ => {\n    if (confirmed) {\n      let die = \"d6\";\n      let hdLabel;\n    \
+  \  let rollFormula;\n      let hd = parseInt(html.find(\"[name=hd-value]\")[0].value);\n\
+  \      let hdModifier = parseInt(html.find(\"[name=hd-modifier]\")[0].value);\n\
+  \      if (hdModifier > 0) {\n        hdLabel = `${hd}+${hdModifier}`;\n       \
+  \ rollFormula = `${hd}${die}+${hdModifier}`;\n      } else if (hdModifier < 0) {\n\
+  \        hdLabel = `${hd}${hdModifier}`;\n        rollFormula = `{${hd}${die}${hdModifier},1}kh`;\n\
+  \      } else {\n        hdLabel = hd;\n        rollFormula = `${hd}${die}`;\n \
+  \     }\n      let label = `Roll Hit Points for HD: ${hdLabel}`;\n      var roll\
+  \ = new Roll(rollFormula).roll({ async: false });\n      roll.toMessage({ flavor:\
+  \ label });\n    }\n  },\n}).render(true);"
+sort: 600000

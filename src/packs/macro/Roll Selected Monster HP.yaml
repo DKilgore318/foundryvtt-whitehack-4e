@@ -1,0 +1,13 @@
+name: Roll Selected Monster HP
+type: script
+scope: global
+author: kHDgurX1WEPIJDaV
+img: icons/magic/life/cross-worn-green.webp
+command: "// Contributed by fred-o <https://github.com/fred-o>: https://github.com/neilbenson/foundryvtt-whitehack-3e/issues/8\n\
+  for await (const token of canvas.tokens.controlled) {\n  const a = token.actor\n\
+  \  if (a.type === 'Monster' && !a.system.hitPoints.max) {\n    const hd = a.system.combat.hitDice\n\
+  \    let r = new Roll(`${hd.base}d6 + @modifier`, hd)\n    await r.evaluate()\n\
+  \    a.update({\n      system: {\n        hitPoints: {\n          max: r.total,\n\
+  \          value: r.total\n        }\n      }\n    })\n    console.log(`Rolled HP\
+  \ ${r.total} for ${a.name}`)\n  }\n}"
+sort: 100000

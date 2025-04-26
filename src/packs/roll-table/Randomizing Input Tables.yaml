@@ -1,0 +1,88 @@
+name: Randomizing Input Tables
+img: icons/svg/d20-grey.svg
+description: "<p>See pages 107\u2013109.</p><p>Results with an asterisk are reversible.</p>"
+results:
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: A Item
+  documentId: O56vfdBFzDAJp3BP
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: B Trait (*reversible)
+  documentId: dyhqcUkXBpWmeGvR
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: C Origin (Ages, Eras, Places, Cultures)
+  documentId: aNXhKKU9CsoVfjyM
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: D Drama
+  documentId: ALXdznTSlnRFfpF3
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: E Personality (all are reversible)
+  documentId: x8VKJBuDSVG8kNcV
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: F Wilderness Locations
+  documentId: tGUe76Ho9gpDFKKm
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: G City Locations
+  documentId: IxfP2hXzqukK7iHT
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: H Events
+  documentId: 4pEDIsVlWJ1KbKtS
+  img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+sort: 400000
+formula: 1d1

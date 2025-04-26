@@ -1,0 +1,279 @@
+name: 8. Myrvyn, Deft Impostor
+type: Character
+img: icons/svg/mystery-man.svg
+system:
+  hitPoints:
+    value: 4
+    min: 0
+    max: 4
+  movement: 30
+  notes: ''
+  basics:
+    level: 1
+    class: theDeft
+    vocation: Impostor
+    species: Human
+    numberOfSlots: 1
+    numberOfGroups: 2
+  attributes:
+    str:
+      value: 11
+      mod: 0
+      dmgMod: 0
+      groups: ''
+    dex:
+      value: 12
+      mod: 0
+      groups: ''
+    con:
+      value: 18
+      mod: 2
+      groups: ''
+    int:
+      value: 12
+      mod: 0
+      groups: Cultist
+    wis:
+      value: 6
+      mod: 0
+      groups: ''
+    cha:
+      value: 11
+      mod: 0
+      groups: ''
+  combat:
+    armourClass: 1
+    attackValue: 10
+  savingThrow: 6
+  savingThrowColor: Fearless
+  languages: ''
+  xp:
+    current: 0
+    nextLevel: 1450
+  corruptionLevel:
+    value: 0
+    disorders: ''
+  encumbrance:
+    equipped: 2
+    stored: 2.12
+  coin:
+    gp: 0
+    sp: 0
+    cp: 0
+prototypeToken:
+  name: Myrvyn
+  displayName: 30
+  actorLink: true
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: icons/svg/mystery-man.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: null
+  width: 1
+  height: 1
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 20
+  bar1:
+    attribute: hitPoints
+  bar2:
+    attribute: combat.armourClass
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+items:
+- name: Impostor
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: vocation
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 1000000
+- name: 1a. Makeup Box
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: attunement
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 100000
+- name: 1b. Pistol
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: attunement
+    description: ''
+    activeStatus: active
+  effects: []
+  sort: 200000
+- name: 2a. [Attunement]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: attunement
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 300000
+- name: 2b. [Attunement]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: attunement
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 400000
+- name: 3a. [Attunement]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: attunement
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 500000
+- name: 3b. [Attunement]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: attunement
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 600000
+- name: 4a. [Attunement]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: attunement
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 700000
+- name: 4b. [Attunement]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: attunement
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 800000
+- img: systems/whitehack4e/assets/icons/svg/skills.svg
+  name: Cultist
+  type: Ability
+  system:
+    type: affiliation
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 900000
+- name: Pistol
+  type: Weapon
+  img: icons/weapons/guns/gun-pistol-flintlock.webp
+  effects: []
+  system:
+    description: Firearms do not fit in every campaign. The examples given represent
+      a pre-industrial level of technology.
+    cost: 100
+    costCoinType: cr
+    weight: regular
+    equippedStatus: equipped
+    damage: 1d6+1
+    range: 20
+    rateOfFire: oneInThree
+    special: ''
+  sort: 100000
+- name: Cloth
+  type: Armour
+  img: icons/equipment/chest/breastplate-quilted-brown.webp
+  effects: []
+  system:
+    description: ''
+    cost: 15
+    costCoinType: cr
+    weight: 1
+    equippedStatus: equipped
+    armourClass: '1'
+  sort: 100000
+- name: Crown
+  type: Gear
+  img: icons/commodities/currency/coin-inset-crown-gold.webp
+  effects: []
+  system:
+    description: ''
+    cost: 1
+    costCoinType: cr
+    weight: negligible
+    equippedStatus: stored
+    quantity: 12
+  sort: 100000
+- name: Unarmed
+  type: Weapon
+  img: icons/skills/melee/unarmed-punch-fist-white.webp
+  effects: []
+  system:
+    description: ''
+    cost: 0
+    costCoinType: cr
+    weight: noEncumbrance
+    equippedStatus: equipped
+    damage: 1d6-3
+    range: 0
+    rateOfFire: none
+    special: Knock-out, Grapple
+  sort: 200000
+- name: Wardrobe
+  type: Gear
+  img: icons/equipment/back/mantle-collared-blue.webp
+  system:
+    description: ''
+    cost: 100
+    costCoinType: cr
+    weight: heavy
+    equippedStatus: stored
+    quantity: 1
+  effects: []
+  sort: 200000
+effects: []
+sort: 0

@@ -1,604 +1,909 @@
-name: Crown Piece
+name: Bottle (wine or beer)
 type: Gear
-data:
+img: icons/consumables/drinks/alcohol-jug-spirits-brown.webp
+effects: []
+system:
+  description: ''
   cost: 1
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  quantity: 1
+sort: 700000
+---
+name: Lamp
+type: Gear
+img: icons/sundries/lights/lantern-bullseye-signal-copper.webp
+effects: []
+system:
+  description: ''
+  cost: 25
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  quantity: 1
+sort: 2300000
+---
+name: Grapnel
+type: Gear
+img: icons/sundries/survival/climbing-anchor-steel-grey.webp
+effects: []
+system:
+  description: ''
+  cost: 12
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 1
+sort: 1900000
+---
+name: Ring
+type: Gear
+img: icons/equipment/finger/ring-cabochon-gold.webp
+system:
+  description: ''
+  cost: 0
   costCoinType: cr
   weight: negligible
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/crown-coin.png
+effects: []
+sort: 500000
 ---
 name: Arrows
 type: Gear
-data:
+img: icons/weapons/ammunition/arrows-war-white.webp
+system:
+  description: ''
   cost: 5
   costCoinType: cr
-  weight: small
-  equippedStatus: stored
+  weight: tenth
+  equippedStatus: equipped
   quantity: 10
+effects: []
+sort: 100000
 ---
-name: Backpack
+name: Scroll
 type: Gear
-data:
-  cost: 5
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/backpack.png
----
-name: Bandages
-type: Gear
-data:
-  cost: 1
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 5
-img: systems/whitehack4e/assets/icons/gear/bandage-roll.png
----
-name: Blessed/Cursed water
-type: Gear
-data:
-  cost: 20
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
----
-name: Bolts
-type: Gear
-data:
-  cost: 6
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 10
----
-name: Boots
-type: Gear
-data:
-  cost: 12
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
----
-name: Bottle (wine or beer), glass
-type: Gear
-data:
-  cost: 1
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/wine-bottle.png
----
-name: Carpentry tools
-type: Gear
-data:
-  cost: 40
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
----
-name: Cart (legacy)
-type: Gear
-data:
-  cost: 50
+img: icons/sundries/scrolls/scroll-symbol-eye-brown.webp
+effects: []
+system:
+  description: ''
+  cost: 0
   costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/old-wagon.png
+sort: 800000
 ---
-name: Case (map or scroll) (legacy)
+name: Prybar
 type: Gear
-data:
-  cost: 3
-  costCoinType: cr
-  weight: minor
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/warp-pipe.png
----
-name: Checkers (game)
-type: Gear
-data:
-  cost: 3
-  costCoinType: cr
-  weight: minor
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/empty-chessboard.png
----
-name: Compass
-type: Gear
-data:
-  cost: 200
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/compass.png
----
-name: Crowbar (legacy)
-type: Gear
-data:
-  cost: 5
-  costCoinType: cr
-  weight: minor
-  equippedStatus: stored
-  quantity: 1
 img: systems/whitehack4e/assets/icons/gear/crowbar.png
----
-name: Cult Token (fine)
-type: Gear
-data:
-  cost: 25
+effects: []
+system:
+  description: ''
+  cost: 8
   costCoinType: cr
-  weight: small
+  weight: minor
   equippedStatus: stored
   quantity: 1
+sort: 3200000
 ---
-name: Cult Token (simple)
+name: Water container
 type: Gear
-data:
-  cost: 1
+img: icons/sundries/survival/waterskin-leather-brown.webp
+effects: []
+system:
+  description: ''
+  cost: 2
   costCoinType: cr
-  weight: small
+  weight: regular
   equippedStatus: stored
   quantity: 1
+sort: 3699928
 ---
-name: Dice (bone)
+name: Blessed water
 type: Gear
-data:
-  cost: 1
+img: icons/consumables/potions/potion-tube-corked-blue.webp
+system:
+  description: ''
+  cost: 20
   costCoinType: cr
   weight: negligible
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/rolling-dices.png
+effects: []
+sort: 300000
 ---
-name: Dog
+name: Quiver
 type: Gear
-data:
-  cost: 25
-  costCoinType: cr
-  weight: noEncumbrance
-  equippedStatus: stored
-  quantity: 1
----
-name: Flatboat
-type: Gear
-data:
-  cost: 65
-  costCoinType: cr
-  weight: noEncumbrance
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/wood-canoe.png
----
-name: Grappling hook (Grapnel)
-type: Gear
-data:
-  cost: 12
-  costCoinType: cr
-  weight: regular
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/grapple.png
----
-name: Hammer & Wooden stakes (legacy)
-type: Gear
-data:
-  cost: 3
-  costCoinType: cr
-  weight: regular
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/stake-hammer.png
----
-name: Hatchet
-type: Gear
-data:
+img: icons/containers/ammunition/arrows-quiver-brown-grey.webp
+system:
+  description: ''
   cost: 8
   costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/hatchet.png
+effects: []
+sort: 3300000
 ---
-name: Knapsack
+name: Warm coat
 type: Gear
-data:
-  cost: 6
+img: icons/equipment/back/cloak-heavy-collared-fur-green.webp
+system:
+  description: ''
+  cost: 50
+  costCoinType: cr
+  weight: small
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 3699903
+---
+name: Lamp oil
+type: Gear
+img: icons/consumables/potions/bottle-bulb-empty-glass.webp
+effects: []
+system:
+  description: ''
+  cost: 4
+  costCoinType: cr
+  weight: small
+  equippedStatus: stored
+  quantity: 5
+sort: 2400000
+---
+name: '[0.01] Copper pieces'
+type: Gear
+img: icons/commodities/currency/coins-assorted-mix-copper.webp
+effects: []
+system:
+  description: ''
+  cost: 0.01
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 0
+sort: 100000
+---
+name: Hatchet
+type: Gear
+img: icons/tools/hand/hatchet-steel-grey.webp
+effects: []
+system:
+  description: ''
+  cost: 8
   costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
+sort: 2000000
 ---
-name: Holy symbol, wooden (legacy)
+name: Knapsack
 type: Gear
-data:
-  cost: 2
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/crucifix.png
----
-name: Holy symbol, silver (legacy)
-type: Gear
-data:
-  cost: 25
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/holy-symbol.png
----
-name: Horse (riding)
-type: Gear
-data:
-  cost: 170
+img: icons/containers/bags/pack-simple-leather-brown.webp
+effects: []
+system:
+  description: ''
+  cost: 6
   costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/horse-riding.png
+sort: 2100000
 ---
-name: Horse (battle trained)
+name: Potion
 type: Gear
-data:
-  cost: 330
+img: icons/consumables/potions/potion-flask-corked-green.webp
+system:
+  description: ''
+  cost: 0
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 300000
+---
+name: Sack
+type: Gear
+img: icons/containers/bags/sack-cloth-brown.webp
+effects: []
+system:
+  description: ''
+  cost: 1
   costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/horse-head.png
+sort: 3562500
 ---
-name: Laboratory (portable)
+name: Book
 type: Gear
-data:
-  cost: 240
-  costCoinType: cr
-  weight: heavy
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/test-tubes.png
----
-name: Lamp
-type: Gear
-data:
-  cost: 25
+img: icons/sundries/books/book-worn-red.webp
+system:
+  description: ''
+  cost: 0
   costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/lantern.png
+effects: []
+sort: 400000
 ---
-name: Lamp Oil
+name: Rations (day)
 type: Gear
-data:
-  cost: 4
+img: icons/consumables/grains/bread-loaf-boule-rustic-brown.webp
+effects: []
+system:
+  description: ''
+  cost: 1
   costCoinType: cr
-  weight: minor
+  weight: small
+  equippedStatus: stored
+  quantity: 1
+sort: 3400000
+---
+name: Torch
+type: Gear
+img: icons/sundries/lights/torch-black.webp
+effects: []
+system:
+  description: ''
+  cost: 1
+  costCoinType: cr
+  weight: small
   equippedStatus: stored
   quantity: 5
-img: systems/whitehack4e/assets/icons/gear/round-bottom-flask.png
+sort: 3699805
 ---
-name: Lock picks
+name: Bandages
 type: Gear
-data:
-  cost: 125
+img: icons/commodities/cloth/cloth-bolt-gold.webp
+effects: []
+system:
+  description: ''
+  cost: 1
   costCoinType: cr
   weight: small
   equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/lockpicks.png
+  quantity: 5
+sort: 200000
 ---
-name: Makeup
+name: Stick (long)
 type: Gear
-data:
-  cost: 65
+img: icons/commodities/wood/wood-pole.webp
+effects: []
+system:
+  description: ''
+  cost: 1
   costCoinType: cr
-  weight: small
+  weight: regular
   equippedStatus: stored
   quantity: 1
----
-name: Map (regular area)
-type: Gear
-data:
-  cost: 95
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/treasure-map.png
----
-name: Mirror (glass)
-type: Gear
-data:
-  cost: 55
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/mirror-mirror.png
----
-name: Mule (legacy)
-type: Gear
-data:
-  cost: 5
-  costCoinType: cr
-  weight: noEncumbrance
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/donkey.png
----
-name: Parchment tube
-type: Gear
-data:
-  cost: 18
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
+sort: 3698438
 ---
 name: Perfume
 type: Gear
-data:
+img: icons/consumables/potions/flask-decorated-label-pink.webp
+system:
+  description: ''
   cost: 145
   costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
+effects: []
+sort: 3100000
 ---
-name: Prybar
+name: Silver Piece
 type: Gear
-data:
-  cost: 8
+img: systems/whitehack4e/assets/icons/gear/metal-disc.png
+effects: []
+system:
+  description: ''
+  cost: 0.1
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 1
+sort: 3600000
+---
+name: Zoruk (battle)
+type: Gear
+img: icons/creatures/reptiles/dragon-winged-blue.webp
+effects: []
+system:
+  description: <p>Fur lizard mount</p>
+  cost: 330
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+sort: 3699952
+---
+name: Wolvesbane & Garlic
+type: Gear
+img: systems/whitehack4e/assets/icons/gear/herbs-bundle.png
+effects: []
+system:
+  description: ''
+  cost: 10
   costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
+sort: 4800000
 ---
-name: Stick (long)
+name: Compass
 type: Gear
-data:
-  cost: 1
+img: icons/tools/navigation/compass-brass-blue-red.webp
+effects: []
+system:
+  description: ''
+  cost: 200
   costCoinType: cr
-  weight: heavy
+  weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/half-log.png
+sort: 1300000
 ---
-name: Raft (legacy)
+name: Clothes (standard)
 type: Gear
-data:
+img: icons/equipment/back/cloak-plain-blue.webp
+system:
+  description: ''
   cost: 10
   costCoinType: cr
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/raft.png
+effects: []
+sort: 1100000
 ---
-name: Quiver
+name: Flatboat
 type: Gear
-data:
-  cost: 8
+img: systems/whitehack4e/assets/icons/gear/wood-canoe.png
+effects: []
+system:
+  description: ''
+  cost: 65
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+sort: 1800000
+---
+name: Copper Piece
+type: Gear
+img: systems/whitehack4e/assets/icons/gear/token.png
+effects: []
+system:
+  description: ''
+  cost: 0.01
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 1
+sort: 1100000
+---
+name: Mirror (glass)
+type: Gear
+img: icons/sundries/survival/mirror-plain.webp
+effects: []
+system:
+  description: ''
+  cost: 55
   costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
+sort: 2900000
 ---
-name: Rations (day)
+name: Cult token (fine)
 type: Gear
-data:
-  cost: 1
+img: icons/commodities/treasure/talisman-embossed-rune-red.webp
+system:
+  description: ''
+  cost: 25
   costCoinType: cr
-  weight: small
+  weight: negligible
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/cornucopia.png
+effects: []
+sort: 1500000
+---
+name: Gem
+type: Gear
+img: icons/commodities/gems/gem-faceted-cushion-teal.webp
+system:
+  description: ''
+  cost: 0
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 700000
+---
+name: Scroll (blank)
+type: Gear
+img: icons/sundries/scrolls/scroll-plain-tan.webp
+effects: []
+system:
+  description: ''
+  cost: 10
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+sort: 3575000
+---
+name: '[5.00] Platinum pieces'
+type: Gear
+img: icons/commodities/currency/coins-assorted-mix-platinum.webp
+effects: []
+system:
+  description: ''
+  cost: 5
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 0
+sort: 500000
+---
+name: Makeup
+type: Gear
+img: icons/commodities/materials/bowl-powder-blue.webp
+system:
+  description: ''
+  cost: 65
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 2600000
+---
+name: Map
+type: Gear
+img: icons/tools/navigation/map-marked-black.webp
+effects: []
+system:
+  description: ''
+  cost: null
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+sort: 200000
+---
+name: '[0.50] Electrum pieces'
+type: Gear
+img: icons/commodities/currency/coins-assorted-mix-copper.webp
+effects: []
+system:
+  description: ''
+  cost: 0.5
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 0
+sort: 300000
+---
+name: Jewelry
+type: Gear
+img: icons/equipment/neck/amulet-round-copper-green.webp
+system:
+  description: ''
+  cost: 0
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 0
+---
+name: Injury
+type: Gear
+img: icons/magic/life/heart-broken-red.webp
+system:
+  description: ''
+  cost: 0
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 5
+effects: []
+sort: 100000
+---
+name: Zoruk (riding)
+type: Gear
+img: icons/creatures/reptiles/lizard-iguana-green.webp
+effects: []
+system:
+  description: <p>Fur lizard mount</p>
+  cost: 170
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+sort: 3699976
+---
+name: Skiing gear
+type: Gear
+img: systems/whitehack4e/assets/icons/gear/skis.png
+effects: []
+system:
+  description: ''
+  cost: 40
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 1
+sort: 3650000
+---
+name: Bolts
+type: Gear
+img: icons/weapons/crossbows/crossbow-loaded-black.webp
+system:
+  description: ''
+  cost: 5
+  costCoinType: cr
+  weight: tenth
+  equippedStatus: equipped
+  quantity: 10
+effects: []
+sort: 500000
 ---
 name: Rope, elven (40 ft)
 type: Gear
-data:
+img: icons/sundries/survival/rope-wrapped-red.webp
+effects: []
+system:
+  description: ''
   cost: 400
   costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/lasso.png
+sort: 3500000
 ---
-name: Rope, regular (40 ft)
+name: Boots
 type: Gear
-data:
-  cost: 1
-  costCoinType: cr
-  weight: regular
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/rope-coil.png
----
-name: Sack
-type: Gear
-data:
-  cost: 1
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/swap-bag.png
----
-name: Saddle bags (legacy)
-type: Gear
-data:
-  cost: 10
-  costCoinType: cr
-  weight: minor
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/knapsack.png
----
-name: Saddle (legacy)
-type: Gear
-data:
-  cost: 25
-  costCoinType: cr
+img: icons/equipment/feet/boots-leather-brown.webp
+system:
+  description: ''
+  cost: 0
+  costCoinType: gp
   weight: noEncumbrance
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/saddle.png
----
-name: Scroll (blank)
-type: Gear
-data:
-  cost: 10
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/scroll-unfurled.png
----
-name: broad-blade
-type: Gear
-data:
-  cost: 25
-  costCoinType: cr
-  weight: regular
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/spade.png
----
-name: Skiing gear
-type: Gear
-data:
-  cost: 40
-  costCoinType: cr
-  weight: heavy
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/skis.png
----
-name: Sled
-type: Gear
-data:
-  cost: 60
-  costCoinType: cr
-  weight: noEncumbrance
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/sled.png
----
-name: Sleeping bag
-type: Gear
-data:
-  cost: 5
-  costCoinType: cr
-  weight: regular
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/sleeping-bag.png
----
-name: Snare
-type: Gear
-data:
-  cost: 3
-  costCoinType: cr
-  weight: regular
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/barbed-wire.png
----
-name: Snow Monkey
-type: Gear
-data:
-  cost: 55
-  costCoinType: cr
-  weight: regular
-  equippedStatus: stored
-  quantity: 1
+effects: []
+sort: 600000
 ---
 name: Spell book (blank)
 type: Gear
-data:
+img: icons/sundries/books/book-tooled-gold-brown.webp
+effects: []
+system:
+  description: ''
   cost: 130
   costCoinType: cr
   weight: minor
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/spell-book.png
+sort: 3696875
 ---
-name: Spike, iron (legacy)
+name: '[0.10] Silver pieces'
 type: Gear
-data:
+img: icons/commodities/currency/coins-assorted-mix-silver.webp
+effects: []
+system:
+  description: ''
+  cost: 0.1
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 0
+sort: 200000
+---
+name: Lab (portable)
+type: Gear
+img: icons/tools/laboratory/vials-blue-pink.webp
+effects: []
+system:
+  description: ''
+  cost: 240
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 1
+sort: 2200000
+---
+name: Clothes (fine)
+type: Gear
+img: icons/equipment/back/mantle-collared-blue.webp
+system:
+  description: ''
+  cost: 100
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 1200000
+---
+name: '[1.00] Gold pieces'
+type: Gear
+img: icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp
+effects: []
+system:
+  description: ''
   cost: 1
   costCoinType: cr
-  weight: small
+  weight: negligible
   equippedStatus: stored
-  quantity: 12
-img: systems/whitehack4e/assets/icons/gear/coiled-nail.png
+  quantity: 0
+sort: 400000
+---
+name: Carpentry tools
+type: Gear
+img: icons/skills/trades/construction-carpentry-hammer.webp
+system:
+  description: ''
+  cost: 40
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 800000
+---
+name: Climbing gear
+type: Gear
+img: icons/sundries/survival/leather-strap-brown.webp
+system:
+  description: ''
+  cost: 30
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 1000000
+---
+name: Snare
+type: Gear
+img: icons/environment/traps/trap-jaw-green.webp
+effects: []
+system:
+  description: ''
+  cost: 3
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 1
+sort: 3693750
+---
+name: Matches
+type: Gear
+img: icons/magic/light/torch-fire-orange.webp
+system:
+  description: ''
+  cost: 1
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 2800000
+---
+name: Cult token (simple)
+type: Gear
+img: icons/commodities/treasure/token-runed-sigel-brown.webp
+system:
+  description: ''
+  cost: 1
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 1400000
 ---
 name: Tent
 type: Gear
-data:
+img: icons/environment/settlement/tent.webp
+effects: []
+system:
+  description: ''
   cost: 45
   costCoinType: cr
   weight: heavy
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/camping-tent.png
+sort: 3699219
+---
+name: Cursed water
+type: Gear
+img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+system:
+  description: ''
+  cost: 20
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 400000
+---
+name: Dog
+type: Gear
+img: icons/commodities/treasure/figurine-dog.webp
+system:
+  description: ''
+  cost: 25
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 1700000
+---
+name: Checkers (game)
+type: Gear
+img: systems/whitehack4e/assets/icons/gear/empty-chessboard.png
+effects: []
+system:
+  description: ''
+  cost: 3
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  quantity: 1
+sort: 900000
+---
+name: Dice (bone)
+type: Gear
+img: icons/sundries/gaming/dice-runed-brown.webp
+effects: []
+system:
+  description: ''
+  cost: 1
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 1
+sort: 1600000
+---
+name: Sled
+type: Gear
+img: systems/whitehack4e/assets/icons/gear/sled.png
+effects: []
+system:
+  description: ''
+  cost: 60
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+sort: 3675000
+---
+name: Vial / Poison
+type: Gear
+img: icons/consumables/potions/bottle-conical-corked-green.webp
+system:
+  description: ''
+  cost: 0
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 100000
+---
+name: Wand
+type: Gear
+img: icons/weapons/wands/wand-gem-blue.webp
+system:
+  description: ''
+  cost: 0
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 1
+effects: []
+sort: 600000
+---
+name: Rope, hemp (40 ft)
+type: Gear
+img: icons/sundries/survival/rope-wrapped-brown.webp
+effects: []
+system:
+  description: ''
+  cost: 10
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  quantity: 1
+sort: 3550000
+---
+name: Parchment tube
+type: Gear
+img: icons/containers/bags/case-scroll-leather-tan.webp
+effects: []
+system:
+  description: ''
+  cost: 18
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  quantity: 1
+sort: 3000000
+---
+name: Crown
+type: Gear
+img: icons/commodities/currency/coin-inset-crown-gold.webp
+effects: []
+system:
+  description: ''
+  cost: 1
+  costCoinType: cr
+  weight: negligible
+  equippedStatus: stored
+  quantity: 0
+sort: 100000
+---
+name: Map (regular area)
+type: Gear
+img: icons/tools/navigation/map-chart-tan.webp
+effects: []
+system:
+  description: ''
+  cost: 95
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  quantity: 1
+sort: 2700000
+---
+name: Lock picks
+type: Gear
+img: icons/tools/hand/lockpicks-steel-grey.webp
+effects: []
+system:
+  description: ''
+  cost: 125
+  costCoinType: cr
+  weight: small
+  equippedStatus: stored
+  quantity: 1
+sort: 2500000
 ---
 name: Tinderbox
 type: Gear
-data:
+img: icons/tools/laboratory/burner-steel-grey.webp
+effects: []
+system:
+  description: ''
   cost: 8
   costCoinType: cr
   weight: small
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/flame.png
+sort: 3699610
 ---
-name: Torch
+name: Sleeping bag
 type: Gear
-data:
-  cost: 1
-  costCoinType: cr
-  weight: minor
-  equippedStatus: stored
-  quantity: 5
-img: systems/whitehack4e/assets/icons/gear/torch.png
----
-name: Water container
-type: Gear
-data:
-  cost: 2
+img: systems/whitehack4e/assets/icons/gear/sleeping-bag.png
+effects: []
+system:
+  description: ''
+  cost: 5
   costCoinType: cr
   weight: regular
   equippedStatus: stored
   quantity: 1
-img: systems/whitehack4e/assets/icons/gear/magic-potion.png
----
-name: Wolvesbane & Garlic (legacy)
-type: Gear
-data:
-  cost: 10
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  quantity: 1
-img: systems/whitehack4e/assets/icons/gear/herbs-bundle.png
----
-name: Warm coat
-type: Gear
-data:
-  cost: 50
-  costCoinType: cr
-  weight: regular
-  equippedStatus: stored
-  quantity: 1
-
+sort: 3687500

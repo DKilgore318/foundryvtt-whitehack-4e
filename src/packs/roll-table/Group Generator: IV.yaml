@@ -1,0 +1,188 @@
+name: 'Group Generator: IV'
+formula: 1d20
+results:
+- text: Guild
+  range:
+  - 1
+  - 1
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Company
+  range:
+  - 2
+  - 2
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Cult
+  range:
+  - 3
+  - 3
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Gang
+  range:
+  - 4
+  - 4
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Church
+  range:
+  - 5
+  - 5
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Minority
+  range:
+  - 6
+  - 6
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Order
+  range:
+  - 7
+  - 7
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: School
+  range:
+  - 8
+  - 8
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Society
+  range:
+  - 9
+  - 9
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Clientele
+  range:
+  - 10
+  - 10
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Prisoner
+  range:
+  - 11
+  - 11
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Club
+  range:
+  - 12
+  - 12
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Outcasts
+  range:
+  - 13
+  - 13
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Bank
+  range:
+  - 14
+  - 14
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Fans
+  range:
+  - 15
+  - 15
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Secret Oath
+  range:
+  - 16
+  - 16
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Collegium
+  range:
+  - 17
+  - 17
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Hunted
+  range:
+  - 18
+  - 18
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Crew
+  range:
+  - 19
+  - 19
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Noble House
+  range:
+  - 20
+  - 20
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: false
+sort: 225000

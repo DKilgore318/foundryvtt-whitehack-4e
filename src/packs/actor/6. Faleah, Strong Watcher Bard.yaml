@@ -1,0 +1,232 @@
+name: 6. Faleah, Strong Watcher Bard
+type: Character
+img: icons/svg/mystery-man.svg
+system:
+  hitPoints:
+    value: 7
+    min: 0
+    max: 7
+  movement: 30
+  notes: ''
+  basics:
+    level: 1
+    class: theStrong
+    vocation: Bard
+    species: Human
+    numberOfSlots: 1
+    numberOfGroups: 2
+  attributes:
+    str:
+      value: 10
+      mod: 0
+      dmgMod: 0
+      groups: ''
+    dex:
+      value: 9
+      mod: 0
+      groups: ''
+    con:
+      value: 8
+      mod: 0
+      groups: ''
+    int:
+      value: 17
+      mod: 2
+      groups: Watcher
+    wis:
+      value: 11
+      mod: 0
+      groups: Bard
+    cha:
+      value: 11
+      mod: 0
+      groups: ''
+  combat:
+    armourClass: 5
+    attackValue: 11
+  savingThrow: 5
+  savingThrowColor: Stubborn
+  languages: Common, Draconic, Elvish
+  xp:
+    current: 0
+    nextLevel: 1900
+  corruptionLevel:
+    value: 0
+    disorders: ''
+  encumbrance:
+    equipped: 9
+    stored: 0.11
+  coin:
+    gp: 0
+    sp: 0
+    cp: 0
+prototypeToken:
+  name: Faleah
+  displayName: 30
+  actorLink: true
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: icons/svg/mystery-man.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: null
+  width: 1
+  height: 1
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 20
+  bar1:
+    attribute: hitPoints
+  bar2:
+    attribute: combat.armourClass
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+items:
+- name: Unarmed
+  type: Weapon
+  img: icons/skills/melee/unarmed-punch-fist-white.webp
+  effects: []
+  system:
+    description: ''
+    cost: 0
+    costCoinType: cr
+    weight: noEncumbrance
+    equippedStatus: equipped
+    damage: 1d6-3
+    range: 0
+    rateOfFire: none
+    special: Knock-out, Grapple
+  sort: 100000
+- name: Crown
+  type: Gear
+  img: icons/commodities/currency/coin-inset-crown-gold.webp
+  effects: []
+  system:
+    description: ''
+    cost: 1
+    costCoinType: cr
+    weight: negligible
+    equippedStatus: stored
+    quantity: 11
+  sort: 200000
+- name: Bard
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: vocation
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 200000
+- img: systems/whitehack4e/assets/icons/svg/skills.svg
+  name: Watcher
+  type: Ability
+  system:
+    type: affiliation
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 300000
+- name: 6. Encourage (+1 AV/SV)
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: combatOption
+    description: <p>With a small verbal action, the Strong may encourage their friends
+      in a 15 feet radius, giving them +1 av and +1 sv. This ability can be inverted
+      to put fear in enemies (15 ft radius, -1 av and sv).</p>
+    activeStatus: inactive
+  effects: []
+  sort: 100000
+- name: Great Sword
+  type: Weapon
+  img: icons/weapons/swords/greatsword-crossguard-silver.webp
+  effects: []
+  system:
+    description: ''
+    cost: 40
+    costCoinType: cr
+    weight: heavy
+    equippedStatus: equipped
+    damage: 1d6+2
+    range: 0
+    rateOfFire: none
+    special: Two handed
+  sort: -178125
+- name: Longbow
+  type: Weapon
+  img: icons/weapons/bows/longbow-leather-green.webp
+  effects: []
+  system:
+    description: ''
+    cost: 25
+    costCoinType: cr
+    weight: regular
+    equippedStatus: equipped
+    damage: 1d6
+    range: 70
+    rateOfFire: one
+    special: Two handed
+  sort: -6250
+- name: Splint mail
+  type: Armour
+  img: icons/equipment/chest/breastplate-banded-steel-gold.webp
+  effects: []
+  system:
+    description: ''
+    cost: 400
+    costCoinType: cr
+    weight: 5
+    equippedStatus: equipped
+    armourClass: '5'
+  sort: 125000
+- name: Arrows
+  type: Gear
+  img: icons/weapons/ammunition/arrows-war-white.webp
+  system:
+    description: ''
+    cost: 5
+    costCoinType: cr
+    weight: tenth
+    equippedStatus: equipped
+    quantity: 10
+  effects: []
+  sort: 100000
+effects: []
+sort: 0

@@ -1,0 +1,188 @@
+name: C Origin (Ages, Eras, Places, Cultures)
+formula: 1d20
+results:
+- text: "Origin: \xC6onic"
+  range:
+  - 1
+  - 1
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Imperial'
+  range:
+  - 2
+  - 2
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Witch King'
+  range:
+  - 3
+  - 3
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: The Black'
+  range:
+  - 4
+  - 4
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Meteorite'
+  range:
+  - 5
+  - 5
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Glacier'
+  range:
+  - 6
+  - 6
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: New'
+  range:
+  - 7
+  - 7
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Orcish'
+  range:
+  - 8
+  - 8
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Ancient'
+  range:
+  - 9
+  - 9
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Elven'
+  range:
+  - 10
+  - 10
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Dwarven'
+  range:
+  - 11
+  - 11
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Goblin'
+  range:
+  - 12
+  - 12
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Dagonite'
+  range:
+  - 13
+  - 13
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Unknown'
+  range:
+  - 14
+  - 14
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Sea'
+  range:
+  - 15
+  - 15
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Cataclysm'
+  range:
+  - 16
+  - 16
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: City'
+  range:
+  - 17
+  - 17
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Country'
+  range:
+  - 18
+  - 18
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: War'
+  range:
+  - 19
+  - 19
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Origin: Future'
+  range:
+  - 20
+  - 20
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: false
+sort: 150000

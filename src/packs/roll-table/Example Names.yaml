@@ -1,0 +1,1358 @@
+name: Example Names
+formula: 1d150
+results:
+- text: Gobbo Dar
+  range:
+  - 1
+  - 1
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Silva
+  range:
+  - 2
+  - 2
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Ulsak
+  range:
+  - 3
+  - 3
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Elbet
+  range:
+  - 4
+  - 4
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Thunder Foot
+  range:
+  - 5
+  - 5
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Regin
+  range:
+  - 6
+  - 6
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Snuffit
+  range:
+  - 7
+  - 7
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Oddo
+  range:
+  - 8
+  - 8
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Ugga
+  range:
+  - 9
+  - 9
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Uno Saar
+  range:
+  - 10
+  - 10
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Haxander
+  range:
+  - 11
+  - 11
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Stravka
+  range:
+  - 12
+  - 12
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Saffron
+  range:
+  - 13
+  - 13
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Horst
+  range:
+  - 14
+  - 14
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Edelhart
+  range:
+  - 15
+  - 15
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Galvina
+  range:
+  - 16
+  - 16
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Beryl Chard
+  range:
+  - 17
+  - 17
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Rapokes
+  range:
+  - 18
+  - 18
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Thorne
+  range:
+  - 19
+  - 19
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Elwydd
+  range:
+  - 20
+  - 20
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Clivia
+  range:
+  - 21
+  - 21
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Laveri
+  range:
+  - 22
+  - 22
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Raffle
+  range:
+  - 23
+  - 23
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Adelina
+  range:
+  - 24
+  - 24
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Hrain of the Ice
+  range:
+  - 25
+  - 25
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Apok
+  range:
+  - 26
+  - 26
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Gonk
+  range:
+  - 27
+  - 27
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Leander
+  range:
+  - 28
+  - 28
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Lebert Creth
+  range:
+  - 29
+  - 29
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Mercutio
+  range:
+  - 30
+  - 30
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Rathid
+  range:
+  - 31
+  - 31
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Adursi
+  range:
+  - 32
+  - 32
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Furio
+  range:
+  - 33
+  - 33
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Reek- win
+  range:
+  - 34
+  - 34
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Charah
+  range:
+  - 35
+  - 35
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Cletus
+  range:
+  - 36
+  - 36
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Elbaran
+  range:
+  - 37
+  - 37
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Alehir
+  range:
+  - 38
+  - 38
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Beppo
+  range:
+  - 39
+  - 39
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Luena
+  range:
+  - 40
+  - 40
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Morne
+  range:
+  - 41
+  - 41
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Restar
+  range:
+  - 42
+  - 42
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Blind Renly
+  range:
+  - 43
+  - 43
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Alibede
+  range:
+  - 44
+  - 44
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Arznak
+  range:
+  - 45
+  - 45
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Lugan
+  range:
+  - 46
+  - 46
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Aima
+  range:
+  - 47
+  - 47
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Cogius
+  range:
+  - 48
+  - 48
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Tunka Jinn
+  range:
+  - 49
+  - 49
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Ruberg
+  range:
+  - 50
+  - 50
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Nan the Black
+  range:
+  - 51
+  - 51
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Aleigh
+  range:
+  - 52
+  - 52
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Eyemash
+  range:
+  - 53
+  - 53
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Madon
+  range:
+  - 54
+  - 54
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Graline
+  range:
+  - 55
+  - 55
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Satis
+  range:
+  - 56
+  - 56
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Mahuda
+  range:
+  - 57
+  - 57
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Skira-Na-Nog
+  range:
+  - 58
+  - 58
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Grimare
+  range:
+  - 59
+  - 59
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Makim
+  range:
+  - 60
+  - 60
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Malavac
+  range:
+  - 61
+  - 61
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Segon
+  range:
+  - 62
+  - 62
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Amoryn
+  range:
+  - 63
+  - 63
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Ana
+  range:
+  - 64
+  - 64
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Corsan
+  range:
+  - 65
+  - 65
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Malla
+  range:
+  - 66
+  - 66
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Shadh
+  range:
+  - 67
+  - 67
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Curmia
+  range:
+  - 68
+  - 68
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Shamona
+  range:
+  - 69
+  - 69
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Shrike
+  range:
+  - 70
+  - 70
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Walks-With-Mountains
+  range:
+  - 71
+  - 71
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Arannas
+  range:
+  - 72
+  - 72
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Spero
+  range:
+  - 73
+  - 73
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Dearni
+  range:
+  - 74
+  - 74
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Harah
+  range:
+  - 75
+  - 75
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Argone
+  range:
+  - 76
+  - 76
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Medori
+  range:
+  - 77
+  - 77
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Hirra
+  range:
+  - 78
+  - 78
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Spire
+  range:
+  - 79
+  - 79
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Hobail
+  range:
+  - 80
+  - 80
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Strahe
+  range:
+  - 81
+  - 81
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Holdus
+  range:
+  - 82
+  - 82
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Horge of Ode
+  range:
+  - 83
+  - 83
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Milyn Bel Fara
+  range:
+  - 84
+  - 84
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Ealla
+  range:
+  - 85
+  - 85
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Mogus
+  range:
+  - 86
+  - 86
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Huran
+  range:
+  - 87
+  - 87
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Moire
+  range:
+  - 88
+  - 88
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Teonor
+  range:
+  - 89
+  - 89
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Bavelyn
+  range:
+  - 90
+  - 90
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Edrax
+  range:
+  - 91
+  - 91
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Edred of the Woods
+  range:
+  - 92
+  - 92
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Morcan
+  range:
+  - 93
+  - 93
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Imnel
+  range:
+  - 94
+  - 94
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Moredi
+  range:
+  - 95
+  - 95
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Thiana
+  range:
+  - 96
+  - 96
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Belus
+  range:
+  - 97
+  - 97
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Zork
+  range:
+  - 98
+  - 98
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Tiarlyn
+  range:
+  - 99
+  - 99
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Mohab
+  range:
+  - 100
+  - 100
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Solar Quex
+  range:
+  - 101
+  - 101
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Myrvyn
+  range:
+  - 102
+  - 102
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Torix
+  range:
+  - 103
+  - 103
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Nardil
+  range:
+  - 104
+  - 104
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Bladeg
+  range:
+  - 105
+  - 105
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Blain
+  range:
+  - 106
+  - 106
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Nimroin
+  range:
+  - 107
+  - 107
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Junit
+  range:
+  - 108
+  - 108
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Niniks
+  range:
+  - 109
+  - 109
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Kalynna
+  range:
+  - 110
+  - 110
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Odham
+  range:
+  - 111
+  - 111
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Unfela
+  range:
+  - 112
+  - 112
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Kathall
+  range:
+  - 113
+  - 113
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Ogius
+  range:
+  - 114
+  - 114
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Faleah
+  range:
+  - 115
+  - 115
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Fitz
+  range:
+  - 116
+  - 116
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Donne
+  range:
+  - 117
+  - 117
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Caliban
+  range:
+  - 118
+  - 118
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Finrim
+  range:
+  - 119
+  - 119
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Obura
+  range:
+  - 120
+  - 120
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Yrin
+  range:
+  - 121
+  - 121
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Jar
+  range:
+  - 122
+  - 122
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Drak
+  range:
+  - 123
+  - 123
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Ben-Sarah
+  range:
+  - 124
+  - 124
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: No Nose Jennie
+  range:
+  - 125
+  - 125
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Magg
+  range:
+  - 126
+  - 126
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Taria
+  range:
+  - 127
+  - 127
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Ishtur
+  range:
+  - 128
+  - 128
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Mardahal
+  range:
+  - 129
+  - 129
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Droog of Three Willows
+  range:
+  - 130
+  - 130
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Solu
+  range:
+  - 131
+  - 131
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Xotav
+  range:
+  - 132
+  - 132
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Flavio
+  range:
+  - 133
+  - 133
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Agrippa
+  range:
+  - 134
+  - 134
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Rufus
+  range:
+  - 135
+  - 135
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Shalla
+  range:
+  - 136
+  - 136
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Kord
+  range:
+  - 137
+  - 137
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Iribeth
+  range:
+  - 138
+  - 138
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Walla
+  range:
+  - 139
+  - 139
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Geriat
+  range:
+  - 140
+  - 140
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Wholetown
+  range:
+  - 141
+  - 141
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Merrypuck
+  range:
+  - 142
+  - 142
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Diggle Swanson
+  range:
+  - 143
+  - 143
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Tusk
+  range:
+  - 144
+  - 144
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Seasong
+  range:
+  - 145
+  - 145
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Dik-Dri-Barra
+  range:
+  - 146
+  - 146
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Oslava
+  range:
+  - 147
+  - 147
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Telmakon
+  range:
+  - 148
+  - 148
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Avalanche
+  range:
+  - 149
+  - 149
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Serpathia
+  range:
+  - 150
+  - 150
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: false
+displayRoll: false
+sort: 800000

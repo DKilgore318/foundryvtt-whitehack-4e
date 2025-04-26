@@ -1,0 +1,453 @@
+name: Throwing Axe
+type: Weapon
+img: icons/weapons/axes/shortaxe-worn-black.webp
+effects: []
+system:
+  description: ''
+  cost: 4
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  damage: 1d6-2
+  range: 25
+  rateOfFire: one
+  special: -1 AV in melee
+sort: 2000000
+---
+name: Club
+type: Weapon
+img: icons/weapons/clubs/club-simple-black.webp
+effects: []
+system:
+  description: ''
+  cost: 0
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  damage: 1d6-2
+  range: 0
+  rateOfFire: none
+  special: Knock-out, Improvised
+sort: -225000
+---
+name: Great Axe
+type: Weapon
+img: icons/weapons/axes/axe-double-engraved-black.webp
+effects: []
+system:
+  description: ''
+  cost: 40
+  costCoinType: cr
+  weight: heavy
+  equippedStatus: stored
+  damage: 1d6+2
+  range: 0
+  rateOfFire: none
+  special: Two handed
+sort: -176562
+---
+name: Musket
+type: Weapon
+img: icons/weapons/guns/gun-blunderbuss-bronze.webp
+effects: []
+system:
+  description: Firearms do not fit in every campaign. The examples given represent
+    a pre-industrial level of technology.
+  cost: 150
+  costCoinType: cr
+  weight: heavy
+  equippedStatus: stored
+  damage: 1d6+2
+  range: 30
+  rateOfFire: oneInFour
+  special: Two handed
+sort: 650000
+---
+name: Throwing Knife
+type: Weapon
+img: icons/weapons/thrown/dagger-simple.webp
+effects: []
+system:
+  description: ''
+  cost: 4
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  damage: 1d6-2
+  range: 25
+  rateOfFire: one
+  special: -1 AV in melee
+sort: 1900000
+---
+name: Sword
+type: Weapon
+img: icons/weapons/swords/sword-guard-blue.webp
+effects: []
+system:
+  description: ''
+  cost: 20
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6+1
+  range: 0
+  rateOfFire: none
+  special: ''
+sort: -250000
+---
+name: Shortbow
+type: Weapon
+img: icons/weapons/bows/shortbow-leather.webp
+effects: []
+system:
+  description: ''
+  cost: 20
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6-1
+  range: 50
+  rateOfFire: one
+  special: Two handed, Use mounted
+sort: 698438
+---
+name: Sling
+type: Weapon
+img: systems/whitehack4e/assets/icons/weapons/sling.png
+effects: []
+system:
+  description: ''
+  cost: 2
+  costCoinType: cr
+  weight: small
+  equippedStatus: stored
+  damage: 1d6-2
+  range: 30
+  rateOfFire: one
+  special: Use with regular stones
+sort: 1149219
+---
+name: Javelin (Missile)
+type: Weapon
+img: icons/weapons/polearms/javelin.webp
+effects: []
+system:
+  description: <p>Small-weight pairing for Javelin (Melee). Enjoy the free 0.10 slot.</p>
+  cost: 4
+  costCoinType: cr
+  weight: small
+  equippedStatus: stored
+  damage: 1d6
+  range: 40
+  rateOfFire: one
+  special: d6-2 damage in melee
+sort: -175781
+---
+name: Mace
+type: Weapon
+img: icons/weapons/maces/mace-flanged-steel.webp
+effects: []
+system:
+  description: ''
+  cost: 20
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6
+  range: 0
+  rateOfFire: none
+  special: +1 AV vs. metal armour
+sort: 162500
+---
+name: Javelin (Melee)
+type: Weapon
+img: icons/weapons/polearms/javelin.webp
+effects: []
+system:
+  description: <p>Small-weight pairing for Javelin (Missile). Enjoy the free 0.10
+    slot.</p>
+  cost: 0
+  costCoinType: cr
+  weight: small
+  equippedStatus: stored
+  damage: 1d6-2
+  range: 40
+  rateOfFire: one
+  special: ''
+sort: -175000
+---
+name: Flail
+type: Weapon
+img: icons/weapons/maces/flail-spiked-grey.webp
+effects: []
+system:
+  description: ''
+  cost: 20
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6
+  range: 0
+  rateOfFire: none
+  special: Ignore shield DF
+sort: -181250
+---
+name: Dagger
+type: Weapon
+img: icons/weapons/daggers/dagger-straight-thin-black.webp
+effects: []
+system:
+  description: ''
+  cost: 5
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  damage: 1d6-2
+  range: 15
+  rateOfFire: one
+  special: ''
+sort: -200000
+---
+name: Unarmed
+type: Weapon
+img: icons/skills/melee/unarmed-punch-fist-white.webp
+effects: []
+system:
+  description: ''
+  cost: 0
+  costCoinType: cr
+  weight: noEncumbrance
+  equippedStatus: stored
+  damage: 1d6-3
+  range: 0
+  rateOfFire: none
+  special: Knock-out, Grapple
+sort: 100000
+---
+name: Hammer
+type: Weapon
+img: icons/weapons/hammers/hammer-war-rounding.webp
+effects: []
+system:
+  description: ''
+  cost: 20
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6
+  range: 0
+  rateOfFire: none
+  special: +1 AV vs. metal armour
+sort: 500000
+---
+name: Scimitar
+type: Weapon
+img: icons/weapons/swords/scimitar-worn-blue.webp
+effects: []
+system:
+  description: ''
+  cost: 16
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6
+  range: 0
+  rateOfFire: none
+  special: +1 AV while riding
+sort: 696875
+---
+name: Pole arm
+type: Weapon
+img: icons/weapons/polearms/halberd-engraved-black.webp
+effects: []
+system:
+  description: Reach means that enemies within 10 feet are within melee range. This
+    is particularly important when dealing with free atacks.
+  cost: 25
+  costCoinType: cr
+  weight: heavy
+  equippedStatus: stored
+  damage: 1d6+1
+  range: 0
+  rateOfFire: none
+  special: Two handed, Reach
+sort: 687500
+---
+name: Morning Star
+type: Weapon
+img: icons/weapons/maces/mace-round-spiked-grey.webp
+effects: []
+system:
+  description: ''
+  cost: 25
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6
+  range: 0
+  rateOfFire: none
+  special: +1 AV vs. metal armour, x3 crit damage
+sort: 600000
+---
+name: Spear
+type: Weapon
+img: icons/weapons/polearms/spear-flared-steel.webp
+effects: []
+system:
+  description: Reach means that enemies within 10 feet are within melee range. This
+    is particularly important when dealing with free atacks.
+  cost: 15
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6
+  range: 0
+  rateOfFire: none
+  special: Reach
+sort: 1800000
+---
+name: Quarterstaff
+type: Weapon
+img: icons/weapons/staves/staff-simple.webp
+effects: []
+system:
+  description: Reach means that enemies within 10 feet are within melee range. This
+    is particularly important when dealing with free atacks.
+  cost: 2
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6-1
+  range: 0
+  rateOfFire: none
+  special: Two handed, Reach
+sort: 693750
+---
+name: Dart
+type: Weapon
+img: icons/weapons/thrown/dart-feathered.webp
+effects: []
+system:
+  description: ''
+  cost: 3
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  damage: '1'
+  range: 20
+  rateOfFire: three
+  special: ''
+sort: -187500
+---
+name: Shevvak
+type: Weapon
+img: icons/tools/hand/shovel-spade-steel-blue-brown.webp
+system:
+  description: <p>Combination shovel and short-sword</p>
+  cost: 25
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: d6minus1
+  range: 0
+  rateOfFire: none
+  special: ''
+effects: []
+sort: 3600000
+---
+name: Great Sword
+type: Weapon
+img: icons/weapons/swords/greatsword-crossguard-silver.webp
+effects: []
+system:
+  description: ''
+  cost: 40
+  costCoinType: cr
+  weight: heavy
+  equippedStatus: stored
+  damage: 1d6+2
+  range: 0
+  rateOfFire: none
+  special: Two handed
+sort: -178125
+---
+name: Axe
+type: Weapon
+img: icons/weapons/axes/axe-battle-worn-black.webp
+effects: []
+system:
+  description: ''
+  cost: 20
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6+1
+  range: 0
+  rateOfFire: none
+  special: ''
+sort: -300000
+---
+name: Longbow
+type: Weapon
+img: icons/weapons/bows/longbow-leather-green.webp
+effects: []
+system:
+  description: ''
+  cost: 25
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6
+  range: 70
+  rateOfFire: one
+  special: Two handed
+sort: -6250
+---
+name: Pistol
+type: Weapon
+img: icons/weapons/guns/gun-pistol-flintlock.webp
+effects: []
+system:
+  description: Firearms do not fit in every campaign. The examples given represent
+    a pre-industrial level of technology.
+  cost: 100
+  costCoinType: cr
+  weight: regular
+  equippedStatus: stored
+  damage: 1d6+1
+  range: 20
+  rateOfFire: oneInThree
+  special: ''
+sort: 675000
+---
+name: Shortsword
+type: Weapon
+img: icons/weapons/swords/shortsword-winged.webp
+effects: []
+system:
+  description: ''
+  cost: 15
+  costCoinType: cr
+  weight: minor
+  equippedStatus: stored
+  damage: 1d6-1
+  range: 0
+  rateOfFire: none
+  special: ''
+sort: 923829
+---
+name: Crossbow
+type: Weapon
+img: icons/weapons/crossbows/crossbow-blue.webp
+effects: []
+system:
+  description: ''
+  cost: 50
+  costCoinType: cr
+  weight: heavy
+  equippedStatus: stored
+  damage: 1d6+1
+  range: 70
+  rateOfFire: oneInTwo
+  special: Two handed
+sort: -212500

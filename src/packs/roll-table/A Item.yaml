@@ -1,0 +1,188 @@
+name: A Item
+formula: 1d20
+results:
+- text: 'Item: Weapon'
+  range:
+  - 1
+  - 1
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Potion'
+  range:
+  - 2
+  - 2
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Scroll'
+  range:
+  - 3
+  - 3
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Map'
+  range:
+  - 4
+  - 4
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Book'
+  range:
+  - 5
+  - 5
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Armor'
+  range:
+  - 6
+  - 6
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Jewel'
+  range:
+  - 7
+  - 7
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Device'
+  range:
+  - 8
+  - 8
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Note'
+  range:
+  - 9
+  - 9
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Container'
+  range:
+  - 10
+  - 10
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Letter'
+  range:
+  - 11
+  - 11
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Amulet'
+  range:
+  - 12
+  - 12
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Ring'
+  range:
+  - 13
+  - 13
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Pet'
+  range:
+  - 14
+  - 14
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Glasses'
+  range:
+  - 15
+  - 15
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Key'
+  range:
+  - 16
+  - 16
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Ingredient'
+  range:
+  - 17
+  - 17
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Poison'
+  range:
+  - 18
+  - 18
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Drug'
+  range:
+  - 19
+  - 19
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: 'Item: Promissory note'
+  range:
+  - 20
+  - 20
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: false
+sort: 100000

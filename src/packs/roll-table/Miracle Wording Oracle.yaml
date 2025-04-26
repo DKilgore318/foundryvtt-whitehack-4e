@@ -1,0 +1,48 @@
+name: Miracle Wording Oracle
+img: icons/svg/d20-grey.svg
+description: <p>Words with asterisks have useful opposites. See page 40.</p>
+results:
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: 'Miracle Wording Oracle: I'
+  documentId: wUIwrV7r6hQDl9YZ
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: 'Miracle Wording Oracle: II'
+  documentId: piROboVqqNifV6pd
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: 'Miracle Wording Oracle: III'
+  documentId: nj94bgS6iyTYk0iU
+  img: icons/svg/d20-grey.svg
+- type: 2
+  documentCollection: whitehack4e.roll-table
+  weight: 1
+  range:
+  - 1
+  - 1
+  drawn: false
+  text: 'Miracle Wording Oracle: IV'
+  documentId: cgPpBxB02qCAqe4a
+  img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+sort: 300000
+formula: 1d1

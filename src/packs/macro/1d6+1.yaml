@@ -1,0 +1,7 @@
+name: 1d6+1
+type: chat
+author: kHDgurX1WEPIJDaV
+img: systems/whitehack4e/assets/icons/svg/dice/perspective-dice-six-faces-six-plus-1.svg
+scope: global
+command: '/r 1d6+1 # 1d6+1'
+sort: 0

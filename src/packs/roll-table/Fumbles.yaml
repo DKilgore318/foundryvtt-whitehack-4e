@@ -1,0 +1,62 @@
+name: Fumbles
+formula: 1d6
+results:
+- text: Weapon breaks. It can be mended.
+  range:
+  - 1
+  - 1
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Armor or shield breaks. They can be mended.
+  range:
+  - 2
+  - 2
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Weapon drops or gets stuck (player choice).
+  range:
+  - 3
+  - 3
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Staggers and gets 2 rounds of halved movement.
+  range:
+  - 4
+  - 4
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: Attacks the nearest ally (make an attack roll).
+  range:
+  - 5
+  - 5
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "Hits herself\u2014roll damage!"
+  range:
+  - 6
+  - 6
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+img: icons/svg/d20-grey.svg
+description: "<p>(p. 58) The character(\u2019s)\u2026</p>"
+replacement: true
+displayRoll: false
+sort: 700000

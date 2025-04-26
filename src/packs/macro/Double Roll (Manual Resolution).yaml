@@ -1,0 +1,9 @@
+name: Double Roll (Manual Resolution)
+type: chat
+author: kHDgurX1WEPIJDaV
+img: systems/whitehack4e/assets/icons/svg/dice/dice-twenty-faces-twenty-2x.svg
+scope: global
+command: '/r 1d20 # 2d20
+
+  /r 1d20'
+sort: 0

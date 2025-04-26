@@ -1,0 +1,555 @@
+name: 2b. [Attunement]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: attunement
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 300000
+---
+name: 6. Courageous
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: quirk
+  description: <p>Once per session, their courage fills the use requirements that
+    an item, place or passage may have in the form of class or groups.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 1a. [Attunement]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: attunement
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 200000
+---
+name: 4b. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 4. Init/MV Penalties OR Damage
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: combatOption
+  description: <p>In a successful attack, the Strong may eschew a damage roll and
+    cause -2 initiative, -10 mv, or two points of ongoing damage per round. The player
+    must describe how this is achieved. A save can halt the last two conditions after
+    at least one round in effect.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 8. Improvised Weapons
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: quirk
+  description: <p>Improvised weapons&mdash;a stone, a branch etc.&mdash;do at least
+    1d6 damage, and actual weapons ignore target resistances (but not immunities).</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: '[Clever Vocation]'
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: vocation
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 1. Combat Exploit
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: knacks
+  description: <p>The Clever can exploit combat situations. The base bonus for combat
+    advantage is +3 instead of +2, and once per battle they may switch the d6 for
+    the d10 as damage die.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 8. Parry (+2 DF/Dbl Combat Adv)
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: combatOption
+  description: <p>The Strong can parry and wait instead of attacking. They get +2
+    df in the parrying round, then double combat advantage in the next round against
+    a parried enemy. They can parry two consecutive rounds to get <em>triple</em>
+    combat advantage. If damaged in a parrying round, they must save or lose the effect.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 4. Brave vs Cursed
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: quirk
+  description: <p>They get +4 sv vs. cursed objects and may use comeback dice to reduce
+    cursed hp costs.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 2. Clever Crafting
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: knacks
+  description: <p>When crafting, mending or putting something together, the Clever
+    get +4, take half the time and can skip one part without loss of functionality,
+    unless it is the most important part.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 5a. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 1b. [Attunement]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: attunement
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 250000
+---
+name: "7. God\u2019s Name"
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: quirk
+  description: <p>Once per session, the Brave can use a god&rsquo;s name to halt,
+    scare, convince, bless or curse their level number of listeners, none of which
+    can have a higher level than the Brave (+1 for a holy symbol or divine affiliation).
+    Each target may choose to save to avoid the effect.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 1. Protect Adjacent
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: combatOption
+  description: <p>As a full round action, the Strong may protect an adjacent character
+    by letting all attacks directed at her until their next turn target them instead.
+    Each enemy is allowed a save against this effect.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 4b. [Attunement]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: attunement
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 800000
+---
+name: 7. Melee AND Ranged
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: combatOption
+  description: <p>The Strong can forsake their move and make a melee and a ranged
+    attack in one round, if they have suitable, one-handed weapons (e.g. a broadsword
+    and a throwing knife).</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 5. Give Double Combat Advantage
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: combatOption
+  description: <p>The Strong can give an ally double combat advantage once per battle,
+    for a single attack made right away or later in that fight. This requires a tactical
+    small verbal action, like &ldquo;strike when she flies!&rdquo;</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 1b. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 3b. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: '[Strong Vocation]'
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: vocation
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 3a. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 8. Mechanic
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: knacks
+  description: <p>The Clever have +4 to task rolls with or concerning machines.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: "1d. [Miracle Wording] (WIS \u2265 16)"
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 2. Move Opponent
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: combatOption
+  description: <p>After a successful attack, the Strong may eschew damage to force
+    an opponent to a space designated by the Strong, within ten feet from the opponent&rsquo;s
+    prior location. In melee, as a free move, the Strong may take that prior place
+    instead. The target of this effect is allowed a save to negate it. The target
+    may become subject to free attacks as a consequence of the maneuver.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: "1c. [Miracle Wording] (WIS \u2265 13)"
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: '[Deft Vocation]'
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: vocation
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 100000
+---
+name: 3. Cling/Climb
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: combatOption
+  description: <p>When fighting big opponents, the Strong can use one action to cling
+    onto and even climb them with a successful agility roll, gaining double combat
+    advantage (+4 av and damage, see p. 59) in the next and any subsequent round as
+    long as they hang on. New agility rolls may be required at the Referee&rsquo;s
+    discretion, but don&rsquo;t require separate actions. Anything that is clearly
+    bigger than the character&rsquo;s species&mdash;like a human to a halfling&mdash;counts
+    as a big opponent.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 6. Hard to Confine/Keep out
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: knacks
+  description: <p>The Clever are hard to confine or keep out, and get +4 to any task
+    roll related to that.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 4. Locational Awareness
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: knacks
+  description: <p>The Clever can always figure out roughly where they are in a certain
+    place. They don&rsquo;t get lost.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 9. Tracker/Leave no trace
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: knacks
+  description: <p>The Clever get +4 to tracking and to cover their own tracks.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: '[Fortunate Vocation]'
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: vocation
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 2. Brave Healing
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: quirk
+  description: <p>They require no treatment to heal beyond 1 hp from a negative value,
+    and can use comeback dice for the damage shrugged off on a successful save (p.
+    62).</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 5. Persuasive
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: knacks
+  description: <p>The Clever get +2 to task rolls and saves in persuasion attempts,
+    in addition to any other modification based on what is said, offered, threatened
+    with etc. This applies to trade as well.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 3a. [Attunement]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: attunement
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 400000
+---
+name: 3b. [Attunement]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: attunement
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 500000
+---
+name: '[Brave Vocation]'
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: vocation
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 6. Encourage (+1 AV/SV)
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: combatOption
+  description: <p>With a small verbal action, the Strong may encourage their friends
+    in a 15 feet radius, giving them +1 av and +1 sv. This ability can be inverted
+    to put fear in enemies (15 ft radius, -1 av and sv).</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 2a. [Attunement]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: attunement
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 275000
+---
+name: 5b. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 3. Penalized Saves
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: knacks
+  description: <p>Targets of their special attacks get -3 for their saves.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 4a. [Attunement]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: attunement
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 650000
+---
+name: 4a. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: '[Wise Vocation]'
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: vocation
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 1. Double Positive Strain
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: quirk
+  description: <p>The Brave always make double positive strain rolls (see p. 54) to
+    move faster encumbered.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 3. Protector
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: quirk
+  description: <p>Choose a party member at the beginning of the session. When the
+    character protects that party member, use one free comeback die for the roll.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 1a. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 2a. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 7. Chemist/Alchemist/Herbalist
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: knacks
+  description: <p>The Clever are particularly good with substances&mdash;chemicals,
+    herbs, poisons etc. They get +4 to identification and saves, as well as +1 in
+    the character&rsquo;s favor to any quantified effect.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 5. Target Another/Target Me
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: quirk
+  description: <p>Enemies choose to attack someone other than the brave character
+    first, at the start of a battle&mdash;if there is anyone else to attack! This
+    ability can be inverted if and when the player wishes.</p>
+  activeStatus: inactive
+effects: []
+sort: 0
+---
+name: 2b. [Miracle Wording]
+type: Ability
+img: systems/whitehack4e/assets/icons/svg/skills.svg
+system:
+  type: miracle
+  description: ''
+  activeStatus: inactive
+effects: []
+sort: 0

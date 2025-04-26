@@ -1,0 +1,5 @@
+name: Example Characters
+sorting: a
+type: Actor
+sort: 100000
+color: '#0072B288'

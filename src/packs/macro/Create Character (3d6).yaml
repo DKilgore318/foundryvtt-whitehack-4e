@@ -1,0 +1,25 @@
+name: Create Character (3d6)
+type: chat
+author: kHDgurX1WEPIJDaV
+img: icons/environment/people/group.webp
+scope: global
+command: "<h2 id=\"new-character\">New Character Attributes</h2> <p><strong>3d6</strong></p>\
+  \ <table> <tbody> <tr class=\"odd\"> <td style=\"text-align: right; padding-right:\
+  \ 0.5em;\"><strong>Strength (STR):</strong></td> <td style=\"text-align: left; padding-right:\
+  \ 5em;\">[[3d6]]</td> </tr> <tr class=\"even\"> <td style=\"text-align: right; padding-right:\
+  \ 0.5em;\"><strong>Agility (AGI):</strong></td> <td style=\"text-align: left; padding-right:\
+  \ 5em;\">[[3d6]]</td> </tr> <tr class=\"odd\"> <td style=\"text-align: right; padding-right:\
+  \ 0.5em;\"><strong>Toughness (TGH):</strong></td> <td style=\"text-align: left;\
+  \ padding-right: 5em;\">[[3d6]]</td> </tr> <tr class=\"even\"> <td style=\"text-align:\
+  \ right; padding-right: 0.5em;\"><strong>Intelligence (INT):</strong></td> <td style=\"\
+  text-align: left; padding-right: 5em;\">[[3d6]]</td> </tr> <tr class=\"odd\"> <td\
+  \ style=\"text-align: right; padding-right: 0.5em;\"><strong>Wisdom (WIS):</strong></td>\
+  \ <td style=\"text-align: left; padding-right: 5em;\">[[3d6]]</td> </tr> <tr class=\"\
+  even\"> <td style=\"text-align: right; padding-right: 0.5em;\"><strong>Charisma\
+  \ (CHA):</strong></td> <td style=\"text-align: left; padding-right: 5em;\">[[3d6]]</td>\
+  \ </tr> <tr class=\"odd\"> <td style=\"text-align: right; padding-right: 0.5em;\"\
+  ><strong>Crowns (CR):</strong></td> <td style=\"text-align: left; padding-right:\
+  \ 5em;\">[[3d6*10]]</td> </tr> </tbody> </table> <p>Roll a successful save (d20\u2009\
+  \u2264\u2009SV) to get <strong>BestAttribute\u2009\xD7\u200910</strong> for starting\
+  \ CR. Otherwise take the value listed above<br>(3d6\u2009\xD7\u200910).</p>"
+sort: 100000

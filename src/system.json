@@ -19,22 +19,94 @@
   "styles": ["css/wh4e.css"],
   "packs": [
     {
+      "name": "ability",
+      "label": "Abilities",
+      "path": "packs/ability",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "actor",
+      "label": "Actors",
+      "path": "packs/actor",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "armour",
       "label": "Armour",
-      "path": "/packs/armour.db",
-      "type": "Item"
+      "path": "packs/armour",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "gear",
       "label": "Gear",
-      "path": "/packs/gear.db",
-      "type": "Item"
+      "path": "packs/gear",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "weapons",
+      "name": "journal",
+      "label": "Journals",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macro",
+      "label": "Macros",
+      "path": "packs/macro",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "provision",
+      "label": "Provision",
+      "path": "packs/provision",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "roll-table",
+      "label": "Roll Tables",
+      "path": "packs/roll-table",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "weapon",
       "label": "Weapons",
-      "path": "/packs/weapons.db",
-      "type": "Item"
+      "path": "packs/weapon",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "languages": [

@@ -1,0 +1,1378 @@
+name: Whitehack 4e Game Reference
+pages:
+- sort: 100000
+  name: Example Names (p. 30)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<p>@UUID[Compendium.whitehack4e.roll-table.RollTable.jiSCbT4MfGhtSuJQ]{Example\
+      \ Names}</p><div style=\"border:3px double #000;margin:1.5em 1em;padding:0.5em\
+      \ 1em;background-color:rgba(0,0,0,0.05)\"><p>Gobbo Dar, Silva, Ulsak, Elbet,\
+      \ Thunder Foot, Regin, Snuffit, Oddo, Ugga, Uno Saar, Haxander, Stravka, Saffron,\
+      \ Horst, Edelhart, Galvina, Beryl Chard, Rapokes, Thorne, Elwydd, Clivia, Laveri,\
+      \ Raffle, Adelina, Hrain of the Ice, Apok, Gonk, Leander, Lebert Creth, Mercutio,\
+      \ Rathid, Adursi, Furio, Reek- win, Charah, Cletus, Elbaran, Alehir, Beppo,\
+      \ Luena, Morne, Restar, Blind Renly, Alibede, Arznak, Lugan, Aima, Cogius, Tunka\
+      \ Jinn, Ruberg, Nan the Black, Aleigh, Eyemash, Madon, Graline, Satis, Mahuda,\
+      \ Skira-Na-Nog, Grimare, Makim, Malavac, Segon, Amoryn, Ana, Corsan, Malla,\
+      \ Shadh, Curmia, Shamona, Shrike, Walks-With-Mountains, Arannas, Spero, Dearni,\
+      \ Harah, Argone, Medori, Hirra, Spire, Hobail, Strahe, Holdus, Horge of Ode,\
+      \ Milyn Bel Fara, Ealla, Mogus, Huran, Moire, Teonor, Bavelyn, Edrax, Edred\
+      \ of the Woods, Morcan, Imnel, Moredi, Thiana, Belus, Zork, Tiarlyn, Mohab,\
+      \ Solar Quex, Myrvyn, Torix, Nardil, Bladeg, Blain, Nimroin, Junit, Niniks,\
+      \ Kalynna, Odham, Unfela, Kathall, Ogius, Faleah, Fitz, Donne, Caliban, Finrim,\
+      \ Obura, Yrin, Jar, Drak, Ben-Sarah, No Nose Jennie, Magg, Taria, Ishtur, Mardahal,\
+      \ Droog of Three Willows, Solu, Xotav, Flavio, Agrippa, Rufus, Shalla, Kord,\
+      \ Iribeth, Walla, Geriat, Wholetown, Merrypuck, Diggle Swanson, Tusk, Seasong,\
+      \ Dik-Dri-Barra, Oslava, Telmakon, Avalanche, Serpathia.</p></div><hr /><table\
+      \ style=\"border:1px solid #000\"><caption>Example Names (p.\_30)</caption><thead><tr\
+      \ class=\"header\"><th style=\"width:3em;text-align:center\">#</th><th style=\"\
+      text-align:left\">Name</th></tr></thead><tbody><tr class=\"odd\"><td style=\"\
+      text-align:center\">1</td><td style=\"text-align:left\">Gobbo Dar</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">2</td><td style=\"text-align:left\"\
+      >Silva</td></tr><tr class=\"odd\"><td style=\"text-align:center\">3</td><td\
+      \ style=\"text-align:left\">Ulsak</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >4</td><td style=\"text-align:left\">Elbet</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">5</td><td style=\"text-align:left\">Thunder Foot</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">6</td><td style=\"text-align:left\"\
+      >Regin</td></tr><tr class=\"odd\"><td style=\"text-align:center\">7</td><td\
+      \ style=\"text-align:left\">Snuffit</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">8</td><td style=\"text-align:left\">Oddo</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">9</td><td style=\"text-align:left\">Ugga</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">10</td><td style=\"text-align:left\"\
+      >Uno Saar</td></tr><tr class=\"odd\"><td style=\"text-align:center\">11</td><td\
+      \ style=\"text-align:left\">Haxander</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">12</td><td style=\"text-align:left\">Stravka</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">13</td><td style=\"text-align:left\"\
+      >Saffron</td></tr><tr class=\"even\"><td style=\"text-align:center\">14</td><td\
+      \ style=\"text-align:left\">Horst</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >15</td><td style=\"text-align:left\">Edelhart</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">16</td><td style=\"text-align:left\">Galvina</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">17</td><td style=\"text-align:left\"\
+      >Beryl Chard</td></tr><tr class=\"even\"><td style=\"text-align:center\">18</td><td\
+      \ style=\"text-align:left\">Rapokes</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">19</td><td style=\"text-align:left\">Thorne</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">20</td><td style=\"text-align:left\"\
+      >Elwydd</td></tr><tr class=\"odd\"><td style=\"text-align:center\">21</td><td\
+      \ style=\"text-align:left\">Clivia</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">22</td><td style=\"text-align:left\">Laveri</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">23</td><td style=\"text-align:left\"\
+      >Raffle</td></tr><tr class=\"even\"><td style=\"text-align:center\">24</td><td\
+      \ style=\"text-align:left\">Adelina</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">25</td><td style=\"text-align:left\">Hrain of the Ice</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">26</td><td style=\"text-align:left\"\
+      >Apok</td></tr><tr class=\"odd\"><td style=\"text-align:center\">27</td><td\
+      \ style=\"text-align:left\">Gonk</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >28</td><td style=\"text-align:left\">Leander</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">29</td><td style=\"text-align:left\">Lebert Creth</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">30</td><td style=\"text-align:left\"\
+      >Mercutio</td></tr><tr class=\"odd\"><td style=\"text-align:center\">31</td><td\
+      \ style=\"text-align:left\">Rathid</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">32</td><td style=\"text-align:left\">Adursi</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">33</td><td style=\"text-align:left\"\
+      >Furio</td></tr><tr class=\"even\"><td style=\"text-align:center\">34</td><td\
+      \ style=\"text-align:left\">Reek- win</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">35</td><td style=\"text-align:left\">Charah</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">36</td><td style=\"text-align:left\"\
+      >Cletus</td></tr><tr class=\"odd\"><td style=\"text-align:center\">37</td><td\
+      \ style=\"text-align:left\">Elbaran</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">38</td><td style=\"text-align:left\">Alehir</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">39</td><td style=\"text-align:left\"\
+      >Beppo</td></tr><tr class=\"even\"><td style=\"text-align:center\">40</td><td\
+      \ style=\"text-align:left\">Luena</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >41</td><td style=\"text-align:left\">Morne</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">42</td><td style=\"text-align:left\">Restar</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">43</td><td style=\"text-align:left\"\
+      >Blind Renly</td></tr><tr class=\"even\"><td style=\"text-align:center\">44</td><td\
+      \ style=\"text-align:left\">Alibede</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">45</td><td style=\"text-align:left\">Arznak</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">46</td><td style=\"text-align:left\"\
+      >Lugan</td></tr><tr class=\"odd\"><td style=\"text-align:center\">47</td><td\
+      \ style=\"text-align:left\">Aima</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >48</td><td style=\"text-align:left\">Cogius</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">49</td><td style=\"text-align:left\">Tunka Jinn</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">50</td><td style=\"text-align:left\"\
+      >Ruberg</td></tr><tr class=\"odd\"><td style=\"text-align:center\">51</td><td\
+      \ style=\"text-align:left\">Nan the Black</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">52</td><td style=\"text-align:left\">Aleigh</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">53</td><td style=\"text-align:left\"\
+      >Eyemash</td></tr><tr class=\"even\"><td style=\"text-align:center\">54</td><td\
+      \ style=\"text-align:left\">Madon</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >55</td><td style=\"text-align:left\">Graline</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">56</td><td style=\"text-align:left\">Satis</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">57</td><td style=\"text-align:left\"\
+      >Mahuda</td></tr><tr class=\"even\"><td style=\"text-align:center\">58</td><td\
+      \ style=\"text-align:left\">Skira-Na-Nog</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">59</td><td style=\"text-align:left\">Grimare</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">60</td><td style=\"text-align:left\"\
+      >Makim</td></tr><tr class=\"odd\"><td style=\"text-align:center\">61</td><td\
+      \ style=\"text-align:left\">Malavac</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">62</td><td style=\"text-align:left\">Segon</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">63</td><td style=\"text-align:left\"\
+      >Amoryn</td></tr><tr class=\"even\"><td style=\"text-align:center\">64</td><td\
+      \ style=\"text-align:left\">Ana</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >65</td><td style=\"text-align:left\">Corsan</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">66</td><td style=\"text-align:left\">Malla</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">67</td><td style=\"text-align:left\"\
+      >Shadh</td></tr><tr class=\"even\"><td style=\"text-align:center\">68</td><td\
+      \ style=\"text-align:left\">Curmia</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >69</td><td style=\"text-align:left\">Shamona</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">70</td><td style=\"text-align:left\">Shrike</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">71</td><td style=\"text-align:left\"\
+      >Walks-With-Mountains</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >72</td><td style=\"text-align:left\">Arannas</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">73</td><td style=\"text-align:left\">Spero</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">74</td><td style=\"text-align:left\"\
+      >Dearni</td></tr><tr class=\"odd\"><td style=\"text-align:center\">75</td><td\
+      \ style=\"text-align:left\">Harah</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >76</td><td style=\"text-align:left\">Argone</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">77</td><td style=\"text-align:left\">Medori</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">78</td><td style=\"text-align:left\"\
+      >Hirra</td></tr><tr class=\"odd\"><td style=\"text-align:center\">79</td><td\
+      \ style=\"text-align:left\">Spire</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >80</td><td style=\"text-align:left\">Hobail</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">81</td><td style=\"text-align:left\">Strahe</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">82</td><td style=\"text-align:left\"\
+      >Holdus</td></tr><tr class=\"odd\"><td style=\"text-align:center\">83</td><td\
+      \ style=\"text-align:left\">Horge of Ode</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">84</td><td style=\"text-align:left\">Milyn Bel Fara</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">85</td><td style=\"text-align:left\"\
+      >Ealla</td></tr><tr class=\"even\"><td style=\"text-align:center\">86</td><td\
+      \ style=\"text-align:left\">Mogus</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >87</td><td style=\"text-align:left\">Huran</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">88</td><td style=\"text-align:left\">Moire</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">89</td><td style=\"text-align:left\"\
+      >Teonor</td></tr><tr class=\"even\"><td style=\"text-align:center\">90</td><td\
+      \ style=\"text-align:left\">Bavelyn</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">91</td><td style=\"text-align:left\">Edrax</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">92</td><td style=\"text-align:left\"\
+      >Edred of the Woods</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >93</td><td style=\"text-align:left\">Morcan</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">94</td><td style=\"text-align:left\">Imnel</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">95</td><td style=\"text-align:left\"\
+      >Moredi</td></tr><tr class=\"even\"><td style=\"text-align:center\">96</td><td\
+      \ style=\"text-align:left\">Thiana</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >97</td><td style=\"text-align:left\">Belus</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">98</td><td style=\"text-align:left\">Zork</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">99</td><td style=\"text-align:left\"\
+      >Tiarlyn</td></tr><tr class=\"even\"><td style=\"text-align:center\">100</td><td\
+      \ style=\"text-align:left\">Mohab</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >101</td><td style=\"text-align:left\">Solar Quex</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:center\">102</td><td style=\"text-align:left\">Myrvyn</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">103</td><td style=\"text-align:left\"\
+      >Torix</td></tr><tr class=\"even\"><td style=\"text-align:center\">104</td><td\
+      \ style=\"text-align:left\">Nardil</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >105</td><td style=\"text-align:left\">Bladeg</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">106</td><td style=\"text-align:left\">Blain</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">107</td><td style=\"text-align:left\"\
+      >Nimroin</td></tr><tr class=\"even\"><td style=\"text-align:center\">108</td><td\
+      \ style=\"text-align:left\">Junit</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >109</td><td style=\"text-align:left\">Niniks</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">110</td><td style=\"text-align:left\">Kalynna</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">111</td><td style=\"text-align:left\"\
+      >Odham</td></tr><tr class=\"even\"><td style=\"text-align:center\">112</td><td\
+      \ style=\"text-align:left\">Unfela</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >113</td><td style=\"text-align:left\">Kathall</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">114</td><td style=\"text-align:left\">Ogius</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">115</td><td style=\"text-align:left\"\
+      >Faleah</td></tr><tr class=\"even\"><td style=\"text-align:center\">116</td><td\
+      \ style=\"text-align:left\">Fitz</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >117</td><td style=\"text-align:left\">Donne</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">118</td><td style=\"text-align:left\">Caliban</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">119</td><td style=\"text-align:left\"\
+      >Finrim</td></tr><tr class=\"even\"><td style=\"text-align:center\">120</td><td\
+      \ style=\"text-align:left\">Obura</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >121</td><td style=\"text-align:left\">Yrin</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">122</td><td style=\"text-align:left\">Jar</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">123</td><td style=\"text-align:left\"\
+      >Drak</td></tr><tr class=\"even\"><td style=\"text-align:center\">124</td><td\
+      \ style=\"text-align:left\">Ben-Sarah</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">125</td><td style=\"text-align:left\">No Nose Jennie</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">126</td><td style=\"text-align:left\"\
+      >Magg</td></tr><tr class=\"odd\"><td style=\"text-align:center\">127</td><td\
+      \ style=\"text-align:left\">Taria</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >128</td><td style=\"text-align:left\">Ishtur</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">129</td><td style=\"text-align:left\">Mardahal</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">130</td><td style=\"text-align:left\"\
+      >Droog of Three Willows</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >131</td><td style=\"text-align:left\">Solu</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">132</td><td style=\"text-align:left\">Xotav</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">133</td><td style=\"text-align:left\"\
+      >Flavio</td></tr><tr class=\"even\"><td style=\"text-align:center\">134</td><td\
+      \ style=\"text-align:left\">Agrippa</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">135</td><td style=\"text-align:left\">Rufus</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">136</td><td style=\"text-align:left\"\
+      >Shalla</td></tr><tr class=\"odd\"><td style=\"text-align:center\">137</td><td\
+      \ style=\"text-align:left\">Kord</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >138</td><td style=\"text-align:left\">Iribeth</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">139</td><td style=\"text-align:left\">Walla</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">140</td><td style=\"text-align:left\"\
+      >Geriat</td></tr><tr class=\"odd\"><td style=\"text-align:center\">141</td><td\
+      \ style=\"text-align:left\">Wholetown</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">142</td><td style=\"text-align:left\">Merrypuck</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">143</td><td style=\"text-align:left\"\
+      >Diggle Swanson</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >144</td><td style=\"text-align:left\">Tusk</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">145</td><td style=\"text-align:left\">Seasong</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">146</td><td style=\"text-align:left\"\
+      >Dik-Dri-Barra</td></tr><tr class=\"odd\"><td style=\"text-align:center\">147</td><td\
+      \ style=\"text-align:left\">Oslava</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">148</td><td style=\"text-align:left\">Telmakon</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">149</td><td style=\"text-align:left\"\
+      >Avalanche</td></tr><tr class=\"even\"><td style=\"text-align:center\">150</td><td\
+      \ style=\"text-align:left\">Serpathia</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 200000
+  name: Magick Cost Guidelines (p. 37)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<table style=\"border:1px solid #000\"><caption>Magic Cost Guidelines\
+      \ (p.\_37)</caption><thead><tr class=\"header\"><th style=\"width:3em;text-align:center\"\
+      >HP</th><th style=\"text-align:left\">Magnitudes</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">0</td><td style=\"text-align:left\"\
+      ><strong>Zero,</strong> trivial effect, slotted scroll or simple effect boosted\
+      \ by a limiting condition.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >1</td><td style=\"text-align:left\"><strong>Simple,</strong> can be achieved\
+      \ without magick. Example: minor harming or healing, illumination, unlocking,\
+      \ reading a foreign language.</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >2</td><td style=\"text-align:left\"><strong>Standard,</strong> just beyond\
+      \ the possible. Example: generating a protective force field, breathing water,\
+      \ light telekinesis, invisibility.</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">d6</td><td style=\"text-align:left\"><strong>Major,</strong>\
+      \ a major breach of natural law. Example: teleporting, animating skeletons,\
+      \ locating lost things/beings, dispelling, removing an injury.</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">2d6</td><td style=\"text-align:left\"\
+      ><strong>Powerful,</strong> use of raw power. Example: resurrection, changing\
+      \ the weather, stopping time, petrification, cloning.</td></tr><tr class=\"\
+      even\"><td style=\"text-align:center\">+</td><td style=\"text-align:left\"><strong>Costly.</strong>\
+      \ Peripheral to vocation or wording. Extra duration, range, effect area, victims,\
+      \ damage. No save. Craft item (Cost \xD7 2). Adding another charge (Cost \xD7\
+      \ 1). Crafting a permanent magick item (Cost \xD7 2 permanent hp). Expensive\
+      \ magick type.</td></tr><tr class=\"odd\"><td style=\"text-align:center\">\u2212\
+      </td><td style=\"text-align:left\"><strong>Cheaper.</strong> Very close to vocation\
+      \ and/or wording. Rare/costly ingredients. Bad side effects for the Wise. Wise\
+      \ save (fail negates). Boosting but addictive drugs. Cheap magick type. Extra\
+      \ casting time. Time or place requirements.</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 300000
+  name: Energy Concentrations (p. 38)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<p>The Wise may save once per day and spend 10 minutes to detect and\
+      \ use a local energy concentration, making a single effect of a certain type\
+      \ one magnitude cheaper. Check the save quality against the Energy Concentrations\
+      \ table.</p><table style=\"border:1px solid #000\"><caption>Energy Concentrations\
+      \ (p.\_38)</caption><thead><tr class=\"header\"><th style=\"width:5em;text-align:center\"\
+      >Quality</th><th style=\"text-align:left\">Energy for\u2026</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">1</td><td style=\"text-align:left\"\
+      >Summoning</td></tr><tr class=\"even\"><td style=\"text-align:center\">2</td><td\
+      \ style=\"text-align:left\">Elemental control</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">3</td><td style=\"text-align:left\">Necromancy</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">4</td><td style=\"text-align:left\"\
+      >Protection and banishment</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >5</td><td style=\"text-align:left\">Illusions</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">6</td><td style=\"text-align:left\">Information</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">7</td><td style=\"text-align:left\"\
+      >Material alterations</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >8</td><td style=\"text-align:left\">Mind influence</td></tr><tr class=\"odd\"\
+      ><td style=\"text-align:center\">9+</td><td style=\"text-align:left\">Player\
+      \ choice</td></tr></tbody></table>"
+    markdown: ''
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 400000
+  name: Miracle Wording Oracle (p. 40)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: '<p>@UUID[Compendium.whitehack4e.roll-table.RollTable.GGKCA76jCumN5Dz3]{Miracle
+      Wording Oracle}</p><p>Words with asterisks have useful opposites. See page 40.</p><table
+      style="border:1px solid #000"><thead><tr class="header"><th style="width:5em;text-align:center">1d20</th><th
+      style="text-align:left">I</th><th style="text-align:left">II</th><th style="text-align:left">III</th><th
+      style="text-align:left">IV</th></tr></thead><tbody><tr class="odd"><td style="text-align:center">1</td><td
+      style="text-align:left">Hex</td><td style="text-align:left">Familiarus</td><td
+      style="text-align:left">Lock</td><td style="text-align:left">Detect</td></tr><tr
+      class="even"><td style="text-align:center">2</td><td style="text-align:left">Mutation</td><td
+      style="text-align:left">Passage*</td><td style="text-align:left">God</td><td
+      style="text-align:left">Summon</td></tr><tr class="odd"><td style="text-align:center">3</td><td
+      style="text-align:left">Flesh</td><td style="text-align:left">Ice*</td><td style="text-align:left">Secret</td><td
+      style="text-align:left">Learn</td></tr><tr class="even"><td style="text-align:center">4</td><td
+      style="text-align:left">Spirit</td><td style="text-align:left">Element</td><td
+      style="text-align:left">Elixir</td><td style="text-align:left">Evoke</td></tr><tr
+      class="odd"><td style="text-align:center">5</td><td style="text-align:left">Seal</td><td
+      style="text-align:left">Earth*</td><td style="text-align:left">Arrow</td><td
+      style="text-align:left">Trick</td></tr><tr class="even"><td style="text-align:center">6</td><td
+      style="text-align:left">Gift</td><td style="text-align:left">Death*</td><td
+      style="text-align:left">Cloak</td><td style="text-align:left">Enchant</td></tr><tr
+      class="odd"><td style="text-align:center">7</td><td style="text-align:left">Orb</td><td
+      style="text-align:left">Animal</td><td style="text-align:left">Veil</td><td
+      style="text-align:left">Alter</td></tr><tr class="even"><td style="text-align:center">8</td><td
+      style="text-align:left">Sleep*</td><td style="text-align:left">Nature</td><td
+      style="text-align:left">Servant</td><td style="text-align:left">Heal*</td></tr><tr
+      class="odd"><td style="text-align:center">9</td><td style="text-align:left">Surge</td><td
+      style="text-align:left">Metal</td><td style="text-align:left">Shield</td><td
+      style="text-align:left">Create</td></tr><tr class="even"><td style="text-align:center">10</td><td
+      style="text-align:left">Wave</td><td style="text-align:left">Energy</td><td
+      style="text-align:left">Trap</td><td style="text-align:left">Bless</td></tr><tr
+      class="odd"><td style="text-align:center">11</td><td style="text-align:left">Ray</td><td
+      style="text-align:left">Bomb</td><td style="text-align:left">Water</td><td style="text-align:left">Find</td></tr><tr
+      class="even"><td style="text-align:center">12</td><td style="text-align:left">Cure</td><td
+      style="text-align:left">Wound</td><td style="text-align:left">Potion</td><td
+      style="text-align:left">Hide</td></tr><tr class="odd"><td style="text-align:center">13</td><td
+      style="text-align:left">Siphon</td><td style="text-align:left">Scroll</td><td
+      style="text-align:left">Thought</td><td style="text-align:left">Protect</td></tr><tr
+      class="even"><td style="text-align:center">14</td><td style="text-align:left">Bond</td><td
+      style="text-align:left">Blood</td><td style="text-align:left">Symbol</td><td
+      style="text-align:left">Speak</td></tr><tr class="odd"><td style="text-align:center">15</td><td
+      style="text-align:left">Hymn</td><td style="text-align:left">Monster</td><td
+      style="text-align:left">Language</td><td style="text-align:left">Remove</td></tr><tr
+      class="even"><td style="text-align:center">16</td><td style="text-align:left">Barrier</td><td
+      style="text-align:left">Secret</td><td style="text-align:left">Stair</td><td
+      style="text-align:left">Dispel</td></tr><tr class="odd"><td style="text-align:center">17</td><td
+      style="text-align:left">Source</td><td style="text-align:left">Shadow*</td><td
+      style="text-align:left">Rope</td><td style="text-align:left">Hold*</td></tr><tr
+      class="even"><td style="text-align:center">18</td><td style="text-align:left">Void</td><td
+      style="text-align:left">Insect</td><td style="text-align:left">Hole</td><td
+      style="text-align:left">Transform</td></tr><tr class="odd"><td style="text-align:center">19</td><td
+      style="text-align:left">Call</td><td style="text-align:left">Matter</td><td
+      style="text-align:left">Tree</td><td style="text-align:left">Obscure</td></tr><tr
+      class="even"><td style="text-align:center">20</td><td style="text-align:left">Smoke</td><td
+      style="text-align:left">Crystal</td><td style="text-align:left">Ground</td><td
+      style="text-align:left">Induce</td></tr></tbody></table>'
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 500000
+  name: Group Generator (p. 43)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: '<p>See page 43.</p><table style="border:1px solid #000"><thead><tr class="header"><th
+      style="width:4em;text-align:center">1d20</th><th style="text-align:left">I</th><th
+      style="text-align:left">II</th><th style="text-align:left">III</th><th style="text-align:left">IV</th></tr></thead><tbody><tr
+      class="odd"><td style="text-align:center">1</td><td style="text-align:left">Thief</td><td
+      style="text-align:left">Physician</td><td style="text-align:left">Elf</td><td
+      style="text-align:left">Guild</td></tr><tr class="even"><td style="text-align:center">2</td><td
+      style="text-align:left">Ranger</td><td style="text-align:left">Spy</td><td style="text-align:left">Dwarf</td><td
+      style="text-align:left">Company</td></tr><tr class="odd"><td style="text-align:center">3</td><td
+      style="text-align:left">Shaman</td><td style="text-align:left">Miner</td><td
+      style="text-align:left">Goblin</td><td style="text-align:left">Cult</td></tr><tr
+      class="even"><td style="text-align:center">4</td><td style="text-align:left">Trader</td><td
+      style="text-align:left">Agitator</td><td style="text-align:left">Halfling</td><td
+      style="text-align:left">Gang</td></tr><tr class="odd"><td style="text-align:center">5</td><td
+      style="text-align:left">Bodyguard</td><td style="text-align:left">Student</td><td
+      style="text-align:left">Old Blood</td><td style="text-align:left">Church</td></tr><tr
+      class="even"><td style="text-align:center">6</td><td style="text-align:left">Druid</td><td
+      style="text-align:left">Pit Fighter</td><td style="text-align:left">Giant</td><td
+      style="text-align:left">Minority</td></tr><tr class="odd"><td style="text-align:center">7</td><td
+      style="text-align:left">Apothecary</td><td style="text-align:left">Gambler</td><td
+      style="text-align:left">Dagonite</td><td style="text-align:left">Order</td></tr><tr
+      class="even"><td style="text-align:center">8</td><td style="text-align:left">Hypnotist</td><td
+      style="text-align:left">Cultist</td><td style="text-align:left">Ratling</td><td
+      style="text-align:left">School</td></tr><tr class="odd"><td style="text-align:center">9</td><td
+      style="text-align:left">Scribe</td><td style="text-align:left">Herbalist</td><td
+      style="text-align:left">Crow</td><td style="text-align:left">Society</td></tr><tr
+      class="even"><td style="text-align:center">10</td><td style="text-align:left">Bard</td><td
+      style="text-align:left">Guard</td><td style="text-align:left">Marionette</td><td
+      style="text-align:left">Clientele</td></tr><tr class="odd"><td style="text-align:center">11</td><td
+      style="text-align:left">Barbarian</td><td style="text-align:left">Exorcist</td><td
+      style="text-align:left">Duck</td><td style="text-align:left">Prisoner</td></tr><tr
+      class="even"><td style="text-align:center">12</td><td style="text-align:left">Wizard</td><td
+      style="text-align:left">Brigand</td><td style="text-align:left">Mutant</td><td
+      style="text-align:left">Club</td></tr><tr class="odd"><td style="text-align:center">13</td><td
+      style="text-align:left">Assassin</td><td style="text-align:left">Prospector</td><td
+      style="text-align:left">Monkey</td><td style="text-align:left">Outcasts</td></tr><tr
+      class="even"><td style="text-align:center">14</td><td style="text-align:left">Engineer</td><td
+      style="text-align:left">Rune-carver</td><td style="text-align:left">Kobold</td><td
+      style="text-align:left">Bank</td></tr><tr class="odd"><td style="text-align:center">15</td><td
+      style="text-align:left">Warrior</td><td style="text-align:left">Smuggler</td><td
+      style="text-align:left">Half-orc</td><td style="text-align:left">Fans</td></tr><tr
+      class="even"><td style="text-align:center">16</td><td style="text-align:left">Knight</td><td
+      style="text-align:left">Beggar</td><td style="text-align:left">Half-elf</td><td
+      style="text-align:left">Secret Oath</td></tr><tr class="odd"><td style="text-align:center">17</td><td
+      style="text-align:left">Noble</td><td style="text-align:left">Monk</td><td style="text-align:left">Ghost</td><td
+      style="text-align:left">Collegium</td></tr><tr class="even"><td style="text-align:center">18</td><td
+      style="text-align:left">Alchemist</td><td style="text-align:left">Sailor</td><td
+      style="text-align:left">Insectoid</td><td style="text-align:left">Hunted</td></tr><tr
+      class="odd"><td style="text-align:center">19</td><td style="text-align:left">Marksman</td><td
+      style="text-align:left">Entertainer</td><td style="text-align:left">Plantoid</td><td
+      style="text-align:left">Crew</td></tr><tr class="even"><td style="text-align:center">20</td><td
+      style="text-align:left">Grave Robber</td><td style="text-align:left">Bounty
+      Hunter</td><td style="text-align:left">Fungoid</td><td style="text-align:left">Noble
+      House</td></tr></tbody></table>'
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 600000
+  name: Gear (p. 45)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<table style=\"border:1px solid #000\"><caption>Gear (p.\_45)</caption><thead><tr\
+      \ class=\"header\"><th style=\"text-align:left;padding-left:0.25em\">Gear</th><th\
+      \ style=\"width:5em;text-align:right;padding-right:0.25em\">CR</th><th style=\"\
+      width:2em;text-align:center\"></th><th style=\"text-align:left;padding-left:0.25em\"\
+      >Gear</th><th style=\"width:5em;text-align:right;padding-right:0.25em\">CR</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Arrows (10)</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">5</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Matches</td><td style=\"\
+      text-align:right;padding-right:0.25em\">1</td></tr><tr class=\"even\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Bandages (5)</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >1</td><td style=\"text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Mirror (glass)</td><td style=\"text-align:right;padding-right:0.25em\">55</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Blessed/Cursed\
+      \ water</td><td style=\"text-align:right;padding-right:0.25em\">20</td><td style=\"\
+      text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\">Parchment\
+      \ tube</td><td style=\"text-align:right;padding-right:0.25em\">18</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:left;padding-left:0.25em\">Bolts (10)</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">6</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Perfume</td><td style=\"\
+      text-align:right;padding-right:0.25em\">145</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Boots</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >12</td><td style=\"text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Prybar</td><td style=\"text-align:right;padding-right:0.25em\">8</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:left;padding-left:0.25em\">Bottle (wine\
+      \ or beer)</td><td style=\"text-align:right;padding-right:0.25em\">1</td><td\
+      \ style=\"text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Quiver</td><td style=\"text-align:right;padding-right:0.25em\">8</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Carpentry\
+      \ tools</td><td style=\"text-align:right;padding-right:0.25em\">40</td><td style=\"\
+      text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\">Rations\
+      \ (day)</td><td style=\"text-align:right;padding-right:0.25em\">1</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:left;padding-left:0.25em\">Checkers\
+      \ (game)</td><td style=\"text-align:right;padding-right:0.25em\">3</td><td style=\"\
+      text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\">Rope,\
+      \ elven (40 ft)</td><td style=\"text-align:right;padding-right:0.25em\">400</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Climbing gear</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">30</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Rope, regular (40 ft)</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">10</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:left;padding-left:0.25em\">Clothes (standard)</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">10</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Sack</td><td style=\"\
+      text-align:right;padding-right:0.25em\">1</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Clothes (fine)</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >100</td><td style=\"text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Scroll (blank)</td><td style=\"text-align:right;padding-right:0.25em\">10</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:left;padding-left:0.25em\">Compass</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">200</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Shevvak<sup>\u2217</sup></td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">25</td></tr><tr class=\"odd\"\
+      ><td style=\"text-align:left;padding-left:0.25em\">Cult token (fine)</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">25</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Skiing gear</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">40</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:left;padding-left:0.25em\">Cult token (simple)</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">1</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Sled</td><td style=\"\
+      text-align:right;padding-right:0.25em\">60</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Dice (bone)</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >1</td><td style=\"text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Sleeping bag</td><td style=\"text-align:right;padding-right:0.25em\">5</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:left;padding-left:0.25em\">Dog</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">25</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Snare</td><td style=\"\
+      text-align:right;padding-right:0.25em\">3</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Flatboat</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >65</td><td style=\"text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Snow Monkey<sup>\u2217</sup></td><td style=\"text-align:right;padding-right:0.25em\"\
+      >55</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Grapnel</td><td style=\"text-align:right;padding-right:0.25em\">12</td><td\
+      \ style=\"text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Spell book (blank)</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >130</td></tr><tr class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Hatchet</td><td style=\"text-align:right;padding-right:0.25em\">8</td><td style=\"\
+      text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\">Stick\
+      \ (long)</td><td style=\"text-align:right;padding-right:0.25em\">1</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:left;padding-left:0.25em\">Knapsack</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">6</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Tent</td><td style=\"\
+      text-align:right;padding-right:0.25em\">45</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Lab (portable)</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >240</td><td style=\"text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Tinderbox</td><td style=\"text-align:right;padding-right:0.25em\">8</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:left;padding-left:0.25em\">Lamp</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">25</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Torch (bundle of 5)</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">1</td></tr><tr class=\"odd\"\
+      ><td style=\"text-align:left;padding-left:0.25em\">Lamp oil (5 doses)</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">4</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Warm coat</td><td style=\"\
+      text-align:right;padding-right:0.25em\">50</td></tr><tr class=\"even\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Lockpicks</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >125</td><td style=\"text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Water container</td><td style=\"text-align:right;padding-right:0.25em\">2</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Makeup</td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">65</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:left;padding-left:0.25em\">Zoruk<sup>\u2217</sup>\
+      \ (battle)</td><td style=\"text-align:right;padding-right:0.25em\">330</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:left;padding-left:0.25em\">Map (regular\
+      \ area)</td><td style=\"text-align:right;padding-right:0.25em\">95</td><td style=\"\
+      text-align:center\"></td><td style=\"text-align:left;padding-left:0.25em\">Zoruk<sup>\u2217\
+      </sup> (riding)</td><td style=\"text-align:right;padding-right:0.25em\">170</td></tr></tbody></table><p><sup>\u2217\
+      </sup>Shevvak is a combination of shovel and short-sword. Snow Monkeys can be\
+      \ trained as pets, while Zoruks are fur lizards used as riding animals. All\
+      \ three are common in winter settings, but they are also examples of how to\
+      \ adapt the generic equipment list to match a particular world. Swap them for\
+      \ a more generic \u201Cbroad- blade,\u201D dog and horse if you like, or, in\
+      \ a modern setting, you could swap them for a machete, simple bot and a motorcycle.</p>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- name: "Time and Movement (pp. 53\u201354)"
+  text:
+    content: "<p>See page 53.</p><dl><dt><p><strong>1 r</strong></p></dt><dd><p>Combat\
+      \ round actions (p.\_56). Quaff a potion. Begin first aid (stops dying). Perform\
+      \ a quick miracle. Kick in a door.</p></dd><dt><p><strong>d6 r</strong></p></dt><dd><p>Listen\
+      \ at a door. Get something from a backpack. Pick a normal lock.</p></dd><dt><p><strong>10\
+      \ m</strong></p></dt><dd><p>Fight\u2013loot\u2013rest. Pick a hard lock. Search\
+      \ a room. Examine a potion. Finish first aid. Bash a chest. Search a door, item\
+      \ or spot for traps.</p></dd><dt><p><strong>60 m</strong></p></dt><dd><p>Burn\
+      \ out a regular torch.</p></dd><dt><p><strong>d6 h</strong></p></dt><dd><p>Search\
+      \ a library. Gather rumors. Figure out an artifact. Advanced medical aid.</p></dd><dt><p><strong>6\
+      \ h</strong></p></dt><dd><p>Minimum full night\u2019s sleep. Switch abilities\
+      \ or miracles into slots. Travel \u201Ca day\u2019s journey\u201D on foot or\
+      \ on a zoruk.</p></dd></dl><h2 id=\"travel-times\">Travel Times</h2><table style=\"\
+      border:1px solid #000\"><caption>Typical Miles per Day Travel Rates (p.\_53)</caption><colgroup><col\
+      \ style=\"width:10em\"></col><col></col><col></col><col></col></colgroup><thead><tr\
+      \ class=\"header\"><th style=\"text-align:left;padding-left:0.25em\">Terrain\
+      \ Type</th><th style=\"text-align:center\">Max Rate</th><th style=\"text-align:center\"\
+      >Bad Weather</th><th style=\"text-align:center\">Night Travel</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Plains</td><td\
+      \ style=\"text-align:center\">24</td><td style=\"text-align:center\">12</td><td\
+      \ style=\"text-align:center\">18</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Mountains</td><td style=\"text-align:center\">12</td><td style=\"text-align:center\"\
+      >6</td><td style=\"text-align:center\">6</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Forest, Desert</td><td style=\"text-align:center\"\
+      >18</td><td style=\"text-align:center\">12</td><td style=\"text-align:center\"\
+      >12</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Arctic</td><td style=\"text-align:center\">14</td><td style=\"text-align:center\"\
+      >0</td><td style=\"text-align:center\">10</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Sea, Lake, River</td><td style=\"text-align:center\"\
+      >48</td><td style=\"text-align:center\">24</td><td style=\"text-align:center\"\
+      >36</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Under ground</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\"\
+      >6</td><td style=\"text-align:center\">6</td></tr></tbody></table><h2 id=\"\
+      indoor-movement\">Indoor Movement</h2><table style=\"border:1px solid #000\"\
+      ><caption>Movement Rates (p.\_54)</caption><thead><tr class=\"header\"><th style=\"\
+      text-align:left;padding-left:0.25em\">Total Burden</th><th style=\"text-align:center\"\
+      >mv (ft/sq) for Human</th><th style=\"text-align:center\">mv (ft/sq) for Smaller</th><th\
+      \ style=\"text-align:center\">Crawl (ft/10 min)</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Normal</td><td\
+      \ style=\"text-align:center\">30/6</td><td style=\"text-align:center\">25/5</td><td\
+      \ style=\"text-align:center\">120</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Heavy</td><td style=\"text-align:center\">25/5</td><td style=\"text-align:center\"\
+      >20/4</td><td style=\"text-align:center\">100</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:left;padding-left:0.25em\">Severe</td><td style=\"text-align:center\"\
+      >20/4</td><td style=\"text-align:center\">15/3</td><td style=\"text-align:center\"\
+      >80</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Massive</td><td style=\"text-align:center\">15/3</td><td style=\"text-align:center\"\
+      >10/2</td><td style=\"text-align:center\">60</td></tr></tbody></table>"
+    format: 1
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+  sort: 700000
+- sort: 800000
+  name: Attitudes & Parley (p. 55)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<p>@UUID[Compendium.whitehack4e.roll-table.RollTable.m6mb9aLi6cUzVknA]{Reactions\
+      \ &amp; Parley}</p><ul><li>Make a <strong>Charisma</strong> roll modified by\
+      \ <strong>Parley</strong> to change the attitude one level better or worse.</li><li>Apply\
+      \ -2 for each <em>additional</em> step of change.</li><li>Apply -6 if there\
+      \ is no mutual language.</li></ul><table style=\"border:1px solid #000;width:50%;margin:0;margin-left:auto;margin-right:auto\"\
+      ><caption>Non-Player Character Reactions (p.\_55)</caption><thead><tr class=\"\
+      header\"><th style=\"text-align:center\">3d6</th><th style=\"text-align:center\"\
+      >Reaction</th><th style=\"text-align:center\">Parley</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">3</td><td style=\"text-align:center\"\
+      >Furious</td><td style=\"text-align:center\">-6</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:center\">4\u20135</td><td style=\"text-align:center\"\
+      >Hostile</td><td style=\"text-align:center\">-4</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">6\u20139</td><td style=\"text-align:center\">Negative</td><td\
+      \ style=\"text-align:center\">-2</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >10\u201313</td><td style=\"text-align:center\">Neutral</td><td style=\"text-align:center\"\
+      >\xB10</td></tr><tr class=\"odd\"><td style=\"text-align:center\">14\u201316</td><td\
+      \ style=\"text-align:center\">Positive</td><td style=\"text-align:center\">-2</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">17+</td><td style=\"text-align:center\"\
+      >Happy</td><td style=\"text-align:center\">-4</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 900000
+  name: Crits & Fumbles (p. 58)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<h2>Crits</h2><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.240TP0UMvm5wjgXB]{Crits}</p><table\
+      \ style=\"border:1px solid #000\"><caption>Attack Crits (p.\_58)</caption><thead><tr\
+      \ class=\"header\"><th style=\"width:4em;text-align:center\">d20</th><th style=\"\
+      text-align:left;padding-left:0.25em\">The target(\u2019s)\u2026</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">1</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Weapon flies 10 ft away.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >2</td><td style=\"text-align:left;padding-left:0.25em\">Shield drops 5 ft away.</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">3</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Weapon breaks. It can be mended.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >4</td><td style=\"text-align:left;padding-left:0.25em\">Shield is ruined.</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">5</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Armor loses d6 df. It can be mended.</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">6</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Is hurt and gets halved movement.</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >7</td><td style=\"text-align:left;padding-left:0.25em\">Speech is impossible\
+      \ for 10 minutes.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >8</td><td style=\"text-align:left;padding-left:0.25em\">Screams at the top\
+      \ of her lungs.</td></tr><tr class=\"odd\"><td style=\"text-align:center\">9</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">Is blinded for 10 min. Related\
+      \ actions are \u221210.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >10</td><td style=\"text-align:left;padding-left:0.25em\">Is laid flat on the\
+      \ ground a few steps away.</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >11</td><td style=\"text-align:left;padding-left:0.25em\">Must save or attempt\
+      \ to flee.</td></tr><tr class=\"even\"><td style=\"text-align:center\">12</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">Is deaf for 10 minutes.</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">13</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Starts to bleed. +1 damage every round.</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">14</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Takes an additional d6 damage.</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >15</td><td style=\"text-align:left;padding-left:0.25em\">Is stunned for 2 rounds:\
+      \ mv 5, \u22124 df.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >16</td><td style=\"text-align:left;padding-left:0.25em\">Is confused. Must\
+      \ save or attack nearest ally.</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >17</td><td style=\"text-align:left;padding-left:0.25em\">Must save or attack\
+      \ an ally and attempt to flee.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >18</td><td style=\"text-align:left;padding-left:0.25em\">Is shocked and defenseless\
+      \ until rested.</td></tr><tr class=\"odd\"><td style=\"text-align:center\">19</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">Is knocked out at \u22121 hp\
+      \ or less.</td></tr><tr class=\"even\"><td style=\"text-align:center\">20</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">Meets a gory death. Allies check\
+      \ morale.</td></tr></tbody></table><h2>Fumbles</h2><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.Kudugm51wCN5fDId]{Fumbles}</p><table\
+      \ style=\"border:1px solid #000\"><caption>Attack Fumbles (p.\_58)</caption><thead><tr\
+      \ class=\"header\"><th style=\"width:4em;text-align:center\">d6</th><th style=\"\
+      text-align:left;padding-left:0.25em\">The character(\u2019s) \u2026</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">1</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Weapon breaks. It can be mended.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >2</td><td style=\"text-align:left;padding-left:0.25em\">Armor or shield breaks.\
+      \ They can be mended.</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >3</td><td style=\"text-align:left;padding-left:0.25em\">Weapon drops or gets\
+      \ stuck (player choice).</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >4</td><td style=\"text-align:left;padding-left:0.25em\">Staggers and gets 2\
+      \ rounds of halved movement.</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >5</td><td style=\"text-align:left;padding-left:0.25em\">Attacks the nearest\
+      \ ally (make an attack roll).</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >6</td><td style=\"text-align:left;padding-left:0.25em\">Hits herself\u2014\
+      roll damage!</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 1000000
+  name: Weapons & Armor (p. 61)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<h2>Weapons</h2><table style=\"border:1px solid #000\"><caption>Weapons<sup>\u2217\
+      </sup> (p.\_61)</caption><colgroup><col style=\"width:8em\"></col><col style=\"\
+      width:10em\"></col><col style=\"width:4em\"></col><col style=\"width:1em\"></col><col\
+      \ style=\"width:2em\"></col><col style=\"width:3em\"></col><col style=\"width:3em\"\
+      ></col></colgroup><thead><tr class=\"header\"><th style=\"text-align:left;padding-left:0.25em\"\
+      >Weapon</th><th style=\"text-align:left;padding-left:0.25em\">Special</th><th\
+      \ style=\"text-align:center\">Dam.</th><th style=\"text-align:center\">W</th><th\
+      \ style=\"text-align:center\">R</th><th style=\"text-align:center\">RoF</th><th\
+      \ style=\"text-align:right;padding-right:0.25em\">CR</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Axe/Sword</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\"></td><td style=\"text-align:center\"\
+      >d6+1</td><td style=\"text-align:center\">R</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:center\"></td><td style=\"text-align:right;padding-right:0.25em\"\
+      >20</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Club</td><td style=\"text-align:left;padding-left:0.25em\">Knock-out, improvised</td><td\
+      \ style=\"text-align:center\">d6\u22122</td><td style=\"text-align:center\"\
+      >M</td><td style=\"text-align:center\"></td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:right;padding-right:0.25em\">\u2013</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Crossbow</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">Two handed</td><td style=\"\
+      text-align:center\">d6+1</td><td style=\"text-align:center\">H</td><td style=\"\
+      text-align:center\">70</td><td style=\"text-align:center\">1/2</td><td style=\"\
+      text-align:right;padding-right:0.25em\">50</td></tr><tr class=\"even\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Dagger</td><td style=\"text-align:left;padding-left:0.25em\"\
+      ></td><td style=\"text-align:center\">d6\u22122</td><td style=\"text-align:center\"\
+      >M</td><td style=\"text-align:center\">15</td><td style=\"text-align:center\"\
+      >1</td><td style=\"text-align:right;padding-right:0.25em\">5</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:left;padding-left:0.25em\">Darts</td><td style=\"\
+      text-align:left;padding-left:0.25em\">1\u20133 equal a minor item</td><td style=\"\
+      text-align:center\">1</td><td style=\"text-align:center\">M</td><td style=\"\
+      text-align:center\">20</td><td style=\"text-align:center\">3</td><td style=\"\
+      text-align:right;padding-right:0.25em\">3</td></tr><tr class=\"even\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Flail</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Ignore shield df</td><td style=\"text-align:center\">d6</td><td style=\"text-align:center\"\
+      >R</td><td style=\"text-align:center\"></td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:right;padding-right:0.25em\">20</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:left;padding-left:0.25em\">Gr. sword/axe</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">Two handed</td><td style=\"\
+      text-align:center\">d6+2</td><td style=\"text-align:center\">H</td><td style=\"\
+      text-align:center\"></td><td style=\"text-align:center\"></td><td style=\"text-align:right;padding-right:0.25em\"\
+      >40</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Javelin</td><td style=\"text-align:left;padding-left:0.25em\">d6\u22122 damage\
+      \ in melee</td><td style=\"text-align:center\">d6</td><td style=\"text-align:center\"\
+      >M</td><td style=\"text-align:center\">40</td><td style=\"text-align:center\"\
+      >1</td><td style=\"text-align:right;padding-right:0.25em\">4</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:left;padding-left:0.25em\">Longbow</td><td style=\"\
+      text-align:left;padding-left:0.25em\">Two handed</td><td style=\"text-align:center\"\
+      >d6</td><td style=\"text-align:center\">R</td><td style=\"text-align:center\"\
+      >70</td><td style=\"text-align:center\">1</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >25</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Mace/Hammer</td><td style=\"text-align:left;padding-left:0.25em\">+1 av vs.\_\
+      metal armor</td><td style=\"text-align:center\">d6</td><td style=\"text-align:center\"\
+      >R</td><td style=\"text-align:center\"></td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:right;padding-right:0.25em\">20</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:left;padding-left:0.25em\">Morning Star</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">As above, \xD73 crit dam.</td><td\
+      \ style=\"text-align:center\">d6</td><td style=\"text-align:center\">H</td><td\
+      \ style=\"text-align:center\"></td><td style=\"text-align:center\"></td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">25</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:left;padding-left:0.25em\">Musket</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >Two handed</td><td style=\"text-align:center\">d6+2</td><td style=\"text-align:center\"\
+      >H</td><td style=\"text-align:center\">30</td><td style=\"text-align:center\"\
+      >1/4</td><td style=\"text-align:right;padding-right:0.25em\">150</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Pistol</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\"></td><td style=\"text-align:center\"\
+      >d6+1</td><td style=\"text-align:center\">R</td><td style=\"text-align:center\"\
+      >20</td><td style=\"text-align:center\">1/3</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >100</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Pole arms</td><td style=\"text-align:left;padding-left:0.25em\">Two handed,\
+      \ reach</td><td style=\"text-align:center\">d6+1</td><td style=\"text-align:center\"\
+      >H</td><td style=\"text-align:center\"></td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:right;padding-right:0.25em\">25</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:left;padding-left:0.25em\">Quarterstaff</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">Two handed, reach</td><td style=\"\
+      text-align:center\">d6\u22121</td><td style=\"text-align:center\">R</td><td\
+      \ style=\"text-align:center\"></td><td style=\"text-align:center\"></td><td\
+      \ style=\"text-align:right;padding-right:0.25em\">2</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:left;padding-left:0.25em\">Scimitar</td><td style=\"\
+      text-align:left;padding-left:0.25em\">+1 av while riding</td><td style=\"text-align:center\"\
+      >d6</td><td style=\"text-align:center\">R</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:center\"></td><td style=\"text-align:right;padding-right:0.25em\"\
+      >16</td></tr><tr class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Shortbow</td><td style=\"text-align:left;padding-left:0.25em\">Two handed,\
+      \ w. mount</td><td style=\"text-align:center\">d6\u22121</td><td style=\"text-align:center\"\
+      >R</td><td style=\"text-align:center\">50</td><td style=\"text-align:center\"\
+      >1</td><td style=\"text-align:right;padding-right:0.25em\">20</td></tr><tr class=\"\
+      even\"><td style=\"text-align:left;padding-left:0.25em\">Shortsword</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\"></td><td style=\"text-align:center\"\
+      >d6\u22121</td><td style=\"text-align:center\">M</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:center\"></td><td style=\"text-align:right;padding-right:0.25em\"\
+      >15</td></tr><tr class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Sling</td><td style=\"text-align:left;padding-left:0.25em\">Use with stones</td><td\
+      \ style=\"text-align:center\">d6\u22122</td><td style=\"text-align:center\"\
+      >N</td><td style=\"text-align:center\">30</td><td style=\"text-align:center\"\
+      >1</td><td style=\"text-align:right;padding-right:0.25em\">2</td></tr><tr class=\"\
+      even\"><td style=\"text-align:left;padding-left:0.25em\">Spear</td><td style=\"\
+      text-align:left;padding-left:0.25em\">Reach</td><td style=\"text-align:center\"\
+      >d6</td><td style=\"text-align:center\">R</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:center\"></td><td style=\"text-align:right;padding-right:0.25em\"\
+      >15</td></tr><tr class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Thr. Knife/Axe</td><td style=\"text-align:left;padding-left:0.25em\">\u2212\
+      1 av in melee</td><td style=\"text-align:center\">d6\u22122</td><td style=\"\
+      text-align:center\">M</td><td style=\"text-align:center\">25</td><td style=\"\
+      text-align:center\">1</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >4</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Unarmed</td><td style=\"text-align:left;padding-left:0.25em\">Knock-out, grapple</td><td\
+      \ style=\"text-align:center\">d6\u22123</td><td style=\"text-align:center\"\
+      >\u2013</td><td style=\"text-align:center\"></td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:right;padding-right:0.25em\">\u2013</td></tr></tbody></table><p><sup>\u2217\
+      </sup>\u201CW\u201D means weight: No size (100/slot), Minor (2/slot), Regular\
+      \ (1 slot) and Heavy (2 slots). See p.\_44. \u201CRoF\u201D is the rate of fire\
+      \ in shots/round(s). Fire in the first round, then spend any remaining rounds\
+      \ reloading before you can fire again. You can\u2019t move and reload weapons\
+      \ with fraction RoFs (crossbow, musket etc.).</p><h2>Armor</h2><table style=\"\
+      border:1px solid #000;width:50%;margin:0;margin-left:auto;margin-right:auto\"\
+      ><caption>Armors (p.\_61)</caption><thead><tr class=\"header\"><th style=\"\
+      text-align:left;padding-left:0.25em\">Armor</th><th style=\"text-align:center\"\
+      >DF</th><th style=\"text-align:right;padding-right:0.25em\">CR</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Shields</td><td\
+      \ style=\"text-align:center\">+1</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >30</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Cloth</td><td style=\"text-align:center\">1</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >15</td></tr><tr class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Leather</td><td style=\"text-align:center\">2</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >50</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Hard leather</td><td style=\"text-align:center\">3</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >80</td></tr><tr class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Chainmail</td><td style=\"text-align:center\">4</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >150</td></tr><tr class=\"even\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Splint mail</td><td style=\"text-align:center\">5</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >400</td></tr><tr class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\"\
+      >Full plate</td><td style=\"text-align:center\">6</td><td style=\"text-align:right;padding-right:0.25em\"\
+      >900</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 1100000
+  name: Zero and Negative HP (p. 62)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<table style=\"border:1px solid #000\"><caption>Zero &amp; Negative\
+      \ HP (p.\_62)</caption><thead><tr class=\"header\"><th style=\"width:6em;text-align:right;padding-right:0.5em\"\
+      >HP</th><th style=\"text-align:left;padding-left:0.5em\">Consequence</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:right;padding-right:0.5em\">0</td><td\
+      \ style=\"text-align:left;padding-left:0.5em\">Knocked out until healed to positive\
+      \ hp.</td></tr><tr class=\"even\"><td style=\"text-align:right;padding-right:0.5em\"\
+      >-1</td><td style=\"text-align:left;padding-left:0.5em\">As above. Also injured.</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:right;padding-right:0.5em\">-9 to -2</td><td\
+      \ style=\"text-align:left;padding-left:0.5em\">As above. Also save or die in\
+      \ d6 rounds.</td></tr><tr class=\"even\"><td style=\"text-align:right;padding-right:0.5em\"\
+      >-10 or less</td><td style=\"text-align:left;padding-left:0.5em\">Instant death.</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 1200000
+  name: Reading Scrolls (p. 66)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<table style=\"border:1px solid #000\"><caption>Reading Scrolls (p.\_\
+      66)</caption><thead><tr class=\"header\"><th style=\"width:8em;text-align:left;padding-left:0.25em\"\
+      >Roll</th><th style=\"text-align:left;padding-left:0.25em\">Result</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Fumble</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">The miracle doesn\u2019t work.\
+      \ You pay full hp anyway. Save or ruin the scroll.</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:left;padding-left:0.25em\">Fail</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >The miracle doesn\u2019t work. You only pay 1 hp and can try again later.</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:left;padding-left:0.25em\">Success</td><td\
+      \ style=\"text-align:left;padding-left:0.25em\">You pay full hp, the miracle\
+      \ works as intended, and 1 charge is spent.</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:left;padding-left:0.25em\">Double success</td><td style=\"\
+      text-align:left;padding-left:0.25em\">You pay full hp, the miracle works as\
+      \ intended, and no charge is spent.</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:left;padding-left:0.25em\">Crit</td><td style=\"text-align:left;padding-left:0.25em\"\
+      >The miracle works without hp cost, and no charge is spent.</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 1300000
+  name: Corruption (p. 76)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<table style=\"border:1px solid #000\"><caption>Effects of Corruption\
+      \ (p.\_76)</caption><thead><tr class=\"header\"><th style=\"width:4em;text-align:center\"\
+      >CL</th><th style=\"text-align:left\">Effect</th></tr></thead><tbody><tr class=\"\
+      odd\"><td style=\"text-align:center\">1\u20133</td><td style=\"text-align:left\"\
+      >A minor effect in behavior or looks. It can be hidden from cursory examinations\
+      \ and goes away after a day or two.</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">4\u20136</td><td style=\"text-align:left\">A major effect\
+      \ that cannot be hidden, but goes away after a day or two.</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">7\u201310</td><td style=\"text-align:left\"\
+      >A major effect that goes away after d6 weeks. The player is obliged to save\
+      \ at this level.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >10+</td><td style=\"text-align:left\">A major effect that is permanent. The\
+      \ player is obliged to save at this level. If CL exceeds 10+level, the character\
+      \ is lost to corruption. Roll a new character.</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 1400000
+  name: Consequences of Base Stress (p. 90)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<table style=\"border:1px solid #000\"><caption>Consequences of Base\
+      \ Stress (p.\_90)</caption><thead><tr class=\"header\"><th style=\"width:4em;text-align:center\"\
+      >Stress</th><th style=\"text-align:left\">Consequence</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">1\u20133</td><td style=\"text-align:left\"\
+      >Minor consequence. The base cannot provide service for the next day.</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">4\u20136</td><td style=\"text-align:left\"\
+      >Standard consequence. The base is clearly stressed. It cannot perform service\
+      \ for the next two days, and the Referee may <strong>compromise</strong> the\
+      \ base.</td></tr><tr class=\"odd\"><td style=\"text-align:center\">7\u20139</td><td\
+      \ style=\"text-align:left\">Serious consequence. The base is weakened and cannot\
+      \ be used for a whole week. The Referee may <strong>threaten</strong> the base.\
+      \ A save is obligatory.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >10+</td><td style=\"text-align:left\">Deadly consequence. The base is depleted,\
+      \ and the Referee may <strong>destroy</strong> it. A save is obligatory. Fumble\
+      \ means the base is lost. The base must transcend before use.</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 1500000
+  name: Randomizing Input Tables (p. 106)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<p>See pages 106\u2013109.</p><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.eI3HRyZnjXreeMYs]{Randomizing\
+      \ Input Tables}</p><h1 id=\"a-item\">A Item</h1><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.O56vfdBFzDAJp3BP]{A\
+      \ Item}</p><table style=\"border:1px solid #000\"><thead><tr class=\"header\"\
+      ><th style=\"width:4em;text-align:center\">1d20</th><th style=\"text-align:left\"\
+      >Item</th></tr></thead><tbody><tr class=\"odd\"><td style=\"text-align:center\"\
+      >1</td><td style=\"text-align:left\">Weapon</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">2</td><td style=\"text-align:left\">Potion</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">3</td><td style=\"text-align:left\"\
+      >Scroll</td></tr><tr class=\"even\"><td style=\"text-align:center\">6</td><td\
+      \ style=\"text-align:left\">Map</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >5</td><td style=\"text-align:left\">Book</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">4</td><td style=\"text-align:left\">Armor</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">7</td><td style=\"text-align:left\">Jewel</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">8</td><td style=\"text-align:left\"\
+      >Device</td></tr><tr class=\"odd\"><td style=\"text-align:center\">9</td><td\
+      \ style=\"text-align:left\">Note</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >10</td><td style=\"text-align:left\">Container</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">11</td><td style=\"text-align:left\">Letter</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">12</td><td style=\"text-align:left\"\
+      >Amulet</td></tr><tr class=\"odd\"><td style=\"text-align:center\">13</td><td\
+      \ style=\"text-align:left\">Ring</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >14</td><td style=\"text-align:left\">Pet</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">15</td><td style=\"text-align:left\">Glasses</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">16</td><td style=\"text-align:left\"\
+      >Key</td></tr><tr class=\"odd\"><td style=\"text-align:center\">17</td><td style=\"\
+      text-align:left\">Ingredient</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >18</td><td style=\"text-align:left\">Poison</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">19</td><td style=\"text-align:left\">Drug</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">20</td><td style=\"text-align:left\"\
+      >Promissory note</td></tr></tbody></table><h1 id=\"b-trait-reversible\">B Trait\
+      \ (*reversible)</h1><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.dyhqcUkXBpWmeGvR]{B\
+      \ Trait (*reversible)}</p><table style=\"border:1px solid #000\"><thead><tr\
+      \ class=\"header\"><th style=\"width:4em;text-align:center\">1d20</th><th style=\"\
+      text-align:left\">Trait (*reversible)</th></tr></thead><tbody><tr class=\"odd\"\
+      ><td style=\"text-align:center\">1</td><td style=\"text-align:left\">Hunted</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">2</td><td style=\"text-align:left\"\
+      >Cursed*</td></tr><tr class=\"odd\"><td style=\"text-align:center\">3</td><td\
+      \ style=\"text-align:left\">Expensive*</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">4</td><td style=\"text-align:left\">Evidence</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">5</td><td style=\"text-align:left\"\
+      >Guilty*</td></tr><tr class=\"even\"><td style=\"text-align:center\">6</td><td\
+      \ style=\"text-align:left\">Last*</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >7</td><td style=\"text-align:left\">Unique*</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">8</td><td style=\"text-align:left\">Blooded</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">9</td><td style=\"text-align:left\"\
+      >Magick</td></tr><tr class=\"even\"><td style=\"text-align:center\">10</td><td\
+      \ style=\"text-align:left\">Divine*</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">11</td><td style=\"text-align:left\">Historic</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">12</td><td style=\"text-align:left\"\
+      >Brutal*</td></tr><tr class=\"odd\"><td style=\"text-align:center\">13</td><td\
+      \ style=\"text-align:left\">Healing*</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">14</td><td style=\"text-align:left\">Missing</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">15</td><td style=\"text-align:left\"\
+      >Hated*</td></tr><tr class=\"even\"><td style=\"text-align:center\">16</td><td\
+      \ style=\"text-align:left\">Smelly*</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">17</td><td style=\"text-align:left\">Broken</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">18</td><td style=\"text-align:left\"\
+      >Odd*</td></tr><tr class=\"odd\"><td style=\"text-align:center\">19</td><td\
+      \ style=\"text-align:left\">Raw*</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >20</td><td style=\"text-align:left\">Fake*</td></tr></tbody></table><h1 id=\"\
+      c-origin-ages-eras-places-cultures\">C Origin (Ages, Eras, Places, Cultures)</h1><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.aNXhKKU9CsoVfjyM]{C\
+      \ Origin (Ages, Eras, Places, Cultures)}</p><table style=\"border:1px solid\
+      \ #000\"><thead><tr class=\"header\"><th style=\"width:4em;text-align:center\"\
+      >1d20</th><th>Origin (Ages, Eras, Places, Cultures)</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">1</td><td>\xC6onic</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">2</td><td>Imperial</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">3</td><td>Witch King</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">4</td><td>The Black</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">5</td><td>Meteorite</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">6</td><td>Glacier</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">7</td><td>New</td></tr><tr class=\"\
+      even\"><td style=\"text-align:center\">8</td><td>Orcish</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">9</td><td>Ancient</td></tr><tr class=\"\
+      even\"><td style=\"text-align:center\">10</td><td>Elven</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">11</td><td>Dwarven</td></tr><tr class=\"\
+      even\"><td style=\"text-align:center\">12</td><td>Goblin</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">13</td><td>Dagonite</td></tr><tr class=\"\
+      even\"><td style=\"text-align:center\">14</td><td>Unknown</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">15</td><td>Sea</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:center\">16</td><td>Cataclysm</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">17</td><td>City</td></tr><tr class=\"\
+      even\"><td style=\"text-align:center\">18</td><td>Country</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">19</td><td>War</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:center\">20</td><td>Future</td></tr></tbody></table><h1\
+      \ id=\"d-drama\">D Drama</h1><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.ALXdznTSlnRFfpF3]{D\
+      \ Drama}</p><table style=\"border:1px solid #000\"><thead><tr class=\"header\"\
+      ><th style=\"width:4em;text-align:center\">1d20</th><th style=\"text-align:left\"\
+      >Drama</th></tr></thead><tbody><tr class=\"odd\"><td style=\"text-align:center\"\
+      >1</td><td style=\"text-align:left\">Theft</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">2</td><td style=\"text-align:left\">Betrayal</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">3</td><td style=\"text-align:left\"\
+      >Struggle</td></tr><tr class=\"even\"><td style=\"text-align:center\">4</td><td\
+      \ style=\"text-align:left\">Greed</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >5</td><td style=\"text-align:left\">Heresy</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">6</td><td style=\"text-align:left\">Death</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">7</td><td style=\"text-align:left\"\
+      >Wound</td></tr><tr class=\"even\"><td style=\"text-align:center\">8</td><td\
+      \ style=\"text-align:left\">Duty</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >9</td><td style=\"text-align:left\">Poison</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">10</td><td style=\"text-align:left\">Plague</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">11</td><td style=\"text-align:left\"\
+      >Treason</td></tr><tr class=\"even\"><td style=\"text-align:center\">12</td><td\
+      \ style=\"text-align:left\">Lie</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >13</td><td style=\"text-align:left\">Vengeance</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:center\">14</td><td style=\"text-align:left\">Flight</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">15</td><td style=\"text-align:left\"\
+      >Revolt</td></tr><tr class=\"even\"><td style=\"text-align:center\">16</td><td\
+      \ style=\"text-align:left\">Ambition</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">17</td><td style=\"text-align:left\">War</td></tr><tr class=\"\
+      even\"><td style=\"text-align:center\">18</td><td style=\"text-align:left\"\
+      >Taboo</td></tr><tr class=\"odd\"><td style=\"text-align:center\">19</td><td\
+      \ style=\"text-align:left\">Ideal</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >20</td><td style=\"text-align:left\">Rivalry</td></tr></tbody></table><h1 id=\"\
+      e-personality-all-are-reversible\">E Personality (all are reversible)</h1><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.x8VKJBuDSVG8kNcV]{E\
+      \ Personality (all are reversible)}</p><table style=\"border:1px solid #000\"\
+      ><thead><tr class=\"header\"><th style=\"width:4em;text-align:center\">1d20</th><th>Personality\
+      \ (all are reversible)</th></tr></thead><tbody><tr class=\"odd\"><td style=\"\
+      text-align:center\">1</td><td>Mysterious</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">2</td><td>Truthful</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">3</td><td>Dull</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">6</td><td>Seductive</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">5</td><td>Obnoxious</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">4</td><td>Choleric</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">7</td><td>Slimy</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">8</td><td>Superior</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">9</td><td>Cool</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">10</td><td>Friendly</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">11</td><td>Awkward</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">12</td><td>Confused</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">13</td><td>Intense</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">14</td><td>Stupid</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">15</td><td>Shallow</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">16</td><td>Conceited</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">17</td><td>Doubtful</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">18</td><td>Tough</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">19</td><td>Quiet</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">20</td><td>Brave</td></tr></tbody></table><h1 id=\"f-wilderness-locations\"\
+      >F Wilderness Locations</h1><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.tGUe76Ho9gpDFKKm]{F\
+      \ Wilderness Locations}</p><table style=\"border:1px solid #000\"><thead><tr\
+      \ class=\"header\"><th style=\"width:4em;text-align:center\">1d20</th><th style=\"\
+      text-align:left\">Wilderness Locations</th></tr></thead><tbody><tr class=\"\
+      odd\"><td style=\"text-align:center\">1</td><td style=\"text-align:left\">Megaliths</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">2</td><td style=\"text-align:left\"\
+      >Peak</td></tr><tr class=\"odd\"><td style=\"text-align:center\">3</td><td style=\"\
+      text-align:left\">Pass</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >4</td><td style=\"text-align:left\">Grave</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">5</td><td style=\"text-align:left\">Glacier</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">6</td><td style=\"text-align:left\"\
+      >Cave</td></tr><tr class=\"odd\"><td style=\"text-align:center\">7</td><td style=\"\
+      text-align:left\">Vale</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >8</td><td style=\"text-align:left\">Glade</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">9</td><td style=\"text-align:left\">Ruin</td></tr><tr class=\"\
+      even\"><td style=\"text-align:center\">10</td><td style=\"text-align:left\"\
+      >Chasm</td></tr><tr class=\"odd\"><td style=\"text-align:center\">11</td><td\
+      \ style=\"text-align:left\">Lone tree</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">12</td><td style=\"text-align:left\">Crossroads</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">13</td><td style=\"text-align:left\"\
+      >Rapids</td></tr><tr class=\"even\"><td style=\"text-align:center\">14</td><td\
+      \ style=\"text-align:left\">Swamp</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >15</td><td style=\"text-align:left\">Fortress</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">16</td><td style=\"text-align:left\">Heath</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">17</td><td style=\"text-align:left\"\
+      >Territory</td></tr><tr class=\"even\"><td style=\"text-align:center\">18</td><td\
+      \ style=\"text-align:left\">Lake</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >19</td><td style=\"text-align:left\">Crater</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">20</td><td style=\"text-align:left\">Burial grounds</td></tr></tbody></table><h1\
+      \ id=\"g-city-locations\">G City Locations</h1><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.IxfP2hXzqukK7iHT]{G\
+      \ City Locations}</p><table style=\"border:1px solid #000\"><thead><tr class=\"\
+      header\"><th style=\"width:4em;text-align:center\">1d20</th><th style=\"text-align:left\"\
+      >City Locations</th></tr></thead><tbody><tr class=\"odd\"><td style=\"text-align:center\"\
+      >1</td><td style=\"text-align:left\">Prison</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">2</td><td style=\"text-align:left\">Harbor</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">3</td><td style=\"text-align:left\"\
+      >Temple</td></tr><tr class=\"even\"><td style=\"text-align:center\">4</td><td\
+      \ style=\"text-align:left\">Gates</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >5</td><td style=\"text-align:left\">Museum</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">6</td><td style=\"text-align:left\">Morgue</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">7</td><td style=\"text-align:left\"\
+      >Bridge</td></tr><tr class=\"even\"><td style=\"text-align:center\">8</td><td\
+      \ style=\"text-align:left\">Market</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >9</td><td style=\"text-align:left\">Tower</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">10</td><td style=\"text-align:left\">Park</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">11</td><td style=\"text-align:left\">Library</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">12</td><td style=\"text-align:left\"\
+      >Shoppe</td></tr><tr class=\"odd\"><td style=\"text-align:center\">13</td><td\
+      \ style=\"text-align:left\">Court</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >14</td><td style=\"text-align:left\">Slums</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">15</td><td style=\"text-align:left\">Arena</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">16</td><td style=\"text-align:left\"\
+      >Canal</td></tr><tr class=\"odd\"><td style=\"text-align:center\">17</td><td\
+      \ style=\"text-align:left\">Storehouse</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">18</td><td style=\"text-align:left\">Graveyard</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">19</td><td style=\"text-align:left\"\
+      >Well</td></tr><tr class=\"even\"><td style=\"text-align:center\">20</td><td\
+      \ style=\"text-align:left\">Water reserve</td></tr></tbody></table><h1 id=\"\
+      h-events\">H Events</h1><p>@UUID[Compendium.whitehack4e.roll-table.RollTable.4pEDIsVlWJ1KbKtS]{H\
+      \ Events}</p><table style=\"border:1px solid #000\"><thead><tr class=\"header\"\
+      ><th style=\"width:4em;text-align:center\">1d20</th><th style=\"text-align:left\"\
+      >Events</th></tr></thead><tbody><tr class=\"odd\"><td style=\"text-align:center\"\
+      >1</td><td style=\"text-align:left\">Burglary</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">2</td><td style=\"text-align:left\">Break-up</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">3</td><td style=\"text-align:left\"\
+      >Fight</td></tr><tr class=\"even\"><td style=\"text-align:center\">4</td><td\
+      \ style=\"text-align:left\">Deal</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >5</td><td style=\"text-align:left\">Execution</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">6</td><td style=\"text-align:left\">Accident</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">7</td><td style=\"text-align:left\"\
+      >Outbreak</td></tr><tr class=\"even\"><td style=\"text-align:center\">8</td><td\
+      \ style=\"text-align:left\">Peace</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >9</td><td style=\"text-align:left\">Election</td></tr><tr class=\"even\"><td\
+      \ style=\"text-align:center\">10</td><td style=\"text-align:left\">Coup</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">11</td><td style=\"text-align:left\"\
+      >Famine</td></tr><tr class=\"even\"><td style=\"text-align:center\">12</td><td\
+      \ style=\"text-align:left\">Revelation</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">13</td><td style=\"text-align:left\">Escape</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">14</td><td style=\"text-align:left\"\
+      >Purchase</td></tr><tr class=\"odd\"><td style=\"text-align:center\">15</td><td\
+      \ style=\"text-align:left\">Strike</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">16</td><td style=\"text-align:left\">Arrival</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">17</td><td style=\"text-align:left\"\
+      >Legislation</td></tr><tr class=\"even\"><td style=\"text-align:center\">18</td><td\
+      \ style=\"text-align:left\">Arrest</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >19</td><td style=\"text-align:left\">Invention</td></tr><tr class=\"even\"\
+      ><td style=\"text-align:center\">20</td><td style=\"text-align:left\">Disappearance</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 1600000
+  name: Monster XP by HD (p. 120)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<table style=\"border:1px solid #000\"><caption>Monster XP (p.\_120)</caption><thead><tr\
+      \ class=\"header\"><th style=\"width:2.5em;text-align:center\">HD</th><th style=\"\
+      width:5em;text-align:center\">XP</th><th style=\"width:3em;text-align:center\"\
+      ></th><th style=\"width:2em;text-align:center\">HD</th><th style=\"width:5em;text-align:center\"\
+      >XP</th><th style=\"width:3em;text-align:center\"></th><th style=\"width:2em;text-align:center\"\
+      >HD</th><th style=\"width:5em;text-align:center\">XP</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">1 HP</td><td style=\"text-align:center\"\
+      >17</td><td style=\"text-align:center\"></td><td style=\"text-align:center\"\
+      >6</td><td style=\"text-align:center\">1,000</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:center\">12</td><td style=\"text-align:center\"\
+      >2,400</td></tr><tr class=\"even\"><td style=\"text-align:center\">1</td><td\
+      \ style=\"text-align:center\">40</td><td style=\"text-align:center\"></td><td\
+      \ style=\"text-align:center\">7</td><td style=\"text-align:center\">1,400</td><td\
+      \ style=\"text-align:center\"></td><td style=\"text-align:center\">13</td><td\
+      \ style=\"text-align:center\">2,600</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">2</td><td style=\"text-align:center\">90</td><td style=\"\
+      text-align:center\"></td><td style=\"text-align:center\">8</td><td style=\"\
+      text-align:center\">1,600</td><td style=\"text-align:center\"></td><td style=\"\
+      text-align:center\">14</td><td style=\"text-align:center\">2,800</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">3</td><td style=\"text-align:center\"\
+      >200</td><td style=\"text-align:center\"></td><td style=\"text-align:center\"\
+      >9</td><td style=\"text-align:center\">1,800</td><td style=\"text-align:center\"\
+      ></td><td style=\"text-align:center\">15</td><td style=\"text-align:center\"\
+      >3,000</td></tr><tr class=\"odd\"><td style=\"text-align:center\">4</td><td\
+      \ style=\"text-align:center\">400</td><td style=\"text-align:center\"></td><td\
+      \ style=\"text-align:center\">10</td><td style=\"text-align:center\">2,000</td><td\
+      \ style=\"text-align:center\"></td><td style=\"text-align:center\">16</td><td\
+      \ style=\"text-align:center\">3,200</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">5</td><td style=\"text-align:center\">700</td><td style=\"\
+      text-align:center\"></td><td style=\"text-align:center\">11</td><td style=\"\
+      text-align:center\">2,200</td><td style=\"text-align:center\"></td><td style=\"\
+      text-align:center\">17</td><td style=\"text-align:center\">3,400</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 1700000
+  name: Loot Rolls (p. 121)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<p>Make a task roll against <code>HD+LT modifier</code>.</p><ul><li>Failures\
+      \ and fumbles render loot according to the below loot table, of a <em>maximum\
+      \ total worth</em> no higher than the monster\u2019s xp value, counted in crowns.<sup>\u2217\
+      </sup></li><li>Success on the other hand gives you roughly that maximum, plus\
+      \ something extra that isn\u2019t limited in that way.</li><li>Crits let you\
+      \ read from the line below (if there is one) on the loot table.</li></ul><p>See\
+      \ page 121.</p><p><sup>\u2217</sup>Most of the time, it will be less. For example,\
+      \ far from every Fighter is going to have things worth 90 crowns on them.</p><table\
+      \ style=\"border:1px solid #000;width:90%;margin:0;margin:0 auto\"><caption>Monster\
+      \ Loot (p.\_121)</caption><thead><tr class=\"header\"><th style=\"width:3em;text-align:center\"\
+      >LT</th><th style=\"width:5em;text-align:left\">Category</th><th style=\"width:12em;text-align:left\"\
+      >Failure</th><th style=\"width:5em;text-align:left\">Success</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">A</td><td style=\"text-align:left\"\
+      >Animal</td><td style=\"text-align:left\">Nothing</td><td style=\"text-align:left\"\
+      >Food</td></tr><tr class=\"even\"><td style=\"text-align:center\">R</td><td\
+      \ style=\"text-align:left\">Regular</td><td style=\"text-align:left\">Mundane\
+      \ and expected.</td><td style=\"text-align:left\">Valuable</td></tr><tr class=\"\
+      odd\"><td style=\"text-align:center\">M</td><td style=\"text-align:left\">Monster</td><td\
+      \ style=\"text-align:left\">Valuable but still expected.</td><td style=\"text-align:left\"\
+      >Rare</td></tr><tr class=\"even\"><td style=\"text-align:center\">H</td><td\
+      \ style=\"text-align:left\">Hoard</td><td style=\"text-align:left\">Valuable,\
+      \ rare. Magick.</td><td style=\"text-align:left\">Artifact(s)</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 1550000
+  name: Modus Rolls (p. 113)
+  type: text
+  title:
+    show: false
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<p>@UUID[Compendium.whitehack4e.roll-table.RollTable.K53pGkut7s9LbfNF]{Modus\
+      \ Roll}</p><table style=\"border:1px solid #000\"><caption>Modus Roll (p.\_\
+      113)</caption><thead><tr class=\"header\"><th style=\"width:4em;text-align:center\"\
+      >1d20</th><th style=\"text-align:left\">Modus Roll</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">1</td><td style=\"text-align:left\"\
+      >Innocent bystanders</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >2</td><td style=\"text-align:left\">The flu</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">3</td><td style=\"text-align:left\">Local tyrant</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">4</td><td style=\"text-align:left\"\
+      >Landslide</td></tr><tr class=\"odd\"><td style=\"text-align:center\">5</td><td\
+      \ style=\"text-align:left\">Flooding</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">6</td><td style=\"text-align:left\">Religious cult</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">7</td><td style=\"text-align:left\"\
+      >Festivity</td></tr><tr class=\"even\"><td style=\"text-align:center\">8</td><td\
+      \ style=\"text-align:left\">Protests</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">9</td><td style=\"text-align:left\">A matter of law</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">10</td><td style=\"text-align:left\"\
+      >Extreme weather</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >11</td><td style=\"text-align:left\">An improbable find</td></tr><tr class=\"\
+      even\"><td style=\"text-align:center\">12</td><td style=\"text-align:left\"\
+      >Infestation</td></tr><tr class=\"odd\"><td style=\"text-align:center\">13</td><td\
+      \ style=\"text-align:left\">Major news</td></tr><tr class=\"even\"><td style=\"\
+      text-align:center\">14</td><td style=\"text-align:left\">Shortage</td></tr><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">15</td><td style=\"text-align:left\"\
+      >An accident</td></tr><tr class=\"even\"><td style=\"text-align:center\">16</td><td\
+      \ style=\"text-align:left\">Power fluctuations</td></tr><tr class=\"odd\"><td\
+      \ style=\"text-align:center\">17</td><td style=\"text-align:left\">Someone else\u2019\
+      s fight</td></tr><tr class=\"even\"><td style=\"text-align:center\">18</td><td\
+      \ style=\"text-align:left\">Caravan</td></tr><tr class=\"odd\"><td style=\"\
+      text-align:center\">19</td><td style=\"text-align:left\">Famous entertainer</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">20</td><td style=\"text-align:left\"\
+      >Notorious prisoner</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+- sort: 0
+  name: "README\u2014LICENSE"
+  type: text
+  title:
+    show: true
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: '<p><strong>Whitehack</strong> is an RPG trademark through established
+      use, owned by Christian Mehrstam.</p><p>This third party product is unaffiliated.</p><p>The
+      <strong>Whitehack</strong> name is used with permission.</p><p>Also note that
+      the following are copyright of Whitehack''s author, all rights reserved. This
+      material is used with permission:</p><ul><li><p>Brave quirk descriptions</p></li><li><p>Clever
+      knack descriptions</p></li><li><p>Strong combat option descriptions</p></li><li><p>Reference
+      documents within the <strong>Whitehack 4e Game Reference</strong> journal</p></li><li><p>Roll
+      tables</p></li></ul><p>See the <strong>Whitehack</strong> website for more information,
+      including links to purchase game books: <a href="https://whitehackrpg.wordpress.com/">https://whitehackrpg.wordpress.com/</a></p>'
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+sort: 0
+categories: []

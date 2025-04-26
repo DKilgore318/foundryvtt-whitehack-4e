@@ -1,0 +1,18 @@
+name: Reactions & Parley (Public Roll)
+type: script
+author: kHDgurX1WEPIJDaV
+img: icons/skills/social/intimidation-impressing.webp
+scope: global
+command: 'const packName = "whitehack4e.roll-table";
+
+  const tableName = "Reactions & Parley";
+
+
+  const pack = game.packs.get(packName);
+
+  await pack.getIndex();
+
+  let rollTable = pack.index.find(rt => rt.name == tableName);
+
+  pack.getDocument(rollTable._id).then(table => table.draw({rollMode: CONST.DICE_ROLL_MODES.SELF}));'
+sort: 550000

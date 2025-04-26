@@ -1,0 +1,35 @@
+name: Base Sheet Template
+pages:
+- sort: 100000
+  name: '[Name] Base Sheet'
+  type: text
+  title:
+    show: true
+    level: 1
+  image: {}
+  text:
+    format: 1
+    content: "<h2 id=\"base-identity\">Base Identity</h2><p></p><h2 id=\"zero-state\"\
+      >Zero State</h2><p></p><h2 id=\"current-state\">Current State</h2><p></p><h2\
+      \ id=\"example-base-effects-with-cost\">Example Base Effects with Cost</h2><table\
+      \ style=\"border:1px solid #000\"><thead><tr class=\"header\"><th style=\"width:4em;text-align:center\"\
+      >Cost</th><th style=\"text-align:left\">Example Effect</th></tr></thead><tbody><tr\
+      \ class=\"odd\"><td style=\"text-align:center\">1</td><td style=\"text-align:left\"\
+      ><strong>Minor service.</strong> Call in a small favor, get past a minor obstacle,\
+      \ halve healing times, provide short transport, fight a simple foe.</td></tr><tr\
+      \ class=\"even\"><td style=\"text-align:center\">2</td><td style=\"text-align:left\"\
+      ><strong>Standard service.</strong> Call in a substantial favor, remove or provide\
+      \ an obstacle, perform surgery, provide longer transport, give important but\
+      \ not crucial information.</td></tr><tr class=\"odd\"><td style=\"text-align:center\"\
+      >d6</td><td style=\"text-align:left\"><strong>Major Intervention.</strong> Relocate\
+      \ headquarters, save character\u2019s life, give crucial information, fight\
+      \ (but not defeat) major foe.</td></tr><tr class=\"even\"><td style=\"text-align:center\"\
+      >2d6</td><td style=\"text-align:left\"><strong>Last Resort.</strong> Sacrifice\
+      \ crucial base elements, use <em>a lot</em> of resources, save the party.</td></tr></tbody></table>"
+  video:
+    controls: true
+    volume: 0.5
+  src: null
+  system: {}
+sort: 0
+categories: []

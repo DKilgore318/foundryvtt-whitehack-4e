@@ -1,0 +1,385 @@
+name: Reactions & Parley
+formula: 3d6
+results:
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 3</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">3</td> <td style=\"text-align:center\">Furious</td>\
+    \ <td style=\"text-align:center\">-6</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">4\u20135</td> <td style=\"text-align:center\">Hostile</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">6\u20139</td> <td style=\"text-align:center\">Negative</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">10\u201313</td> <td style=\"text-align:center\">Neutral</td>\
+    \ <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">14\u201316</td> <td style=\"text-align:center\">Positive</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td> <td style=\"\
+    text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 3
+  - 3
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 4</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">4\u20135</td> <td style=\"text-align:center\">Hostile</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">6\u20139</td> <td style=\"text-align:center\">Negative</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">10\u201313</td> <td style=\"text-align:center\">Neutral</td>\
+    \ <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">14\u201316</td> <td style=\"text-align:center\">Positive</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td> <td style=\"\
+    text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 4
+  - 4
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 5</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">4\u20135</td> <td style=\"text-align:center\">Hostile</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">6\u20139</td> <td style=\"text-align:center\">Negative</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">10\u201313</td> <td style=\"text-align:center\">Neutral</td>\
+    \ <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">14\u201316</td> <td style=\"text-align:center\">Positive</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td> <td style=\"\
+    text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 5
+  - 5
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 6</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">6\u20139</td> <td style=\"text-align:center\">Negative</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">10\u201313</td> <td style=\"text-align:center\">Neutral</td>\
+    \ <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">14\u201316</td> <td style=\"text-align:center\">Positive</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td> <td style=\"\
+    text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 6
+  - 6
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 7</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">6\u20139</td> <td style=\"text-align:center\">Negative</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">10\u201313</td> <td style=\"text-align:center\">Neutral</td>\
+    \ <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">14\u201316</td> <td style=\"text-align:center\">Positive</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td> <td style=\"\
+    text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 7
+  - 7
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 8</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">6\u20139</td> <td style=\"text-align:center\">Negative</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">10\u201313</td> <td style=\"text-align:center\">Neutral</td>\
+    \ <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">14\u201316</td> <td style=\"text-align:center\">Positive</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td> <td style=\"\
+    text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 8
+  - 8
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 9</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">6\u20139</td> <td style=\"text-align:center\">Negative</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">10\u201313</td> <td style=\"text-align:center\">Neutral</td>\
+    \ <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"> <td style=\"\
+    text-align:center\">14\u201316</td> <td style=\"text-align:center\">Positive</td>\
+    \ <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"> <td style=\"\
+    text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td> <td style=\"\
+    text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 9
+  - 9
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 10</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\"> <td style=\"text-align:center\">6\u20139</td>\
+    \ <td style=\"text-align:center\">Negative</td> <td style=\"text-align:center\"\
+    >-2</td> </tr> <tr class=\"even\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">10\u201313</td> <td style=\"text-align:center\"\
+    >Neutral</td> <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"\
+    > <td style=\"text-align:center\">14\u201316</td> <td style=\"text-align:center\"\
+    >Positive</td> <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"\
+    > <td style=\"text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 10
+  - 10
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 11</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\"> <td style=\"text-align:center\">6\u20139</td>\
+    \ <td style=\"text-align:center\">Negative</td> <td style=\"text-align:center\"\
+    >-2</td> </tr> <tr class=\"even\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">10\u201313</td> <td style=\"text-align:center\"\
+    >Neutral</td> <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"\
+    > <td style=\"text-align:center\">14\u201316</td> <td style=\"text-align:center\"\
+    >Positive</td> <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"\
+    > <td style=\"text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 11
+  - 11
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 12</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\"> <td style=\"text-align:center\">6\u20139</td>\
+    \ <td style=\"text-align:center\">Negative</td> <td style=\"text-align:center\"\
+    >-2</td> </tr> <tr class=\"even\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">10\u201313</td> <td style=\"text-align:center\"\
+    >Neutral</td> <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"\
+    > <td style=\"text-align:center\">14\u201316</td> <td style=\"text-align:center\"\
+    >Positive</td> <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"\
+    > <td style=\"text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 12
+  - 12
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 13</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\"> <td style=\"text-align:center\">6\u20139</td>\
+    \ <td style=\"text-align:center\">Negative</td> <td style=\"text-align:center\"\
+    >-2</td> </tr> <tr class=\"even\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">10\u201313</td> <td style=\"text-align:center\"\
+    >Neutral</td> <td style=\"text-align:center\">\xB10</td> </tr> <tr class=\"odd\"\
+    > <td style=\"text-align:center\">14\u201316</td> <td style=\"text-align:center\"\
+    >Positive</td> <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"\
+    > <td style=\"text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 13
+  - 13
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 14</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\"> <td style=\"text-align:center\">6\u20139</td>\
+    \ <td style=\"text-align:center\">Negative</td> <td style=\"text-align:center\"\
+    >-2</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">10\u201313</td>\
+    \ <td style=\"text-align:center\">Neutral</td> <td style=\"text-align:center\"\
+    >\xB10</td> </tr> <tr class=\"odd\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">14\u201316</td> <td style=\"text-align:center\"\
+    >Positive</td> <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"\
+    > <td style=\"text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 14
+  - 14
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 15</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\"> <td style=\"text-align:center\">6\u20139</td>\
+    \ <td style=\"text-align:center\">Negative</td> <td style=\"text-align:center\"\
+    >-2</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">10\u201313</td>\
+    \ <td style=\"text-align:center\">Neutral</td> <td style=\"text-align:center\"\
+    >\xB10</td> </tr> <tr class=\"odd\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">14\u201316</td> <td style=\"text-align:center\"\
+    >Positive</td> <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"\
+    > <td style=\"text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 15
+  - 15
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 16</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\"> <td style=\"text-align:center\">6\u20139</td>\
+    \ <td style=\"text-align:center\">Negative</td> <td style=\"text-align:center\"\
+    >-2</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">10\u201313</td>\
+    \ <td style=\"text-align:center\">Neutral</td> <td style=\"text-align:center\"\
+    >\xB10</td> </tr> <tr class=\"odd\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">14\u201316</td> <td style=\"text-align:center\"\
+    >Positive</td> <td style=\"text-align:center\">-2</td> </tr> <tr class=\"even\"\
+    > <td style=\"text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 16
+  - 16
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+- text: "<table style=\"border:1px solid #000\"> <caption>Non-Player Character Reactions:\
+    \ 17</caption> <thead> <tr class=\"header\"> <th style=\"text-align:center\">3d6</th>\
+    \ <th style=\"text-align:center\">Reaction</th> <th style=\"text-align:center\"\
+    >Parley</th> </tr> </thead> <tbody> <tr class=\"odd\"> <td style=\"text-align:center\"\
+    >3</td> <td style=\"text-align:center\">Furious</td> <td style=\"text-align:center\"\
+    >-6</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">4\u20135</td>\
+    \ <td style=\"text-align:center\">Hostile</td> <td style=\"text-align:center\"\
+    >-4</td> </tr> <tr class=\"odd\"> <td style=\"text-align:center\">6\u20139</td>\
+    \ <td style=\"text-align:center\">Negative</td> <td style=\"text-align:center\"\
+    >-2</td> </tr> <tr class=\"even\"> <td style=\"text-align:center\">10\u201313</td>\
+    \ <td style=\"text-align:center\">Neutral</td> <td style=\"text-align:center\"\
+    >\xB10</td> </tr> <tr class=\"odd\"> <td style=\"text-align:center\">14\u2013\
+    16</td> <td style=\"text-align:center\">Positive</td> <td style=\"text-align:center\"\
+    >-2</td> </tr> <tr class=\"even\" style=\"background-color:#f5d950;border-top:1px\
+    \ solid #000;border-bottom:1px solid #000;font-weight:bold;font-size:1em\"> <td\
+    \ style=\"text-align:center\">17+</td> <td style=\"text-align:center\">Happy</td>\
+    \ <td style=\"text-align:center\">-4</td> </tr> </tbody> </table>"
+  range:
+  - 17
+  - 17
+  type: 0
+  documentId: null
+  weight: 1
+  drawn: false
+  img: icons/svg/d20-black.svg
+img: icons/svg/d20-grey.svg
+description: <ul><li>Make a <strong>Charisma</strong> roll modified by <strong>Parley</strong>
+  to change the attitude one level better or worse.</li><li>Apply -2 for each <em>additional</em>
+  step of change.</li><li>Apply -6 if there is no mutual language.</li></ul>
+replacement: true
+displayRoll: false
+sort: 600000

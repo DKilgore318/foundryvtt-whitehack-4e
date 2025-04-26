@@ -1,0 +1,339 @@
+name: 2. Saffron, Wise Black Hats Alchemist
+type: Character
+img: icons/svg/mystery-man.svg
+system:
+  hitPoints:
+    value: 6
+    min: 0
+    max: 6
+  movement: 30
+  notes: ''
+  basics:
+    level: 1
+    class: theWise
+    vocation: Alchemist
+    species: Human
+    numberOfSlots: 1
+    numberOfGroups: 2
+  attributes:
+    str:
+      value: 6
+      mod: 0
+      dmgMod: 0
+      groups: ''
+    dex:
+      value: 15
+      mod: 1
+      groups: ''
+    con:
+      value: 14
+      mod: 1
+      groups: ''
+    int:
+      value: 9
+      mod: 0
+      groups: ''
+    wis:
+      value: 13
+      mod: 1
+      groups: Alchemist, Black Hats
+    cha:
+      value: 13
+      mod: 0
+      groups: ''
+  combat:
+    armourClass: 1
+    attackValue: 10
+  savingThrow: 6
+  savingThrowColor: Daring
+  languages: Common
+  xp:
+    current: 0
+    nextLevel: 2350
+  corruptionLevel:
+    value: 0
+    disorders: ''
+  encumbrance:
+    equipped: 2
+    stored: 0.51
+  coin:
+    gp: 0
+    sp: 0
+    cp: 0
+prototypeToken:
+  name: Saffron
+  displayName: 30
+  actorLink: true
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: icons/svg/mystery-man.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+    tint: null
+  width: 1
+  height: 1
+  lockRotation: true
+  rotation: 0
+  alpha: 1
+  disposition: 1
+  displayBars: 20
+  bar1:
+    attribute: hitPoints
+  bar2:
+    attribute: combat.armourClass
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+    color: null
+  sight:
+    enabled: true
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  randomImg: false
+items:
+- name: 5a. [Miracle Wording]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 1100000
+- name: 3b. [Miracle Wording]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 800000
+- name: Alchemist
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: vocation
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 1300000
+- name: 2a. [Miracle Wording]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 500000
+- name: "1d. [Miracle Wording] (WIS \u2265 16)"
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 400000
+- name: 4b. [Miracle Wording]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 1000000
+- name: 5b. [Miracle Wording]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 1200000
+- name: 4a. [Miracle Wording]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 900000
+- name: "1a. \u201CWeird Bombs\u201D"
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 100000
+- name: 3a. [Miracle Wording]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 700000
+- name: 2b. [Miracle Wording]
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 600000
+- name: "1c. \u201CMysterious Elixir!\u201D (WIS \u2265 13)"
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 300000
+- name: "1b. \u201CCrow Familiarus\u201D"
+  type: Ability
+  img: systems/whitehack4e/assets/icons/svg/skills.svg
+  system:
+    type: miracle
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 200000
+- img: systems/whitehack4e/assets/icons/svg/skills.svg
+  name: Black Hats
+  type: Ability
+  system:
+    type: affiliation
+    description: ''
+    activeStatus: inactive
+  effects: []
+  sort: 1400000
+- name: Quarterstaff
+  type: Weapon
+  img: icons/weapons/staves/staff-simple.webp
+  effects: []
+  system:
+    description: Reach means that enemies within 10 feet are within melee range. This
+      is particularly important when dealing with free atacks.
+    cost: 2
+    costCoinType: cr
+    weight: regular
+    equippedStatus: equipped
+    damage: 1d6-1
+    range: 0
+    rateOfFire: none
+    special: Two handed, Reach
+  sort: 100000
+- name: Cloth
+  type: Armour
+  img: icons/equipment/chest/breastplate-quilted-brown.webp
+  effects: []
+  system:
+    description: ''
+    cost: 15
+    costCoinType: cr
+    weight: 1
+    equippedStatus: equipped
+    armourClass: '1'
+  sort: 50000
+- img: icons/equipment/head/hat-belted-grey.webp
+  name: Black Hat
+  type: Gear
+  system:
+    description: ''
+    cost: 0
+    costCoinType: gp
+    weight: noEncumbrance
+    equippedStatus: equipped
+    quantity: 1
+  effects: []
+  sort: 100000
+- img: icons/creatures/birds/corvid-watchful-glowing-green.webp
+  name: Tame Crow
+  type: Gear
+  system:
+    description: ''
+    cost: 0
+    costCoinType: gp
+    weight: noEncumbrance
+    equippedStatus: stored
+    quantity: 1
+  effects: []
+  sort: 400000
+- name: Book of Recipes
+  type: Gear
+  img: icons/sundries/books/book-embossed-bound-brown.webp
+  effects: []
+  system:
+    description: ''
+    cost: 130
+    costCoinType: cr
+    weight: minor
+    equippedStatus: stored
+    quantity: 1
+  sort: 200000
+- name: Crown
+  type: Gear
+  img: icons/commodities/currency/coin-inset-crown-gold.webp
+  effects: []
+  system:
+    description: ''
+    cost: 1
+    costCoinType: cr
+    weight: negligible
+    equippedStatus: stored
+    quantity: 1
+  sort: 300000
+- name: Unarmed
+  type: Weapon
+  img: icons/skills/melee/unarmed-punch-fist-white.webp
+  effects: []
+  system:
+    description: ''
+    cost: 0
+    costCoinType: cr
+    weight: noEncumbrance
+    equippedStatus: equipped
+    damage: 1d6-3
+    range: 0
+    rateOfFire: none
+    special: Knock-out, Grapple
+  sort: 200000
+effects: []
+sort: 0
