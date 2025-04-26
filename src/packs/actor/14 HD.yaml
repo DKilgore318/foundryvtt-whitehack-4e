@@ -2,7 +2,7 @@ name: 14 HD
 type: Monster
 img: icons/svg/mystery-man.svg
 system:
-  harmDice:
+  harmPoints:
     value: 0
     min: 0
     max: 0
@@ -68,7 +68,7 @@ prototypeToken:
   disposition: -2
   displayBars: 20
   bar1:
-    attribute: harmDice
+    attribute: harmPoints
   bar2:
     attribute: combat.defenseValue
   light:

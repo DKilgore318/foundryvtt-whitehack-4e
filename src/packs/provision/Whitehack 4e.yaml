@@ -20,7 +20,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    harmDice:
+    harmPoints:
       value: 1
       min: 0
       max: 1
@@ -100,7 +100,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: harmDice
+      attribute: harmPoints
     bar2:
       attribute: combat.defenseValue
     light:
@@ -334,7 +334,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    harmDice:
+    harmPoints:
       value: 5
       min: 0
       max: 5
@@ -414,7 +414,7 @@ actors:
     disposition: 1
     displayBars: 0
     bar1:
-      attribute: harmDice
+      attribute: harmPoints
     bar2:
       attribute: null
     light:
@@ -633,7 +633,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    harmDice:
+    harmPoints:
       value: 5
       min: 0
       max: 5
@@ -713,7 +713,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: harmDice
+      attribute: harmPoints
     bar2:
       attribute: combat.defenseValue
     light:
@@ -956,7 +956,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    harmDice:
+    harmPoints:
       value: 6
       min: 0
       max: 6
@@ -1036,7 +1036,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: harmDice
+      attribute: harmPoints
     bar2:
       attribute: combat.defenseValue
     light:
@@ -1295,7 +1295,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    harmDice:
+    harmPoints:
       value: 8
       min: 0
       max: 8
@@ -1375,7 +1375,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: harmDice
+      attribute: harmPoints
     bar2:
       attribute: combat.defenseValue
     light:
@@ -1517,7 +1517,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    harmDice:
+    harmPoints:
       value: 7
       min: 0
       max: 7
@@ -1597,7 +1597,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: harmDice
+      attribute: harmPoints
     bar2:
       attribute: combat.defenseValue
     light:
@@ -1749,7 +1749,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    harmDice:
+    harmPoints:
       value: 8
       min: 0
       max: 8
@@ -1829,7 +1829,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: harmDice
+      attribute: harmPoints
     bar2:
       attribute: combat.defenseValue
     light:
@@ -1966,7 +1966,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    harmDice:
+    harmPoints:
       value: 4
       min: 0
       max: 4
@@ -2046,7 +2046,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: harmDice
+      attribute: harmPoints
     bar2:
       attribute: combat.defenseValue
     light:
@@ -5768,9 +5768,9 @@ macros:
   img: icons/magic/life/cross-worn-green.webp
   command: "// Contributed by fred-o <https://github.com/fred-o>: https://github.com/neilbenson/foundryvtt-whitehack-3e/issues/8\n\
     for await (const token of canvas.tokens.controlled) {\n  const a = token.actor\n\
-    \  if (a.type === 'Monster' && !a.system.harmDice.max) {\n    const hd = a.system.combat.harmDice\n\
+    \  if (a.type === 'Monster' && !a.system.harmPoints.max) {\n    const hd = a.system.combat.harmDice\n\
     \    let r = new Roll(`${hd.base}d6 + @modifier`, hd)\n    await r.evaluate()\n\
-    \    a.update({\n      system: {\n        harmDice: {\n          max: r.total,\n\
+    \    a.update({\n      system: {\n        harmPoints: {\n          max: r.total,\n\
     \          value: r.total\n        }\n      }\n    })\n    console.log(`Rolled\
     \ HP ${r.total} for ${a.name}`)\n  }\n}"
   sort: 100000

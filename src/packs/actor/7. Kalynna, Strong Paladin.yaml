@@ -2,7 +2,7 @@ name: 7. Kalynna, Strong Paladin
 type: Character
 img: icons/svg/mystery-man.svg
 system:
-  harmDice:
+  harmPoints:
     value: 8
     min: 0
     max: 8
@@ -82,7 +82,7 @@ prototypeToken:
   disposition: 1
   displayBars: 20
   bar1:
-    attribute: harmDice
+    attribute: harmPoints
   bar2:
     attribute: combat.defenseValue
   light:

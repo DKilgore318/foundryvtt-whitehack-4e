@@ -2,7 +2,7 @@ name: 03 HD
 type: Monster
 img: icons/svg/mystery-man.svg
 system:
-  harmDice:
+  harmPoints:
     value: 0
     min: 0
     max: 0
@@ -20,7 +20,7 @@ system:
   combat:
     defenseValue: 0
     attackValue: 13
-    harmDice:
+    harmPoints:
       base: 3
       modifier: '0'
   savingThrow: 8
