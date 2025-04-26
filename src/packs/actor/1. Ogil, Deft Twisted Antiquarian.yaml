@@ -2,7 +2,7 @@ name: 1. Ogil, Deft Twisted Antiquarian
 type: Character
 img: icons/svg/mystery-man.svg
 system:
-  hitPoints:
+  harmPoints:
     value: 5
     min: 0
     max: 5
@@ -82,7 +82,7 @@ prototypeToken:
   disposition: 1
   displayBars: 0
   bar1:
-    attribute: hitPoints
+    attribute: harmPoints
   bar2:
     attribute: null
   light:

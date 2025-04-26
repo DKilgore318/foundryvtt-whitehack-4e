@@ -2,7 +2,7 @@ name: <01 HD
 type: Monster
 img: icons/svg/mystery-man.svg
 system:
-  hitPoints:
+  harmDice:
     value: 1
     min: 0
     max: 1
@@ -20,7 +20,7 @@ system:
   combat:
     defenseValue: 0
     attackValue: 11
-    hitDice:
+    harmDice:
       base: 1
       modifier: '0'
   savingThrow: 6
@@ -51,7 +51,7 @@ prototypeToken:
   disposition: -2
   displayBars: 20
   bar1:
-    attribute: hitPoints
+    attribute: harmDice
   bar2:
     attribute: combat.defenseValue
   light:

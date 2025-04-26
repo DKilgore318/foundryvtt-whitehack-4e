@@ -100,7 +100,7 @@ class WH4Actor extends Actor {
     switch (sortField) {
       case "name":
         return a.name.localeCompare(b.name);
-      case "armorClass":
+      case "defenseValue":
         return b.system.defenseValue - a.system.defenseValue;
       case "quantity":
         return b.system.quantity - a.system.quantity;

@@ -2,7 +2,7 @@ name: 6. Faleah, Strong Watcher Bard
 type: Character
 img: icons/svg/mystery-man.svg
 system:
-  hitPoints:
+  harmDice:
     value: 7
     min: 0
     max: 7
@@ -82,7 +82,7 @@ prototypeToken:
   disposition: 1
   displayBars: 20
   bar1:
-    attribute: hitPoints
+    attribute: harmDice
   bar2:
     attribute: combat.defenseValue
   light:

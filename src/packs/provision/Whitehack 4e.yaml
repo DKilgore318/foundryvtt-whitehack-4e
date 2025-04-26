@@ -20,7 +20,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    hitPoints:
+    harmDice:
       value: 1
       min: 0
       max: 1
@@ -100,7 +100,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: hitPoints
+      attribute: harmDice
     bar2:
       attribute: combat.defenseValue
     light:
@@ -334,7 +334,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    hitPoints:
+    harmDice:
       value: 5
       min: 0
       max: 5
@@ -414,7 +414,7 @@ actors:
     disposition: 1
     displayBars: 0
     bar1:
-      attribute: hitPoints
+      attribute: harmDice
     bar2:
       attribute: null
     light:
@@ -633,7 +633,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    hitPoints:
+    harmDice:
       value: 5
       min: 0
       max: 5
@@ -713,7 +713,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: hitPoints
+      attribute: harmDice
     bar2:
       attribute: combat.defenseValue
     light:
@@ -956,7 +956,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    hitPoints:
+    harmDice:
       value: 6
       min: 0
       max: 6
@@ -1036,7 +1036,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: hitPoints
+      attribute: harmDice
     bar2:
       attribute: combat.defenseValue
     light:
@@ -1295,7 +1295,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    hitPoints:
+    harmDice:
       value: 8
       min: 0
       max: 8
@@ -1375,7 +1375,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: hitPoints
+      attribute: harmDice
     bar2:
       attribute: combat.defenseValue
     light:
@@ -1517,7 +1517,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    hitPoints:
+    harmDice:
       value: 7
       min: 0
       max: 7
@@ -1597,7 +1597,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: hitPoints
+      attribute: harmDice
     bar2:
       attribute: combat.defenseValue
     light:
@@ -1749,7 +1749,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    hitPoints:
+    harmDice:
       value: 8
       min: 0
       max: 8
@@ -1829,7 +1829,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: hitPoints
+      attribute: harmDice
     bar2:
       attribute: combat.defenseValue
     light:
@@ -1966,7 +1966,7 @@ actors:
   type: Character
   img: icons/svg/mystery-man.svg
   system:
-    hitPoints:
+    harmDice:
       value: 4
       min: 0
       max: 4
@@ -2046,7 +2046,7 @@ actors:
     disposition: 1
     displayBars: 20
     bar1:
-      attribute: hitPoints
+      attribute: harmDice
     bar2:
       attribute: combat.defenseValue
     light:
@@ -5588,7 +5588,7 @@ macros:
   author: kHDgurX1WEPIJDaV
   img: icons/magic/life/cross-embers-glow-yellow-purple.webp
   scope: global
-  command: "let confirmed = false;\n\nnew Dialog({\n  title: \"Roll Hit Points from\
+  command: "let confirmed = false;\n\nnew Dialog({\n  title: \"Roll Harm Points from\
     \ HD\",\n  content: `\n      <form>\n        <div class=\"form-group\">\n    \
     \      <label style=\"text-align: right; margin-right: 0.5em;\">HD:</label>\n\
     \          <input id=\"hd-value\" name=\"hd-value\"></input>\n        </div>\n\
@@ -5606,7 +5606,7 @@ macros:
     \        rollFormula = `${hd}${die}+${hdModifier}`;\n      } else if (hdModifier\
     \ < 0) {\n        hdLabel = `${hd}${hdModifier}`;\n        rollFormula = `{${hd}${die}${hdModifier},1}kh`;\n\
     \      } else {\n        hdLabel = hd;\n        rollFormula = `${hd}${die}`;\n\
-    \      }\n      let label = `Roll Hit Points for HD: ${hdLabel}`;\n      var roll\
+    \      }\n      let label = `Roll Harm Points for HD: ${hdLabel}`;\n      var roll\
     \ = new Roll(rollFormula).roll({ async: false });\n      roll.toMessage({ flavor:\
     \ label });\n    }\n  },\n}).render(true);"
   sort: 600000
@@ -5713,7 +5713,7 @@ macros:
   author: kHDgurX1WEPIJDaV
   img: icons/magic/life/crosses-trio-red.webp
   scope: global
-  command: "let confirmed = false;\n\nnew Dialog({\n  title: \"Roll Hit Points from\
+  command: "let confirmed = false;\n\nnew Dialog({\n  title: \"Roll Harm Points from\
     \ HD\",\n  content: `\n      <form>\n        <div class=\"form-group\">\n    \
     \      <label style=\"text-align: right; margin-right: 0.5em;\">HD:</label>\n\
     \          <input id=\"hd-value\" name=\"hd-value\"></input>\n        </div>\n\
@@ -5731,7 +5731,7 @@ macros:
     \      } else if (hdModifier < 0) {\n        hdLabel = `${hd}${hdModifier}`;\n\
     \        rollFormula = `{${hd}d6${hdModifier},1}kh`;\n      } else {\n       \
     \ hdLabel = hd;\n        rollFormula = `${hd}d6`;\n      }\n      let label =\
-    \ `Roll Hit Points for HD: ${hdLabel}`;\n      let message = `\n        <table>\n\
+    \ `Roll Harm Points for HD: ${hdLabel}`;\n      let message = `\n        <table>\n\
     \          <tbody>\n            <tr class=\"odd\">\n              <td style=\"\
     text-align: right;\">1\u20135: </td>\n              <td style=\"text-align: right;\"\
     >[[${rollFormula}]]</td>\n              <td style=\"text-align: right;\">[[${rollFormula}]]</td>\n\
@@ -5768,9 +5768,9 @@ macros:
   img: icons/magic/life/cross-worn-green.webp
   command: "// Contributed by fred-o <https://github.com/fred-o>: https://github.com/neilbenson/foundryvtt-whitehack-3e/issues/8\n\
     for await (const token of canvas.tokens.controlled) {\n  const a = token.actor\n\
-    \  if (a.type === 'Monster' && !a.system.hitPoints.max) {\n    const hd = a.system.combat.hitDice\n\
+    \  if (a.type === 'Monster' && !a.system.harmDice.max) {\n    const hd = a.system.combat.harmDice\n\
     \    let r = new Roll(`${hd.base}d6 + @modifier`, hd)\n    await r.evaluate()\n\
-    \    a.update({\n      system: {\n        hitPoints: {\n          max: r.total,\n\
+    \    a.update({\n      system: {\n        harmDice: {\n          max: r.total,\n\
     \          value: r.total\n        }\n      }\n    })\n    console.log(`Rolled\
     \ HP ${r.total} for ${a.name}`)\n  }\n}"
   sort: 100000

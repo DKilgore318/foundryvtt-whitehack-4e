@@ -3,7 +3,7 @@ type: script
 author: kHDgurX1WEPIJDaV
 img: icons/magic/life/crosses-trio-red.webp
 scope: global
-command: "let confirmed = false;\n\nnew Dialog({\n  title: \"Roll Hit Points from\
+command: "let confirmed = false;\n\nnew Dialog({\n  title: \"Roll Harm Points from\
   \ HD\",\n  content: `\n      <form>\n        <div class=\"form-group\">\n      \
   \    <label style=\"text-align: right; margin-right: 0.5em;\">HD:</label>\n    \
   \      <input id=\"hd-value\" name=\"hd-value\"></input>\n        </div>\n     \
@@ -20,7 +20,7 @@ command: "let confirmed = false;\n\nnew Dialog({\n  title: \"Roll Hit Points fro
   \ 0) {\n        hdLabel = `${hd}+${hdModifier}`;\n        rollFormula = `${hd}d6+${hdModifier}`;\n\
   \      } else if (hdModifier < 0) {\n        hdLabel = `${hd}${hdModifier}`;\n \
   \       rollFormula = `{${hd}d6${hdModifier},1}kh`;\n      } else {\n        hdLabel\
-  \ = hd;\n        rollFormula = `${hd}d6`;\n      }\n      let label = `Roll Hit\
+  \ = hd;\n        rollFormula = `${hd}d6`;\n      }\n      let label = `Roll Harm\
   \ Points for HD: ${hdLabel}`;\n      let message = `\n        <table>\n        \
   \  <tbody>\n            <tr class=\"odd\">\n              <td style=\"text-align:\
   \ right;\">1\u20135: </td>\n              <td style=\"text-align: right;\">[[${rollFormula}]]</td>\n\
