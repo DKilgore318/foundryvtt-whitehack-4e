@@ -127,7 +127,7 @@ system:
   special: Use with regular stones
 sort: 1149219
 ---
-name: Javelin (Missile)
+name: Javelin
 type: Weapon
 img: icons/weapons/polearms/javelin.webp
 effects: []
@@ -158,23 +158,6 @@ system:
   rateOfFire: none
   special: +1 AV vs. metal armour
 sort: 162500
----
-name: Javelin (Melee)
-type: Weapon
-img: icons/weapons/polearms/javelin.webp
-effects: []
-system:
-  description: <p>Small-weight pairing for Javelin (Missile). Enjoy the free 0.10
-    slot.</p>
-  cost: 0
-  costCoinType: cr
-  weight: small
-  equippedStatus: stored
-  damage: 1d6-2
-  range: 40
-  rateOfFire: one
-  special: ''
-sort: -175000
 ---
 name: Flail
 type: Weapon

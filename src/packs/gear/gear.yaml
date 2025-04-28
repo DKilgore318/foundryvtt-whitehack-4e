@@ -349,19 +349,6 @@ system:
   quantity: 1
 sort: 1800000
 ---
-name: Copper Piece
-type: Gear
-img: systems/whitehack4e/assets/icons/gear/token.png
-effects: []
-system:
-  description: ''
-  cost: 0.01
-  costCoinType: cr
-  weight: negligible
-  equippedStatus: stored
-  quantity: 1
-sort: 1100000
----
 name: Mirror (glass)
 type: Gear
 img: icons/sundries/survival/mirror-plain.webp
@@ -543,19 +530,6 @@ system:
   equippedStatus: stored
   quantity: 1
 sort: 3696875
----
-name: '[0.10] Silver pieces'
-type: Gear
-img: icons/commodities/currency/coins-assorted-mix-silver.webp
-effects: []
-system:
-  description: ''
-  cost: 0.1
-  costCoinType: cr
-  weight: negligible
-  equippedStatus: stored
-  quantity: 0
-sort: 200000
 ---
 name: Lab (portable)
 type: Gear
