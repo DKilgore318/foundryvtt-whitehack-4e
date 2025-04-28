@@ -21,11 +21,11 @@ system:
       mod: 1
       dmgMod: 0
       groups: Twisted Dwarf
-    dex:
+    agi:
       value: 11
       mod: 0
       groups: ''
-    con:
+    tgh:
       value: 12
       mod: 0
       groups: ''
@@ -33,7 +33,7 @@ system:
       value: 13
       mod: 1
       groups: ''
-    wis:
+    wil:
       value: 12
       mod: 0
       groups: ''

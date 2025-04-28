@@ -21,11 +21,11 @@ system:
       mod: 0
       dmgMod: 0
       groups: ''
-    dex:
+    agi:
       value: 9
       mod: 0
       groups: ''
-    con:
+    tgh:
       value: 8
       mod: 0
       groups: ''
@@ -33,7 +33,7 @@ system:
       value: 17
       mod: 2
       groups: Watcher
-    wis:
+    wil:
       value: 11
       mod: 0
       groups: Bard

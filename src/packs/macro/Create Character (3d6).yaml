@@ -13,7 +13,7 @@ command: "<h2 id=\"new-character\">New Character Attributes</h2> <p><strong>3d6<
   \ padding-right: 5em;\">[[3d6]]</td> </tr> <tr class=\"even\"> <td style=\"text-align:\
   \ right; padding-right: 0.5em;\"><strong>Intelligence (INT):</strong></td> <td style=\"\
   text-align: left; padding-right: 5em;\">[[3d6]]</td> </tr> <tr class=\"odd\"> <td\
-  \ style=\"text-align: right; padding-right: 0.5em;\"><strong>Wisdom (WIS):</strong></td>\
+  \ style=\"text-align: right; padding-right: 0.5em;\"><strong>Willpower (WIL):</strong></td>\
   \ <td style=\"text-align: left; padding-right: 5em;\">[[3d6]]</td> </tr> <tr class=\"\
   even\"> <td style=\"text-align: right; padding-right: 0.5em;\"><strong>Charisma\
   \ (CHA):</strong></td> <td style=\"text-align: left; padding-right: 5em;\">[[3d6]]</td>\

@@ -21,11 +21,11 @@ system:
       mod: 0
       dmgMod: 0
       groups: ''
-    dex:
+    agi:
       value: 12
       mod: 0
       groups: ''
-    con:
+    tgh:
       value: 18
       mod: 2
       groups: ''
@@ -33,7 +33,7 @@ system:
       value: 12
       mod: 0
       groups: Cultist
-    wis:
+    wil:
       value: 6
       mod: 0
       groups: ''

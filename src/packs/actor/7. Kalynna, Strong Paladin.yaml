@@ -21,11 +21,11 @@ system:
       mod: 1
       dmgMod: 1
       groups: ''
-    dex:
+    agi:
       value: 11
       mod: 0
       groups: ''
-    con:
+    tgh:
       value: 9
       mod: 0
       groups: ''

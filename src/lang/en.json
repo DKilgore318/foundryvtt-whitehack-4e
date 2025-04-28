@@ -2,7 +2,7 @@
   "wh4e": {
     "attribute": {
       "str": "STR",
-      "wis": "WIS",
+      "wil": "WIL",
       "int": "INT",
       "agi": "AGI",
       "tgh": "TGH",
@@ -248,7 +248,7 @@
       "agiMod": "Initiative bonus",
       "tghMod": "Additional harm points",
       "intMod": "Additional extra languages",
-      "wisMod": "Extra level 1 slot inactive miracles",
+      "wilMod": "Extra level 1 slot inactive miracles",
       "monsterSavingThrow": "Saving Throw (calculated from Harm Dice)",
       "monsterAttackValue": "Attack Value (calculated from Harm Dice)",
       "monsterHDInfo": "ST and AV are calculated from this value",

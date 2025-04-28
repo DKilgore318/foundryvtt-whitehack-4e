@@ -21,11 +21,11 @@ system:
       mod: 1
       dmgMod: 1
       groups: ''
-    dex:
+    agi:
       value: 13
       mod: 1
       groups: ''
-    con:
+    tgh:
       value: 16
       mod: 2
       groups: ''
@@ -33,7 +33,7 @@ system:
       value: 8
       mod: 0
       groups: ''
-    wis:
+    wil:
       value: 7
       mod: 0
       groups: Pit Fighter

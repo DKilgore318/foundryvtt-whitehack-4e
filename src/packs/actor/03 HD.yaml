@@ -25,7 +25,7 @@ system:
       modifier: '0'
   savingThrow: 8
   attributes:
-    dex:
+    agi:
       mod: 0
   damage: d6
   special: ''

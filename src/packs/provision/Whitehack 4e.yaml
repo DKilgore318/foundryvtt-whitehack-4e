@@ -39,11 +39,11 @@ actors:
           mod: 1
           dmgMod: 0
           groups: Twisted Dwarf
-        dex:
+        agi:
           value: 11
           mod: 0
           groups: ''
-        con:
+        tgh:
           value: 12
           mod: 0
           groups: ''
@@ -51,7 +51,7 @@ actors:
           value: 13
           mod: 1
           groups: ''
-        wis:
+        wil:
           value: 12
           mod: 0
           groups: ''
@@ -608,11 +608,11 @@ actors:
           mod: 0
           dmgMod: 0
           groups: ''
-        dex:
+        agi:
           value: 15
           mod: 1
           groups: ''
-        con:
+        tgh:
           value: 14
           mod: 1
           groups: ''
@@ -620,7 +620,7 @@ actors:
           value: 9
           mod: 0
           groups: ''
-        wis:
+        wil:
           value: 13
           mod: 1
           groups: Alchemist, Black Hats
@@ -1274,11 +1274,11 @@ actors:
           mod: 0
           dmgMod: 0
           groups: ''
-        dex:
+        agi:
           value: 8
           mod: 0
           groups: Thief
-        con:
+        tgh:
           value: 7
           mod: 0
           groups: Twisted Elf
@@ -1286,7 +1286,7 @@ actors:
           value: 12
           mod: 0
           groups: ''
-        wis:
+        wil:
           value: 12
           mod: 0
           groups: ''
@@ -1909,11 +1909,11 @@ actors:
           mod: 0
           dmgMod: 0
           groups: ''
-        dex:
+        agi:
           value: 12
           mod: 0
           groups: ''
-        con:
+        tgh:
           value: 15
           mod: 1
           groups: Kobold
@@ -1921,7 +1921,7 @@ actors:
           value: 8
           mod: 0
           groups: Kobold
-        wis:
+        wil:
           value: 13
           mod: 1
           groups: ''
@@ -2508,11 +2508,11 @@ actors:
           mod: 1
           dmgMod: 1
           groups: ''
-        dex:
+        agi:
           value: 13
           mod: 1
           groups: ''
-        con:
+        tgh:
           value: 16
           mod: 2
           groups: ''
@@ -2520,7 +2520,7 @@ actors:
           value: 8
           mod: 0
           groups: ''
-        wis:
+        wil:
           value: 7
           mod: 0
           groups: Pit Fighter
@@ -2875,11 +2875,11 @@ actors:
           mod: 0
           dmgMod: 0
           groups: ''
-        dex:
+        agi:
           value: 9
           mod: 0
           groups: ''
-        con:
+        tgh:
           value: 8
           mod: 0
           groups: ''
@@ -2887,7 +2887,7 @@ actors:
           value: 17
           mod: 2
           groups: Watcher
-        wis:
+        wil:
           value: 11
           mod: 0
           groups: Bard
@@ -3267,11 +3267,11 @@ actors:
           mod: 1
           dmgMod: 1
           groups: ''
-        dex:
+        agi:
           value: 11
           mod: 0
           groups: ''
-        con:
+        tgh:
           value: 9
           mod: 0
           groups: ''
@@ -3279,7 +3279,7 @@ actors:
           value: 7
           mod: 0
           groups: ''
-        wis:
+        wil:
           value: 13
           mod: 1
           groups: Evil
@@ -3630,11 +3630,11 @@ actors:
           mod: 0
           dmgMod: 0
           groups: ''
-        dex:
+        agi:
           value: 12
           mod: 0
           groups: ''
-        con:
+        tgh:
           value: 18
           mod: 2
           groups: ''
@@ -3642,7 +3642,7 @@ actors:
           value: 12
           mod: 0
           groups: Cultist
-        wis:
+        wil:
           value: 6
           mod: 0
           groups: ''
@@ -15567,7 +15567,7 @@ macros:
       style="text-align: right; padding-right: 0.5em;"><strong>Intelligence
       (INT):</strong></td> <td style="text-align: left; padding-right:
       5em;">[[3d6]]</td> </tr> <tr class="odd"> <td style="text-align: right;
-      padding-right: 0.5em;"><strong>Wisdom (WIS):</strong></td> <td
+      padding-right: 0.5em;"><strong>Willpower (WIL):</strong></td> <td
       style="text-align: left; padding-right: 5em;">[[3d6]]</td> </tr> <tr
       class="even"> <td style="text-align: right; padding-right:
       0.5em;"><strong>Charisma (CHA):</strong></td> <td style="text-align: left;

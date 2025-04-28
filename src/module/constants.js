@@ -68,7 +68,7 @@ export const THEWISE = "theWise";
 export const VOCATION = "vocation";
 export const WEAPON = "Weapon";
 export const WHBACKGROUND = "whBackground";
-export const WIS = "wis";
+export const WIL = "wil";
 
 // Sheet Constants
 export const CHARACTER_SHEET_WIDTH = 630;
