@@ -135,20 +135,20 @@
         </div>
         <div class="flex-group-center">
           {{#if hasToken}}
-            <label for="system.attributes.dex.mod" class="rollable init-label">
+            <label for="system.attributes.agi.mod" class="rollable init-label">
               <i class="fas fa-dice"></i>
               &nbsp;{{localize "wh4e.actor.initiative"}}
             </label>
           {{else}}
-            <label for="system.attributes.dex.mod">
+            <label for="system.attributes.agi.mod">
               {{localize "wh4e.actor.initiative"}}
             </label>
           {{/if}}
           <div class="flexrow flex-center">
             <input
               type="text"
-              name="system.attributes.dex.mod"
-              value="{{system.attributes.dex.mod}}"
+              name="system.attributes.agi.mod"
+              value="{{system.attributes.agi.mod}}"
               data-dtype="Number"
               title="{{localize "wh4e.tooltip.initiative"}}"
             />

@@ -171,7 +171,7 @@ class WH4Actor extends Actor {
 
     // Setup the roll
     const die = c.ONED6;
-    const init = this.system.attributes.dex.mod;
+    const init = this.system.attributes.agi.mod;
     const roll = await new Roll("@die+@init", { die, init }).evaluate({
       async: true,
     });

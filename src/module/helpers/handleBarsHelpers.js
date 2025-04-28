@@ -20,9 +20,9 @@ export const registerHelpers = async () => {
    */
   Handlebars.registerHelper("showModifier", (key, charClass) => {
     if (key === c.STR && charClass === c.THESTRONG) return true;
-    if (key === c.CON && charClass === c.THESTRONG) return true;
+    if (key === c.TGH && charClass === c.THESTRONG) return true;
     if (key === c.WIS && charClass === c.THEWISE) return true;
-    if (key === c.DEX || key === c.INT) return true;
+    if (key === c.AGI || key === c.INT) return true;
     return false;
   });
 

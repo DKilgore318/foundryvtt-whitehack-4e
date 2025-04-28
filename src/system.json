@@ -121,7 +121,7 @@
     "units": "ft"
   },
   "primaryTokenAttribute": "harmPoints",
-  "initiative": "1d6 + @attributes.dex.mod",
+  "initiative": "1d6 + @attributes.agi.mod",
   "url": "https://github.com/neilbenson/foundryvtt-whitehack-4e",
   "manifest": "https://raw.githubusercontent.com/neilbenson/foundryvtt-whitehack-4e/main/src/system.json",
   "download": "https://github.com/neilbenson/foundryvtt-whitehack-4e/releases/download/1.4.0/foundryvtt-whitehack4e-v1.4.0.zip"

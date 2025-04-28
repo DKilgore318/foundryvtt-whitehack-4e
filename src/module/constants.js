@@ -6,7 +6,7 @@ export const ATTUNEMENT = "attunement";
 export const CHA = "cha";
 export const CHARACTER = "Character";
 export const COMBATOPTION = "combatOption";
-export const CON = "con";
+export const TGH = "tgh";
 export const D6 = "d6";
 export const DEFAULTABILITYIMAGE =
   "systems/whitehack4e/assets/icons/svg/skills.svg";
@@ -17,7 +17,7 @@ export const DEFAULTGEARIMAGE =
   "systems/whitehack4e/assets/icons/svg/battle-gear.svg";
 export const DEFAULTWEAPONIMAGE =
   "systems/whitehack4e/assets/icons/svg/sword-brandish.svg";
-export const DEX = "dex";
+export const AGI = "agi";
 export const DOUBLENEGATIVE = "doubleNegative";
 export const DOUBLEPOSITIVE = "doublePositive";
 export const EMPTYSTRING = "";
