@@ -57,9 +57,7 @@ system:
     equipped: 8
     stored: 0.07
   coin:
-    gp: 0
-    sp: 0
-    cp: 0
+    cr: 0
 prototypeToken:
   name: Kalynna
   displayName: 30

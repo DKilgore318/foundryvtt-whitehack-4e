@@ -154,19 +154,6 @@ system:
   quantity: 5
 sort: 2400000
 ---
-name: '[0.01] Copper pieces'
-type: Gear
-img: icons/commodities/currency/coins-assorted-mix-copper.webp
-effects: []
-system:
-  description: ''
-  cost: 0.01
-  costCoinType: cr
-  weight: negligible
-  equippedStatus: stored
-  quantity: 0
-sort: 100000
----
 name: Hatchet
 type: Gear
 img: icons/tools/hand/hatchet-steel-grey.webp
@@ -296,19 +283,6 @@ system:
   quantity: 1
 effects: []
 sort: 3100000
----
-name: Silver Piece
-type: Gear
-img: systems/whitehack4e/assets/icons/gear/metal-disc.png
-effects: []
-system:
-  description: ''
-  cost: 0.1
-  costCoinType: cr
-  weight: negligible
-  equippedStatus: stored
-  quantity: 1
-sort: 3600000
 ---
 name: Zoruk (battle)
 type: Gear
@@ -440,19 +414,6 @@ system:
   quantity: 1
 sort: 3575000
 ---
-name: '[5.00] Platinum pieces'
-type: Gear
-img: icons/commodities/currency/coins-assorted-mix-platinum.webp
-effects: []
-system:
-  description: ''
-  cost: 5
-  costCoinType: cr
-  weight: negligible
-  equippedStatus: stored
-  quantity: 0
-sort: 500000
----
 name: Makeup
 type: Gear
 img: icons/commodities/materials/bowl-powder-blue.webp
@@ -478,19 +439,6 @@ system:
   equippedStatus: stored
   quantity: 1
 sort: 200000
----
-name: '[0.50] Electrum pieces'
-type: Gear
-img: icons/commodities/currency/coins-assorted-mix-copper.webp
-effects: []
-system:
-  description: ''
-  cost: 0.5
-  costCoinType: cr
-  weight: negligible
-  equippedStatus: stored
-  quantity: 0
-sort: 300000
 ---
 name: Jewelry
 type: Gear
@@ -634,19 +582,6 @@ system:
   quantity: 1
 effects: []
 sort: 1200000
----
-name: '[1.00] Gold pieces'
-type: Gear
-img: icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp
-effects: []
-system:
-  description: ''
-  cost: 1
-  costCoinType: cr
-  weight: negligible
-  equippedStatus: stored
-  quantity: 0
-sort: 400000
 ---
 name: Carpentry tools
 type: Gear

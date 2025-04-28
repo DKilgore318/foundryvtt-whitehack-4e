@@ -57,9 +57,7 @@ system:
     equipped: 5.9
     stored: 0.12000000000000001
   coin:
-    gp: 0
-    sp: 0
-    cp: 0
+    cr: 0
 prototypeToken:
   name: Howl
   displayName: 30
@@ -265,7 +263,7 @@ items:
   system:
     description: ''
     cost: 0
-    costCoinType: gp
+    costCoinType: cr
     weight: noEncumbrance
     equippedStatus: stored
     quantity: 1

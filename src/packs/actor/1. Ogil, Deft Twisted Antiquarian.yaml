@@ -57,9 +57,7 @@ system:
     equipped: 3
     stored: 2.1
   coin:
-    gp: 0
-    sp: 0
-    cp: 0
+    cr: 0
 prototypeToken:
   name: Ogil
   displayName: 30
@@ -223,7 +221,7 @@ items:
   system:
     description: ''
     cost: 0
-    costCoinType: gp
+    costCoinType: cr
     weight: regular
     equippedStatus: stored
     quantity: 1
@@ -235,7 +233,7 @@ items:
   system:
     description: ''
     cost: 0
-    costCoinType: gp
+    costCoinType: cr
     weight: regular
     equippedStatus: stored
     quantity: 1

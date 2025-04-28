@@ -57,9 +57,7 @@ system:
     equipped: 9
     stored: 0.11
   coin:
-    gp: 0
-    sp: 0
-    cp: 0
+    cr: 0
 prototypeToken:
   name: Faleah
   displayName: 30

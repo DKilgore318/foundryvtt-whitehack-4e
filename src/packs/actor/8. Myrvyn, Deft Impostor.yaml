@@ -57,9 +57,7 @@ system:
     equipped: 2
     stored: 2.12
   coin:
-    gp: 0
-    sp: 0
-    cp: 0
+    cr: 0
 prototypeToken:
   name: Myrvyn
   displayName: 30

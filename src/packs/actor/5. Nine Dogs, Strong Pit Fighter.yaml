@@ -57,9 +57,7 @@ system:
     equipped: 6
     stored: 0.42
   coin:
-    gp: 0
-    sp: 0
-    cp: 0
+    cr: 0
 prototypeToken:
   name: Nine Dogs
   displayName: 30

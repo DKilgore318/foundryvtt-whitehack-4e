@@ -57,9 +57,7 @@ system:
     equipped: 2
     stored: 0.51
   coin:
-    gp: 0
-    sp: 0
-    cp: 0
+    cr: 0
 prototypeToken:
   name: Saffron
   displayName: 30
@@ -278,7 +276,7 @@ items:
   system:
     description: ''
     cost: 0
-    costCoinType: gp
+    costCoinType: cr
     weight: noEncumbrance
     equippedStatus: equipped
     quantity: 1
@@ -290,7 +288,7 @@ items:
   system:
     description: ''
     cost: 0
-    costCoinType: gp
+    costCoinType: cr
     weight: noEncumbrance
     equippedStatus: stored
     quantity: 1

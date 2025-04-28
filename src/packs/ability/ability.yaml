@@ -1,13 +1,3 @@
-name: 2b. [Attunement]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: attunement
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 300000
----
 name: 6. Courageous
 type: Ability
 img: systems/whitehack4e/assets/icons/svg/skills.svg
@@ -15,26 +5,6 @@ system:
   type: quirk
   description: <p>Once per session, their courage fills the use requirements that
     an item, place or passage may have in the form of class or groups.</p>
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: 1a. [Attunement]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: attunement
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 200000
----
-name: 4b. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
   activeStatus: inactive
 effects: []
 sort: 0
@@ -59,16 +29,6 @@ system:
   type: quirk
   description: <p>Improvised weapons&mdash;a stone, a branch etc.&mdash;do at least
     1d6 damage, and actual weapons ignore target resistances (but not immunities).</p>
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: '[Clever Vocation]'
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: vocation
-  description: ''
   activeStatus: inactive
 effects: []
 sort: 0
@@ -121,26 +81,6 @@ system:
 effects: []
 sort: 0
 ---
-name: 5a. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: 1b. [Attunement]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: attunement
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 250000
----
 name: "7. God\u2019s Name"
 type: Ability
 img: systems/whitehack4e/assets/icons/svg/skills.svg
@@ -166,16 +106,6 @@ system:
 effects: []
 sort: 0
 ---
-name: 4b. [Attunement]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: attunement
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 800000
----
 name: 7. Melee AND Ranged
 type: Ability
 img: systems/whitehack4e/assets/icons/svg/skills.svg
@@ -200,62 +130,12 @@ system:
 effects: []
 sort: 0
 ---
-name: 1b. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: 3b. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: '[Strong Vocation]'
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: vocation
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: 3a. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
 name: 8. Mechanic
 type: Ability
 img: systems/whitehack4e/assets/icons/svg/skills.svg
 system:
   type: knacks
   description: <p>The Clever have +4 to task rolls with or concerning machines.</p>
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: "1d. [Miracle Wording] (WIS \u2265 16)"
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
   activeStatus: inactive
 effects: []
 sort: 0
@@ -273,26 +153,6 @@ system:
   activeStatus: inactive
 effects: []
 sort: 0
----
-name: "1c. [Miracle Wording] (WIS \u2265 13)"
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: '[Deft Vocation]'
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: vocation
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 100000
 ---
 name: 3. Cling/Climb
 type: Ability
@@ -342,16 +202,6 @@ system:
 effects: []
 sort: 0
 ---
-name: '[Fortunate Vocation]'
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: vocation
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
 name: 2. Brave Healing
 type: Ability
 img: systems/whitehack4e/assets/icons/svg/skills.svg
@@ -376,36 +226,6 @@ system:
 effects: []
 sort: 0
 ---
-name: 3a. [Attunement]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: attunement
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 400000
----
-name: 3b. [Attunement]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: attunement
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 500000
----
-name: '[Brave Vocation]'
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: vocation
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
 name: 6. Encourage (+1 AV/SV)
 type: Ability
 img: systems/whitehack4e/assets/icons/svg/skills.svg
@@ -418,62 +238,12 @@ system:
 effects: []
 sort: 0
 ---
-name: 2a. [Attunement]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: attunement
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 275000
----
-name: 5b. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
 name: 3. Penalized Saves
 type: Ability
 img: systems/whitehack4e/assets/icons/svg/skills.svg
 system:
   type: knacks
   description: <p>Targets of their special attacks get -3 for their saves.</p>
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: 4a. [Attunement]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: attunement
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 650000
----
-name: 4a. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: '[Wise Vocation]'
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: vocation
-  description: ''
   activeStatus: inactive
 effects: []
 sort: 0
@@ -500,26 +270,6 @@ system:
 effects: []
 sort: 0
 ---
-name: 1a. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: 2a. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
-  activeStatus: inactive
-effects: []
-sort: 0
----
 name: 7. Chemist/Alchemist/Herbalist
 type: Ability
 img: systems/whitehack4e/assets/icons/svg/skills.svg
@@ -540,16 +290,6 @@ system:
   description: <p>Enemies choose to attack someone other than the brave character
     first, at the start of a battle&mdash;if there is anyone else to attack! This
     ability can be inverted if and when the player wishes.</p>
-  activeStatus: inactive
-effects: []
-sort: 0
----
-name: 2b. [Miracle Wording]
-type: Ability
-img: systems/whitehack4e/assets/icons/svg/skills.svg
-system:
-  type: miracle
-  description: ''
   activeStatus: inactive
 effects: []
 sort: 0
