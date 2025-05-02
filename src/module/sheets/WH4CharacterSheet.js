@@ -8,7 +8,7 @@ import * as c from "../constants.js";
 
 export default class WH4CharacterSheet extends ActorSheet {
   static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
+    return foundry.utils.mergeObject(super.defaultOptions, {
       template: "systems/whitehack4e/templates/sheets/character-sheet.hbs",
       classes: ["wh4e", "sheet", "character"],
       width: c.CHARACTER_SHEET_WIDTH,
@@ -210,7 +210,7 @@ export default class WH4CharacterSheet extends ActorSheet {
         }
       }
       await this.actor.update({
-        data: {
+        system: {
           attributes: {
             str: {
               mod: strMod,
@@ -230,7 +230,7 @@ export default class WH4CharacterSheet extends ActorSheet {
         }
       }
       await this.actor.update({
-        data: {
+        system: {
           attributes: {
             [attrName]: {
               mod: modObj[attrName + c.MOD],
