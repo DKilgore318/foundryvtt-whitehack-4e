@@ -59,7 +59,10 @@
       "retainer": "Retainer",
       "species": "Species",
       "vocation": "Vocation",
-      "affiliation": "Affiliation"
+      "affiliation": "Affiliation",
+      "ability": "Ability",
+      "implant": "Implant",
+      "knacks": "Knacks"
     },
     "category": {
       "attributes": "Attributes",
@@ -169,15 +172,16 @@
       "heavy": "Heavy",
       "minor": "Minor",
       "small": "Small",
+      "tenth": "Tenth",
       "negligible": "Negligible",
       "noEncumbrance": "---"
     },
     "burdenCategory": {
-      "normal": "Normal burden",
-      "heavy": "Heavy burden",
-      "severe": "Severe burden",
-      "massive": "Massive burden",
-      "tooMuch": "Can't move!"
+      "normal": "Normal Burden",
+      "heavy": "Heavy Burden",
+      "severe": "Severe Burden",
+      "massive": "Massive Burden",
+      "tooMuch": "Can't Move!"
     },
     "roFShotsPerRound": {
       "none": "None",
