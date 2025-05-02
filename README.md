@@ -2,7 +2,7 @@
 
 **This repo is under active development in order to be brought up to the Fourth edition ruleset and Foundry v12.331 Compatibility. Please do not use this until released**
 
-Note that this repo effectively (though not technically) forks off of the excellent work of [Tuirgin](https://github.com/tuirgin) and [atm09st](https://github.com/atm09st). See Tuirgin's branch [here](https://github.com/atm09st/foundryvtt-whitehack-4e).
+Note that this repo effectively (though not technically) forks off of the excellent work of [Tuirgin](https://github.com/tuirgin) and [atm09st](https://github.com/atm09st). See Tuirgin's branch [here](https://github.com/Tuirgin/foundryvtt-whitehack-4e).
 This particular project branched of the original 3e project in order to retain the overall file structure, but the new work from the above two efforts was copied in wholesale, and all credit for it goes to them
 
 This system provides support for the [Whitehack RPG 4th edition](https://whitehackrpg.wordpress.com/) in [FoundryVTT](https://foundryvtt.com). It is published with the approval of Christian Mehrstam, the creator of the Whitehack RPG (Permission not yet explicitly obtained for this fork).
@@ -41,7 +41,8 @@ The system supports the FoundryVTT initiative system. After actors have been add
 
 Full documentation can be accessed in FoundryVTT in the **Game Settings** tab and is also available on the github page for this project [here](https://neilbenson.github.io/foundryvtt-whitehack-3e/)
 
-## License
+
+## Whitehack Copyright and Trademark Statement
 
 This unofficial system requires Whitehack, &copy;2013&ndash;2023 Christian Mehrstam.
 
